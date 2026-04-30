@@ -12,6 +12,11 @@ app.use(express.json());
 
 app.use("/api/ai", aiRoutes);
 
+app.get("/", (req, res) => {
+  res.send("AI Server is running...");
+});
+
+
 app.listen(process.env.PORT, () => {
   console.log(`Server running on port ${process.env.PORT}`);
 });
