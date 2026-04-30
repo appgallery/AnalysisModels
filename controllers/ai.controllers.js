@@ -17,13 +17,13 @@ If NO issues exist, return { \"issues\": [] }.
 User Data:
 ${JSON.stringify(sampleData, null, 2)}
 `;
-
+        console.log("Process start")
     const response = await axios.post(process.env.OLLAMA_URL, {
         model: model,
         prompt: prompt,
         stream: false,
     });
-
+    console.log("Process Completed")
     console.log("Response", response.data)
     // const data = await response.response.json();
     return JSON.parse(response.data.response);
@@ -31,6 +31,7 @@ ${JSON.stringify(sampleData, null, 2)}
 
 
 const handleRequest = async (req, res, model) => {
+    console.log("API Called")
     try {
         const { systemPrompt, sampleData } = req.body;
 
@@ -40,7 +41,7 @@ const handleRequest = async (req, res, model) => {
                 message: "systemPrompt and sampleData are required",
             });
         }
-
+        console.log("Going to model")
         const result = await callOllama(model, systemPrompt, sampleData);
 
         res.json({
