@@ -2,8 +2,27 @@ import axios from "axios";
 import PQueue from "p-queue";
 
 const ollamaQueue = new PQueue({
-  concurrency: 1, // only 1 ollama request at a time
+  concurrency: 1,
 });
+
+const cleanJSONResponse = (text) => {
+  if (!text) return "";
+
+  return text
+    .replace(/```json\s*/gi, "")
+    .replace(/```/g, "")
+    .trim();
+};
+
+const safeParseJSON = (text) => {
+  try {
+    return JSON.parse(text);
+  } catch (err) {
+    console.error("Invalid JSON from Ollama:");
+    console.error(text);
+    throw new Error("Ollama returned invalid JSON");
+  }
+};
 
 const callOllama = async (model, systemPrompt, sampleData) => {
   const prompt = `
@@ -26,8 +45,8 @@ ${JSON.stringify(sampleData, null, 2)}
   return ollamaQueue.add(async () => {
     console.log("Process start");
     console.log("Passed data", model, process.env.OLLAMA_URL);
-    console.log("Payload System Propmt", systemPrompt)
-    console.log("Payload Sample Data", sampleData)
+    console.log("Payload System Prompt", systemPrompt);
+    console.log("Payload Sample Data", sampleData);
     console.log("Ollama request started", new Date().toISOString());
 
     const response = await axios.post(
@@ -36,16 +55,21 @@ ${JSON.stringify(sampleData, null, 2)}
         model,
         prompt,
         stream: false,
+        keep_alive: -1
       },
       {
-        timeout: 240000, // 4 min timeout
+        timeout: 240000,
       }
     );
 
     console.log("Process completed");
     console.log("Ollama request finished", new Date().toISOString());
 
-    return JSON.parse(response.data.response);
+    const raw = response?.data?.response || "";
+    const cleaned = cleanJSONResponse(raw);
+    const parsed = safeParseJSON(cleaned);
+
+    return parsed;
   });
 };
 
@@ -69,7 +93,7 @@ const handleRequest = async (req, res, model) => {
     const responsePayload = {
       success: true,
       model,
-      issues: result.issues || [],
+      issues: result?.issues || [],
     };
 
     console.log("API Response:", JSON.stringify(responsePayload, null, 2));
