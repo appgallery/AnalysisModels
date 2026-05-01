@@ -1,0 +1,5 @@
+{
+    "success": true,
+    "model": "qwen2.5:7b",
+    "issues": []
+}
