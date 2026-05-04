@@ -3,3 +3,9 @@
     "model": "qwen2.5:7b",
     "issues": []
 }
+
+
+{
+    "success": false,
+    "message": "Cannot destructure property 'systemPrompt' of 'req.body' as it is undefined."
+}
