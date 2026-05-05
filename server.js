@@ -17,6 +17,10 @@ app.get("/", (req, res) => {
 });
 
 
-app.listen(process.env.PORT, () => {
+const server = app.listen(5000, () => {
   console.log(`Server running on port ${process.env.PORT}`);
 });
+
+server.timeout = 600000;
+server.keepAliveTimeout = 600000;
+server.headersTimeout = 600000;
