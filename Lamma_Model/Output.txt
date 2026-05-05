@@ -31,3 +31,25 @@ Version : G003
         }
     ]
 }
+
+Version : G004
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportOverviewId": 24187,
+            "reportOverviewTitle": "GAMING",
+            "issue": "lorem ipsum",
+            "description": "Lorem ipsum detected in gaming summary"
+        },
+        {
+            "severity": "CRITICAL",
+            "reportOverviewId": 24188,
+            "reportOverviewTitle": "RESTROOMS",
+            "issue": "lorem ipsum",
+            "description": "Lorem ipsum detected in restroom summary"
+        }
+    ]
+}
