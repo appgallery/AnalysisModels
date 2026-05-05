@@ -56,3 +56,13 @@
         }
     ]
 }
+
+
+
+Time out output for FBG payload
+
+{
+    "success": false,
+    "message": "timeout of 240000ms exceeded"
+}
+
