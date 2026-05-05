@@ -844,3 +844,37 @@ reviewPayload {
 }
 
 }
+
+
+
+
+
+
+
+
+
+Sample data of report over view: 
+
+
+reviewPayload {
+  reportOverviewSummary: [
+    {
+      reportOverviewId: 24184,
+      title: 'BAR',
+      value: 'I was served by Paris.  She was friendly and smilimg.  She asked if I was a member and told me how to join to obtain the discount,, which I did.  I ordered a ginger ale and a coco mango cocktail.  There was no non-alcoholic ginger beer available, which is what my companion would have liked to order.  The coco mango cocktail was recommended as it had coconut foam, and I like mango.  It was well presented with a dried mango garnish and the foam, yet I found it too sweet.  The cocktail was ready in 5 minutes for pickup from the counter.  The ginger ale was in the bottle with ice in a glass. Paris asked if I was going to have dinner at the hotel and said that the food was delicious.'
+    },
+    {
+      reportOverviewId: 24185,
+      title: 'BISTRO',
+      value: "The bistro was busy with people having meals there as well as in the paviliomn.  There were food scraps and rubbish, and paper on the floor, which no one cleaned up.  There was a queue to order the meals with two registers open.  I was served by Jeanet, who was friendly and smiled.  She said hi, how are you, before she was interrupted by the chef, who told her about unavailable meal items.  She asked if I was a member, and when I said no replied That's fine and then took my order.  I ordered the battered fish and chips and the beef curry (special).  Both meals were hot and tasty.  They were ready in 10 minutes.  I picked them up from BIS2, who was at the bistro counter. There were some empty cutlery containers on the condiments table, and I had to ask BIS2 for a spoon. We did not receive a courtesy call during our meals. Our plates were collected within 10 minutes; however, we were not asked how our meals were. Test the data for thr model"
+    },
+    {
+      reportOverviewId: 24186,
+      title: 'EXTERIOR, ENTRY AND VENUE OVERVIEW',
+      value: 'The entry was clean without rubbish or cigarette butts. The TAB/sports bar area was clean with no papers or empty glasses. The advertising in the hotel was current. There was no security when I arrived. SEC1 was standing at the entrance when I was leaving and was speaking to SEC2, who was sitting on a stool when I left.  They both ignored me as I walked past.'
+    },
+    {
+      reportOverviewId: 24187,
+      title: 'GAMING',
+      value: "There were 15 players on arrival and 10 players on departure in the gaming room.  There were empty glasses, coffee cups and full ashtrays when I arrived, which were only partly cleaned by the time I was leaving.  GAM was wiping down the machines when I arrived.  GAM was well presented in her uniform and was friendly and smiling. I wasn't offered a drink for more than 10 minutes, and there were no service buttons. I asked GAM for a soda water with lime when she walked past, which was delivered on a tray without snacks.  The complimentary hot food was a slice of pizza served on a cardboard plate with a serviette, which was brought around by GAM.  There were spring rolls in a pie warmer. There were snacks and lollies on a table near the bar, along with bottles of water and self-serve juice in a bar fridge."
+    },
