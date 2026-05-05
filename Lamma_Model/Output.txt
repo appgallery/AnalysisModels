@@ -11,3 +11,23 @@ Version : G002
     "model": "gemma2:2b",
     "issues": []
 }
+
+Version : G003
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": null,
+            "questionId": null,
+            "reportOverviewId": 24187,
+            "reportOverviewTitle": "GAMING",
+            "questionLabel": null,
+            "score": null,
+            "maxScore": null,
+            "issue": "Placeholder text detected (lorem ipsum)",
+            "description": "The summary contains lorem ipsum placeholder text which is not a real experience and violates QA requirements."
+        }
+    ]
+}
