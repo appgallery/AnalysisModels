@@ -93,3 +93,58 @@ Time out output for FBG payload
         }
     ]
 }
+
+
+
+
+
+
+
+
+
+
+Report over view output:
+
+
+{
+    "success": true,
+    "model": "qwen2.5:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 12345,
+            "questionId": "Q_001",
+            "reportOverviewId": 24184,
+            "reportOverviewTitle": "BAR",
+            "questionLabel": "Service Quality - Staff Friendliness and Interaction",
+            "score": 9.5,
+            "maxScore": 10,
+            "issue": "Improper verb tense used in 'was did served'.",
+            "description": "The correct phrasing should be 'I was served by Paris.'"
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 12345,
+            "questionId": "Q_002",
+            "reportOverviewId": 24185,
+            "reportOverviewTitle": "BISTRO",
+            "questionLabel": "Cleanliness and Maintenance of the Venue",
+            "score": 6.5,
+            "maxScore": 10,
+            "issue": "Spelling errors in 'bissstro' and 'paviliomn'. Incorrect abbreviations 'BIS2'.",
+            "description": "Correct phrasings should be 'bistro', 'pavilion', and 'BIS2' should be 'BISS2' or 'Barista 2'."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 12345,
+            "questionId": "Q_003",
+            "reportOverviewId": 24186,
+            "reportOverviewTitle": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+            "questionLabel": "Cleanliness of the Venue and Security",
+            "score": 9.5,
+            "maxScore": 10,
+            "issue": "Improper verb tense used in 'was standing' and 'was sitting'.",
+            "description": "The correct phrasings should be 'was standing' and 'was sitting' without the additional 'was'."
+        }
+    ]
+}
