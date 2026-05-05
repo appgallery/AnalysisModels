@@ -53,3 +53,53 @@ Version : G004
         }
     ]
 }
+
+Version : G005
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportOverviewId": 24187,
+            "reportOverviewTitle": "GAMING",
+            "issue": "Lorem ipsum detected",
+            "description": "Lorem ipsum detected in gaming summary"
+        },
+        {
+            "severity": "LOW",
+            "reportOverviewId": 24187,
+            "reportOverviewTitle": "GAMING",
+            "issue": "Grammar error",
+            "description": "Incorrect verb tense: 'I arrive' should be 'I arrived'"
+        },
+        {
+            "severity": "LOW",
+            "reportOverviewId": 24187,
+            "reportOverviewTitle": "GAMING",
+            "issue": "Grammar error",
+            "description": "Incorrect subject-verb agreement: 'staff were not attending properly' should be 'staff was not attending properly'"
+        },
+        {
+            "severity": "LOW",
+            "reportOverviewId": 24187,
+            "reportOverviewTitle": "GAMING",
+            "issue": "Sentence formation issue",
+            "description": "Awkward phrasing: 'The music were too loud and peoples was not comfortable to sit there.'"
+        },
+        {
+            "severity": "LOW",
+            "reportOverviewId": 24187,
+            "reportOverviewTitle": "GAMING",
+            "issue": "Grammar error",
+            "description": "Incorrect plural/singular usage: 'staff were not attending properly' should be 'staff was not attending properly'"
+        },
+        {
+            "severity": "LOW",
+            "reportOverviewId": 24187,
+            "reportOverviewTitle": "GAMING",
+            "issue": "Grammar error",
+            "description": "Missing article: 'a' or 'the' should be used before 'menu'"
+        }
+    ]
+}
