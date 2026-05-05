@@ -4,3 +4,10 @@ Version : G001
     "model": "gemma2:2b",
     "issues": []
 }
+
+Version : G002
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": []
+}
