@@ -202,3 +202,44 @@ version : G005
     ]
   }
 }
+
+Version : G006
+{
+  "sampleData": {
+    "reportOverviewSummary": [
+      {
+        "reportOverviewId": 24187,
+        "title": "GAMING",
+        "value": "There is many customer in the venue and staff was behaving very rude with guest. The music were too loud and peoples was not comfortable to sit there. One of the waiter come late and not respond properly when asked for menu. Table was dirty and have stain which looks very bad. I don’t received my order on time and no one was checking about it. Overall services is very poor and they needs to improve there management."
+      },
+      {
+        "reportOverviewId": 24188,
+        "title": "RESTROOMS",
+        "value": "Lorem ipsum dolor  whhhh sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      }
+    ],
+    "qaCandidates": [
+        {
+        "reportDtlId": 564163,
+        "questionId": 7511,
+        "questionLabel": "Please check Instagram and FB, are the venues promotions current and are any of the promotions in the venue reflected on Instagram and FB? If the 'score' is below 100 please explain in detail and take photos",
+        "qType": "R",
+        "value": "All",
+        "comment": "Same current post on both platforms advertising live music entertainment on 30th August, with accompanying photo of the musicians.",
+        "commentAllowed": true,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 564164,
+        "questionId": 14620,
+        "questionLabel": "When ordering at the bar or bistro did the staff member ask if you were a member and if not did they explain cleary on how to become a member?",
+        "qType": "T",
+        "value": "I was asked at both the bistro and bar if I was a member, and BAR explained how to join. ",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      }
+    ]
+  }
+}
