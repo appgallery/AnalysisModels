@@ -167,3 +167,26 @@ Gaming output:
     "model": "qwen2.5:7b",
     "issues": []
 }
+
+
+
+Gmaing output:
+
+
+"success": true,
+    "model": "qwen2.5:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 554436,
+            "questionId": 13805,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes? Describe who welcomed/assisted you.",
+            "score": 150,
+            "maxScore": 100,
+            "issue": "Score exceeds maximum",
+            "description": "The score of 150 exceeds the maximum possible score of 100."
+        }
+    ]
+}
