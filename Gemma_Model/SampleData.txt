@@ -385,3 +385,74 @@ Version : G008
     ]
   }
 }
+
+Version : G009
+{
+  "sampleData": {
+    "reportOverviewSummary": [
+      {
+        "reportOverviewId": 24187,
+        "title": "GAMING",
+        "value": "The venue was quite busy during my visit, but the overall service experience was disappointing. The staff’s behavior towards guests lacked professionalism and courtesy, which created an uncomfortable atmosphere. Additionally, the volume of the music was excessively high, making it difficult to relax and enjoy the environment. Service was slow, as it took a long time for a staff member to attend to the table and provide the menu."
+      },
+      {
+        "reportOverviewId": 24188,
+        "title": "RESTROOMS",
+        "value": "There were many customers in the venue, and the staff were behaving very rudely towards guests. The music was too loud, and people were not comfortable sitting there. One of the waiters came late and did not respond properly when asked for the menu. The table was dirty and had stains, which looked very unpleasant. I did not receive my order on time, and no one was checking on it. Overall, the service was very poor, and they need to improve their management."
+      }
+    ],
+    "qaCandidates": [
+        {
+        "reportDtlId": 564163,
+        "questionId": 7511,
+        "questionLabel": "Please check Instagram and FB, are the venues promotions current and are any of the promotions in the venue reflected on Instagram and FB? If the 'score' is below 100 please explain in detail and take photos",
+        "qType": "R",
+        "value": "All",
+        "comment": "There were many customers in the venue, and the staff were behaving very rudely towards guests. The music was too loud, and people were not comfortable sitting there. One of the waiters came late and did not respond properly when asked for the menu. The table was dirty and had stains, which looked very unpleasant. I did not receive my order on time, and no one was checking on it. Overall, the service was very poor, and they need to improve their management.",
+        "commentAllowed": true,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 564164,
+        "questionId": 14620,
+        "questionLabel": "When ordering at the bar or bistro did the staff member ask if you were a member and if not did they explain cleary on how to become a member?",
+        "qType": "T",
+        "value": "There were many customers in the venue, and the staff were behaving very rudely towards guests. The music was too loud, and people were not comfortable sitting there. One of the waiters came late and did not respond properly when asked for the menu. The table was dirty and had stains, which looked very unpleasant. I did not receive my order on time, and no one was checking on it. Overall, the service was very poor, and they need to improve their management.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 564165,
+        "questionId": 7477,
+        "questionLabel": "Please check all venue promotional art work displayed in various areas of the venue. Please check that the art work displayed is up to date and in good condition (not blue tacked on walls). Please provide photos of any damaged, missing or out of date promotional artwork.",
+        "qType": "T",
+        "value": "There were many customers in the venue, and the staff were behaving very rudely towards guests. The music was too loud, and people were not comfortable sitting there. One of the waiters came late and did not respond properly when asked for the menu. The table was dirty and had stains, which looked very unpleasant. I did not receive my order on time, and no one was checking on it. Overall, the service was very poor, and they need to improve their management.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 564166,
+        "questionId": 14747,
+        "questionLabel": "When served at the bistro or bar did the staff member mention anything about the venues current promotions or offers?",
+        "qType": "T",
+        "value": "There were many customers in the venue, and the staff were behaving very rudely towards guests. The music was too loud, and people were not comfortable sitting there. One of the waiters came late and did not respond properly when asked for the menu. The table was dirty and had stains, which looked very unpleasant. I did not receive my order on time, and no one was checking on it. Overall, the service was very poor, and they need to improve their management.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 564167,
+        "questionId": 7646,
+        "questionLabel": "Please either make a booking online or call the venue. How was your experince? Please give details",
+        "qType": "T",
+        "value": "There were many customers in the venue, and the staff were behaving very rudely towards guests. The music was too loud, and people were not comfortable sitting there. One of the waiters came late and did not respond properly when asked for the menu. The table was dirty and had stains, which looked very unpleasant. I did not receive my order on time, and no one was checking on it. Overall, the service was very poor, and they need to improve their management.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      }
+    ]
+  }
+}
