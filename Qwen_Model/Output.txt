@@ -252,3 +252,38 @@ Dublicate issue in gaming payload:
         }
     ]
 }
+
+
+
+
+
+{
+    "success": true,
+    "model": "qwen2.5:7b",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 554435,
+            "questionId": 974,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Are the staff well presented and in correct uniform, red or black shirt in the gaming room, black pants?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "Inconsistent reporting",
+            "description": "The report states that GAM1 was wearing the correct uniform, but there is no mention of the specific colors (red or black shirt, black pants) which are required by the question."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 554436,
+            "questionId": 13805,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes? Describe who welcomed/assisted you.",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "Inconsistent scoring",
+            "description": "The report mentions GAM1 greeted upon entry but only offers a single beverage, which does not fully align with the high score of 100. A more detailed description or explanation would be expected for such a high score."
+        }
+    ]
+}
