@@ -172,3 +172,34 @@ Version : G007
         }
     ]
 }
+
+Version : G008
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "reportOverviewId": 24187,
+            "reportOverviewTitle": "GAMING",
+            "issues": [
+                "The music was too loud, and people were not comfortable sitting there.",
+                "One of the waiters came late and did not respond properly when asked for the menu.",
+                "The table was dirty and had stains, which looked very unpleasant.",
+                "I did not receive my order on time, and no one was checking on it.",
+                "Overall, the service was very poor, and they need to improve their management."
+            ]
+        },
+        {
+            "reportOverviewId": 24188,
+            "reportOverviewTitle": "RESTROOMS",
+            "issues": [
+                "There were many customers in the venue, and the staff were behaving very rudely towards guests.",
+                "The music was too loud, and people were not comfortable sitting there.",
+                "One of the waiters came late and did not respond properly when asked for the menu.",
+                "The table was dirty and had stains, which looked very unpleasant.",
+                "I did not receive my order on time, and no one was checking on it.",
+                "Overall, the service was very poor, and they need to improve their management."
+            ]
+        }
+    ]
+}
