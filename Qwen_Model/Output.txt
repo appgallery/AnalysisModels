@@ -158,3 +158,12 @@ Report over view output:
     "model": "qwen2.5:7b",
     "issues": []
 }
+
+
+Gaming output:
+
+{
+    "success": true,
+    "model": "qwen2.5:7b",
+    "issues": []
+}
