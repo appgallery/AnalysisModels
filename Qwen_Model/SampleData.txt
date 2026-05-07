@@ -1315,3 +1315,74 @@ Retail data
 
 
 
+
+
+
+
+
+
+
+
+
+ "sampleData": {
+    "reportOverviewSummary": [
+      {
+        "reportOverviewId": 53815,
+        "title": "Shoppers overview of visit",
+        "value": "I arrived at the and the store on Thursday afternoon, and could see, although there was some sidewalk construction work with orange witches hats and barriers, the storefront was still very easy to access with clear, unobstructed doorways, prominent signage that was clean and easy to read, clean smudge-free glass windows, and an overall safe and inviting atmosphere.\n\nOnce inside the store, I could see a very clean and tidy space throughout, no rubbish, debris or clutter was seen on the ground, excellent lighting and some soft background music playing. All shelves were highly stocked with front-facing products with easy-to-read price tags. The fruit and vegetable section looked very fresh with highly stocked product displays that were very visually pleasing.\n\nI had wandered around for a couple of minutes or so, and was happily acknowledged by a smiling and polite TM1, who, with a cheery welcoming comment, asked if they could help me. I enquired if they have any boxed dry pasta, as I was looking to make an Italian dinner tonight, and TM1 happily walked me to the aisle with the boxed pasta, making some polite small talk and pointing out some of the lesser price brands and also some of the more expensive brands.\n\nAfter selecting a few items to purchase. I then approached the front service counter, being met by the same happy and courteous TM1, who again welcomed me with some friendly small talk, and asked if I was a member, explaining that some of the items I was about to purchase would be a little bit cheaper if I were a member. However, did not ask if I wanted to join.\n\nMy items were packed perfectly into the paper bag that I was asked if I wanted, and I was also asked if I wanted a receipt. TM1 gave me a friendly farewell and thanked me for coming into the store, saying to have a great night and to enjoy my Italian dinner tonight."
+      }
+    ],
+    "questions": [
+      {
+        "reportDtlId": 795722,
+        "questionId": 20165,
+        "questionLabel": "How did the exterior of the store appear when you arrived? Consider lighting, windows, and signage.",
+        "qType": "R",
+        "value": "Spotless and well-maintained. It was very inviting.",
+        "commentAllowed": false,
+        "score": 0,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 795723,
+        "questionId": 30463,
+        "questionLabel": "What was the condition of the front counter area?",
+        "qType": "R",
+        "value": "Spotless – no dust, rubbish, or clutter.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 795724,
+        "questionId": 20646,
+        "questionLabel": "How would you rate the merchandising of displays and promotions throughout the store?",
+        "qType": "R",
+        "value": "Outstanding - eye-catching, well-stocked, clearly priced and themed.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 795725,
+        "questionId": 20151,
+        "questionLabel": "How clean and organised was the store interior?",
+        "qType": "R",
+        "value": "Extremely clean, tidy and well-presented throughout.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 795726,
+        "questionId": 20520,
+        "questionLabel": "How was the cardboard rubbish from deliveries managed?",
+        "qType": "R",
+        "value": "Neatly stacked away from walkways.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      }
+    ]
+  }
+}
