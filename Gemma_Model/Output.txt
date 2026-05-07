@@ -281,3 +281,59 @@ Version : G012
         }
     ]
 }
+
+Version : G013
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "type": "irrelevant_answer",
+            "reason": "Answer does not directly answer the question.",
+            "qaCandidates": [
+                {
+                    "comment": "Not related to question (social media promotions not assessed)",
+                    "score": 0,
+                    "maxScore": 100
+                },
+                {
+                    "comment": "Not related to question (membership enquiry not addressed)",
+                    "score": 0,
+                    "maxScore": 100
+                },
+                {
+                    "comment": "There were many customers in the venue, and the staff were behaving very rudely towards guests. The music was too loud, and people were not comfortable sitting there. One of the waiters came late and did not respond properly when asked for the menu. The table was dirty and had stains, which looked very unpleasant. I did not receive my order on time, and no one was checking on it. Overall, the service was very poor, and they need to improve their management.",
+                    "score": 0,
+                    "maxScore": 100
+                }
+            ]
+        },
+        {
+            "type": "generic_reused_content",
+            "reason": "Answer contains generic phrases or text that is not specific to the question.",
+            "qaCandidates": [
+                {
+                    "comment": "There were many customers in the venue, and the staff were behaving very rudely towards guests. The music was too loud, and people were not comfortable sitting there. One of the waiters came late and did not respond properly when asked for the menu. The table was dirty and had stains, which looked very unpleasant. I did not receive my order on time, and no one was checking on it. Overall, the service was very poor, and they need to improve their management.",
+                    "score": 0,
+                    "maxScore": 100
+                }
+            ]
+        },
+        {
+            "type": "score_misalignment",
+            "reason": "The score assigned to the answer does not logically align with the question's intent or requirements.",
+            "qaCandidates": [
+                {
+                    "comment": "Not related to question (social media promotions not assessed)",
+                    "score": 0,
+                    "maxScore": 100
+                },
+                {
+                    "comment": "Not related to question (membership enquiry not addressed)",
+                    "score": 0,
+                    "maxScore": 100
+                }
+            ]
+        }
+    ]
+}
