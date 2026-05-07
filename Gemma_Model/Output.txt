@@ -337,3 +337,67 @@ Version : G013
         }
     ]
 }
+
+Version : G014
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "type": "irrelevant_answer",
+            "reason": "Answer does not directly address the actual question.",
+            "questionId": 7511,
+            "questionLabel": "Please check Instagram and FB, are the venues promotions current and are any of the promotions in the venue reflected on Instagram and FB? If the 'score' is below 100 please explain in detail and take photos",
+            "reportDtlId": 564163,
+            "qaCandidates": [
+                {
+                    "comment": "There were many customers in the venue, and the staff were behaving very rudely towards guests. The music was too loud, and people were not comfortable sitting there. One of the waiters came late and did not respond properly when asked for the menu. The table was dirty and had stains, which looked very unpleasant. I did not receive my order on time, and no one was checking on it. Overall, the service was very poor, and they need to improve their management.",
+                    "score": 0,
+                    "maxScore": 100
+                }
+            ]
+        },
+        {
+            "type": "generic_reused_content",
+            "reason": "Same paragraph reused across multiple answers",
+            "questionId": 7511,
+            "questionLabel": "Please check Instagram and FB, are the venues promotions current and are any of the promotions in the venue reflected on Instagram and FB? If the 'score' is below 100 please explain in detail and take photos",
+            "reportDtlId": 564163,
+            "qaCandidates": [
+                {
+                    "comment": "Not related to question (social media promotions not assessed)",
+                    "score": 0,
+                    "maxScore": 100
+                }
+            ]
+        },
+        {
+            "type": "copy_paste_content",
+            "reason": "Nearly identical text appears across multiple qaCandidates",
+            "questionId": 7511,
+            "questionLabel": "Please check Instagram and FB, are the venues promotions current and are any of the promotions in the venue reflected on Instagram and FB? If the 'score' is below 100 please explain in detail and take photos",
+            "reportDtlId": 564163,
+            "qaCandidates": [
+                {
+                    "comment": "There were many customers in the venue, and the staff were behaving very rudely towards guests. The music was too loud, and people were not comfortable sitting there. One of the waiters came late and did not respond properly when asked for the menu. The table was dirty and had stains, which looked very unpleasant. I did not receive my order on time, and no one was checking on it. Overall, the service was very poor, and they need to improve their management.",
+                    "score": 0,
+                    "maxScore": 100
+                }
+            ]
+        },
+        {
+            "type": "score_misalignment",
+            "reason": "Score is 100 but answer is incomplete/irrelevant",
+            "questionId": 7511,
+            "questionLabel": "Please check Instagram and FB, are the venues promotions current and are any of the promotions in the venue reflected on Instagram and FB? If the 'score' is below 100 please explain in detail and take photos",
+            "reportDtlId": 564163,
+            "qaCandidates": [
+                {
+                    "comment": "Not related to question (social media promotions not assessed)",
+                    "score": 0,
+                    "maxScore": 100
+                }
+            ]
+        }
+    ]
+}
