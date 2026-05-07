@@ -205,7 +205,6 @@ Version : G008
 }
 
 Version : G010
-
 {
     "success": true,
     "model": "gemma2:2b",
@@ -213,9 +212,32 @@ Version : G010
 }
 
 Version : G011
-
 {
     "success": true,
     "model": "gemma2:2b",
     "issues": []
+}
+
+Version : G012
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "type": "Irrelevant Answer",
+            "detail": "The provided answer directly discusses the service and ambiance of the venue, but it does not address the specific question about Instagram and Facebook promotions. This response demonstrates lack of focus on the key question."
+        },
+        {
+            "type": "Generic Reused Content",
+            "detail": "The response includes generic statements about the staff's behavior and service quality without providing concrete evidence to support these claims. There is a lack of specific examples or details, making it seem like surface-level observations."
+        },
+        {
+            "type": "Score Misalignment",
+            "detail": "The response was marked with a score of 100 but lacks in detail and analysis. The absence of sufficient evidence and concrete examples to support the claimed score, indicating a potential misalignment with actual assessment."
+        },
+        {
+            "type": "Generic Reused Content",
+            "detail": "The response is filled with vague descriptions like 'very rude' or 'not comfortable.' These subjective statements lack concrete details and supporting evidence. This makes the response generic and lacks clarity on how these issues were observed."
+        }
+    ]
 }
