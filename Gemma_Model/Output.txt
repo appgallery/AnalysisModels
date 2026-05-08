@@ -616,3 +616,42 @@ Version : G104
         }
     ]
 }
+
+Version : G105
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "type": "sentence_structure",
+            "sentence": "The exterior area were very dirty and the entrance have rubbish scattered near the door.",
+            "message": "This sentence has missing articles and needs to use 'the' before 'exterior area' and 'entrance.' It should read: 'The exterior area was very dirty, and the entrance had rubbish scattered near the door.'"
+        },
+        {
+            "type": "grammar",
+            "source": "reportOverviewSummary",
+            "reportOverviewId": "24132",
+            "reportOverviewTitle": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+            "sentence": "The exterior area were very dirty and the entrance have rubbish scattered near the door. Staff was standing outside and talking loudly which make the venue look unprofessional.",
+            "message": "Subject-verb agreement issue: 'were' should be 'was'."
+        },
+        {
+            "type": "grammar",
+            "source": "qaCandidates",
+            "reportDtlId": "554435",
+            "questionId": "974",
+            "questionLabel": "Are the staff well presented and in correct uniform, red or black shirt in the gaming room, black pants?",
+            "sentence": "The staff was standing outside and talking loudly which make the venue look unprofessional.",
+            "message": "Incorrect pronoun agreement:  'staff' should refer to 'the staff'."
+        },
+        {
+            "type": "grammar",
+            "source": "qaCandidates",
+            "reportDtlId": "554436",
+            "questionId": "13805",
+            "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes? Describe who welcomed/assisted you.",
+            "sentence": "The staff member was standing outside and talking loudly which make the venue look unprofessional. ",
+            "message": "Incorrect pronoun agreement:  'the staff' should refer to 'the staff member'."
+        }
+    ]
+}
