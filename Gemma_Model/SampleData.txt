@@ -1,3 +1,4 @@
+FBG
 Version No : G001
 {
   "sampleData": {
@@ -970,6 +971,80 @@ Version : G016
           "title": "BISTRO",
           "value": "The dining area was tidy, service was fast, and staff were professional and welcoming."
         }
+      }
+    ]
+  }
+}
+
+
+GAMING
+
+Version : G101
+{
+  "sampleData": {
+    "reportOverviewSummary": [
+      {
+        "reportOverviewId": 24132,
+        "title": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+        "value": "The venue was clean, well organized, and welcoming throughout the visit. Staff members were professional, friendly, and attentive to customers at all times. Service was provided promptly, and all requested items were delivered without delay. The atmosphere was comfortable, safe, and enjoyable, with no visible maintenance or cleanliness issues observed during the experience."
+      },
+      {
+        "reportOverviewId": 24133,
+        "title": "GAMING",
+        "value": "The venue had street parking available which was only a short distance away from the venue. The walkways leading to the entrance of the premises was free of obstructions, hazards and litter. The venue signage was clear and visible. There were garden beds situated on the exterior of the venue which was maintained with healthy green foliage. I observed adequate liquor and gaming signage displayed throughout the venue. There were no bad odours throughout the location. There was an ATM machine at the location which was operational. There were no issues with patrons during my time at the venue. There was a security presence at the venue. I was greeted by GAM1 upon entering the gaming room."
+      }
+    ],
+    "qaCandidates": [
+      {
+        "reportDtlId": 554435,
+        "questionId": 974,
+        "questionLabel": "Are the staff well presented and in correct uniform, red or black shirt in the gaming room, black pants?",
+        "qType": "T",
+        "value": "GAM1 was wearing the correct uniform in the gaming room.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 554436,
+        "questionId": 13805,
+        "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes? Describe who welcomed/assisted you.",
+        "qType": "R",
+        "value": "I was greeted upon entry into the gaming room and offered a drink at this time",
+        "comment": "I was greeted upon entry by GAM1 and at this time I was offered a complimentary beverage which I accepted.",
+        "commentAllowed": true,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 554437,
+        "questionId": 6666,
+        "questionLabel": "Is the staff member smiling and presenting themselves as being approachable and friendly? Describe the staff member.",
+        "qType": "T",
+        "value": "GAM1 was approachable, friendly, respectful and courteous.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 554440,
+        "questionId": 11162,
+        "questionLabel": "Was your payout quick and simple? Please give details.",
+        "qType": "R",
+        "value": "The payout was easy and I used the CRT machine, which dispensed the correct money.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 554441,
+        "questionId": 8864,
+        "questionLabel": "Was the atmosphere of the gaming room and hotel safe, welcoming and friendly? Please give details.",
+        "qType": "T",
+        "value": "The atmosphere of the gaming room and hotel was safe, welcoming and friendly. The patrons were friendly and the security made the venue feel safe.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
       }
     ]
   }
