@@ -411,3 +411,26 @@ Retail output
         }
     ]
 }
+
+
+
+
+
+{
+    "success": true,
+    "model": "qwen2.5:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 795724,
+            "questionId": 20646,
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Shoppers overview of visit",
+            "questionLabel": "How would you rate the merchandising of displays and promotions throughout the store?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "Repetitive wording.",
+            "description": "The response contains multiple occurrences of 'it' which makes it unclear."
+        }
+    ]
+}
