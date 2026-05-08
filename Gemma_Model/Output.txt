@@ -501,3 +501,18 @@ Version : G102
     "model": "gemma2:2b",
     "issues": []
 }
+
+Version : G103
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "type": "placeholder_text",
+            "reportOverviewId": "24132",
+            "reportOverviewTitle": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+            "sentence": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "message": "Placeholder or dummy text detected in report overview"
+        }
+    ]
+}
