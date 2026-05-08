@@ -357,3 +357,23 @@ Retail output
         }
     ]
 }
+
+
+{
+    "success": true,
+    "model": "qwen2.5:7b",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 795724,
+            "questionId": 20646,
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Shoppers overview of visit",
+            "questionLabel": "How would you rate the merchandising of displays and promotions throughout the store?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "Unrealistic or unsupported claim",
+            "description": "The response 'that is not so good i don't like that it is ugly' contradicts with the highly positive description of the store interior in the report overview summary."
+        }
+    ]
+}
