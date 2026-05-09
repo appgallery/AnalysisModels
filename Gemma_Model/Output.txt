@@ -790,3 +790,54 @@ Version : G108
         }
     ]
 }
+
+Version : G109
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "type": "placeholder_text",
+            "source": "reportOverviewSummary",
+            "reportOverviewId": "24132",
+            "reportOverviewTitle": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+            "sentence": "The venue had street parking available which was only a short distance away from the venue. The walkways leading to the entrance of the premises was free of obstructions, hazards and litter.",
+            "message": "Placeholder or dummy text detected in report overview"
+        },
+        {
+            "type": "placeholder_text",
+            "source": "reportOverviewSummary",
+            "reportOverviewId": "24133",
+            "reportOverviewTitle": "GAMING",
+            "sentence": "I was greeted by GAM1 upon entering the gaming room. Upon entry, I observed 5 patrons playing machines.",
+            "message": "Placeholder or dummy text detected in report overview"
+        },
+        {
+            "type": "placeholder_text",
+            "source": "qaCandidates",
+            "reportDtlId": "554435",
+            "questionId": "974",
+            "questionLabel": "Are the staff well presented and in correct uniform, red or black shirt in the gaming room, black pants?",
+            "sentence": "GAM1 was wearing the correct uniform in the gaming room.",
+            "message": "Placeholder or dummy text detected in response"
+        },
+        {
+            "type": "placeholder_text",
+            "source": "qaCandidates",
+            "reportDtlId": "554436",
+            "questionId": "13805",
+            "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes? Describe who welcomed/assisted you.",
+            "sentence": "I was greeted upon entry by GAM1 and at this time I was offered a complimentary beverage which I accepted.",
+            "message": "Placeholder or dummy text detected in response"
+        },
+        {
+            "type": "placeholder_text",
+            "source": "qaCandidates",
+            "reportDtlId": "554437",
+            "questionId": "6666",
+            "questionLabel": "Is the staff member smiling and presenting themselves as being approachable and friendly? Describe the staff member.",
+            "sentence": "GAM1 was wearing the correct uniform in the gaming room.",
+            "message": "Placeholder or dummy text detected in response"
+        }
+    ]
+}
