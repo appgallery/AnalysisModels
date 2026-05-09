@@ -53,3 +53,21 @@
                 "issue": "Typographical error in narrative",
                 "description": "The word 'challlllllllllk' contains excessive repeated letters and should be corrected to 'chalk'."
             }
+
+
+
+
+
+
+     {
+                "severity": "LOW",
+                "reportDtlId": 51990,
+                "questionId": null,
+                "reportOverviewId": 51990,
+                "reportOverviewTitle": "VENUE OVERVIEW",
+                "questionLabel": null,
+                "score": null,
+                "maxScore": null,
+                "issue": "Editorial: repeated text, typo/artifact ('DOES'), and duplicate content",
+                "description": "The VENUE OVERVIEW summary contains the phrase 'DOES not too loud' which appears to be a typographical artifact. The entire opening sentence block is also repeated multiple times verbatim, indicating copy-paste duplication that should be removed to leave only a single, clean narrative."
+            }
