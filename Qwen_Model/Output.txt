@@ -530,3 +530,52 @@ Retail output
         }
     ]
 }
+
+
+
+{
+    "success": true,
+    "model": "qwen2.5:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 182712,
+            "questionId": 6334,
+            "questionLabel": "Is the front appearance of the store appealing? Is it clean and well-lit with easy and safe access? Is it inviting? Does it have fully-stocked bins or displays that have clearly visible price tickets?",
+            "score": 2,
+            "maxScore": 3,
+            "issue": "Vague response",
+            "description": "The response does not address all parts of the question."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": 182714,
+            "questionId": 1208,
+            "questionLabel": "As you walk into the store, do you find it inviting?",
+            "score": 2,
+            "maxScore": 2,
+            "issue": "Response matches score",
+            "description": "The 'Yes' response and score are consistent."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": 182715,
+            "questionId": 6986,
+            "questionLabel": "Looking around the store aisles, do you find this store easily accessible? Is it free from boxes and clutter?",
+            "score": 3,
+            "maxScore": 3,
+            "issue": "Response matches score",
+            "description": "The 'Yes' response and score are consistent."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": 182716,
+            "questionId": 10060,
+            "questionLabel": "Was the pricing/ticketing clear and easy to read on shelf labels and shelf talkers?",
+            "score": 3,
+            "maxScore": 3,
+            "issue": "Response matches score",
+            "description": "The 'Yes' response and score are consistent."
+        }
+    ]
+}
