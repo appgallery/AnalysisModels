@@ -695,3 +695,36 @@ Version : G106
         }
     ]
 }
+
+Version : G107
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "type": "placeholder_text",
+            "source": "reportOverviewSummary",
+            "reportOverviewId": 24132,
+            "reportOverviewTitle": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+            "sentence": "The exterior area were very dirty and the entrance have rubbish scattered near the door. Staff was standing outside and talking loudly which make the venue look unprofessional. The tables was not cleaned properly and many customer was complaining about the poor service. One waiter come late to the table and do not respond politely when asked for the menu. The gaming machines was making unusual noises and no staff were checking them regularly. Overall the environment were uncomfortable and management need to improve there service quality.",
+            "message": "Placeholder or dummy text detected in report overview"
+        },
+        {
+            "type": "placeholder_text",
+            "source": "qaCandidates",
+            "reportDtlId": 554435,
+            "questionId": 974,
+            "questionLabel": "Are the staff well presented and in correct uniform, red or black shirt in the gaming room, black pants?",
+            "sentence": "GAM1 was wearing the correct uniform in the gaming room.",
+            "message": "Placeholder or dummy text detected in response"
+        },
+        {
+            "type": "grammar",
+            "source": "reportOverviewSummary",
+            "reportOverviewId": 24132,
+            "reportOverviewTitle": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+            "sentence": "The exterior area were very dirty and the entrance have rubbish scattered near the door. Staff was standing outside and talking loudly which make the venue look unprofessional. The tables was not cleaned properly and many customer was complaining about the poor service. One waiter come late to the table and do not respond politely when asked for the menu. The gaming machines was making unusual noises and no staff were checking them regularly. Overall the environment were uncomfortable and management need to improve there service quality.",
+            "message": "Incomplete sentence detected in report overview summary."
+        }
+    ]
+}
