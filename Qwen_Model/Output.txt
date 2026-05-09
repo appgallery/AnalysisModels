@@ -788,3 +788,63 @@ Retail output
         }
     ]
 }
+
+
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "qwen2.5:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 182712,
+            "questionId": 6334,
+            "reportOverviewTitle": null,
+            "questionLabel": "Is A The is A the front appearance of the store appealing? Is it clean and well-lit with easy and safe access? Is it inviting? Does it have fully-stocked bins or displays that have clearly visible price tickets?",
+            "score": 2,
+            "maxScore": 3,
+            "issue": "Contradictory score",
+            "description": "Response indicates store is 'Durty and not clean at all everything is very messy', but score is low (2/3)."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 182714,
+            "questionId": 1208,
+            "reportOverviewTitle": null,
+            "questionLabel": "As you walk into the store, do you find it inviting?",
+            "score": 2,
+            "maxScore": 2,
+            "issue": "Unnecessary low score",
+            "description": "Response is 'Yes', and max score is also 2. A score of 2/2 does not indicate any negative aspect."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 182715,
+            "questionId": 6986,
+            "reportOverviewTitle": null,
+            "questionLabel": "Looking around the store aisles, do you find this store easily accessible? Is it free from boxes and clutter?",
+            "score": 2,
+            "maxScore": 3,
+            "issue": "Unnecessary low score",
+            "description": "Response is 'Yes', indicating no issues. A score of 2/3 does not reflect a fully compliant scenario."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 182716,
+            "questionId": 10060,
+            "reportOverviewTitle": null,
+            "questionLabel": "Was the pricing/ticketing clear and easy to read on shelf labels and shelf talkers?",
+            "score": 2,
+            "maxScore": 3,
+            "issue": "Unnecessary low score",
+            "description": "Response is 'Yes', indicating no issues. A score of 2/3 does not reflect a fully compliant scenario."
+        }
+    ]
+}
