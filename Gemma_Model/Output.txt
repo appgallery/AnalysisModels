@@ -841,3 +841,11 @@ Version : G109
         }
     ]
 }
+
+Version : G110
+
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": []
+}
