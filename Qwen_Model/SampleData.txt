@@ -2069,3 +2069,71 @@ Retail data
   }
   
 }
+
+
+
+
+
+
+
+
+
+"sampleData": {
+        "reportOverviewSummary": [
+      {
+        "reportOverviewId": 6761,
+        "title": "Exterior",
+        "value": "The exterior appeared mostly clean. There was some dirt on the window, but otherwise, it appeared very tidy. There were some displays in the window that looked wefdfdfdll-stocked and tidy. The lighting was bright, and access to the entry was clear.The exterior appeared mostly clean. There was some dirt on the window, but otherwise, it appeared very tidy. There were some displays in the window that looked wefdfdfdll-stocked and tidy. The lighting was bright, and access to the entry was clear.The exterior appeared mostly clean. There was some dirt on the window, but otherwise, it appeared very tidy. There were some displays in the window that looked wefdfdfdll-stocked and tidy. The lighting was bright, and access to the entry was clear. "
+      },
+      {
+        "reportOverviewId": 6762,
+        "title": "Interior",
+        "value": "The interior felt warm and welcoming. Everything was neatly stocked and labeled. The aisles were clear of any mess, and the signs were easy to read. The staff made it feel like a comfortable place where locals visit frequently. The store offered health checks. There was no evidence of the Make-A-Wish/ Gidget Foundagfdetfdgtion within the store."
+      }
+    ],
+    "questions": [
+      {
+        "reportDtlId": 182712,
+        "questionId": 6334,
+        "questionLabel": "Is the front appearance of the store appealing? Is it clean and well-lit with easy and safe access? Is it inviting? Does it have fully-stocked bins or displays that have clearly visible price tickets?",
+        "qType": "R",
+        "value": "Clean and Clear",
+        "comment": "There was some dihgggghgrt on the window, but otherwise, .",
+        "commentAllowed": true,
+        "score": 2,
+        "maxScore": 3
+      },
+      {
+        "reportDtlId": 182714,
+        "questionId": 1208,
+        "questionLabel": "As you walk into the store, do you find it inviting?",
+        "qType": "R",
+        "value": "Yes",
+        "commentAllowed": false,
+        "score": 2,
+        "maxScore": 2
+      },
+      {
+        "reportDtlId": 182715,
+        "questionId": 6986,
+        "questionLabel": "Looking around the store aisles, do you find this store easily accessible? Is it free from  boxes and clutter?",
+        "qType": "R",
+        "value": "Yes",
+        "commentAllowed": false,
+        "score": 3,
+        "maxScore": 3
+      },
+      {
+        "reportDtlId": 182716,
+        "questionId": 10060,
+        "questionLabel": "Was the pricing/ticketing clear and easy to read on shelf labels and shelf talkers?",
+        "qType": "R",
+        "value": "Yes",
+        "commentAllowed": false,
+        "score": 3,
+        "maxScore": 3
+      }
+      ]
+  }
+  
+}
