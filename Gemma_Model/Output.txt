@@ -849,3 +849,68 @@ Version : G110
     "model": "gemma2:2b",
     "issues": []
 }
+
+Version : G111
+
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "type": "irrelevant_response",
+            "source": "qaCandidates",
+            "reportDtlId": "554435",
+            "questionId": "974",
+            "sentence": "GAM1 was wearing the correct uniform in the gaming room.",
+            "message": "Response discusses staff appearance but does not directly answer the question about payment."
+        },
+        {
+            "type": "irrelevant_response",
+            "source": "qaCandidates",
+            "reportDtlId": "554436",
+            "questionId": "13805",
+            "sentence": "I was greeted upon entry into the gaming room and offered a drink at this time",
+            "message": "Response discusses welcoming, but does not directly answer the question about payout speed."
+        },
+        {
+            "type": "score_mismatch",
+            "source": "qaCandidates",
+            "reportDtlId": "554436",
+            "questionId": "13805",
+            "sentence": "I was greeted upon entry into the gaming room and offered a drink at this time",
+            "message": "Highly positive response score of 20, contradicts the description of an immediate welcome to the venue with a neutral rating."
+        },
+        {
+            "type": "score_mismatch",
+            "source": "qaCandidates",
+            "reportDtlId": "554437",
+            "questionId": "6666",
+            "sentence": "GAM1 was approachable, friendly, respectful and courteous.",
+            "message": "Highly positive response score of 100 contradicts the description of an immediate welcome to the venue with a neutral rating."
+        },
+        {
+            "type": "score_mismatch",
+            "source": "qaCandidates",
+            "reportDtlId": "554437",
+            "questionId": "6666",
+            "sentence": "GAM1 was approachable, friendly, respectful and courteous.",
+            "message": "Highly positive response score of 100 contradicts the description of an immediate welcome to the venue with a neutral rating."
+        },
+        {
+            "type": "score_mismatch",
+            "source": "qaCandidates",
+            "reportDtlId": "554440",
+            "questionId": "11162",
+            "sentence": "The payout was easy and I used the CRT machine, which dispensed the correct money.",
+            "message": "Highly positive response score of 40 contradicts the description of an immediate welcome to the venue with a neutral rating."
+        },
+        {
+            "type": "score_mismatch",
+            "source": "qaCandidates",
+            "reportDtlId": "554441",
+            "questionId": "8864",
+            "sentence": "Was the atmosphere of the gaming room and hotel safe, welcoming and friendly? Please give details.",
+            "message": "Highly positive response score of 10 contradicts the description of an immediate welcome to the venue with a neutral rating."
+        }
+    ]
+}
