@@ -71,3 +71,38 @@
                 "issue": "Editorial: repeated text, typo/artifact ('DOES'), and duplicate content",
                 "description": "The VENUE OVERVIEW summary contains the phrase 'DOES not too loud' which appears to be a typographical artifact. The entire opening sentence block is also repeated multiple times verbatim, indicating copy-paste duplication that should be removed to leave only a single, clean narrative."
             }
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "issues": [
+            {
+                "severity": "CRITICAL",
+                "reportDtlId": 829601,
+                "questionId": 29549,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Were you asked if you were a member of the Loyalty Program?",
+                "score": 100,
+                "maxScore": 100,
+                "issue": "Score contradicts report summary narrative",
+                "description": "The report overview summary explicitly states that TM1 'asked whether I was a member' — this supports the score of 100. However, the commentAllowed field is true and the provided comment is simply 'Test', which is not a valid justification. More critically, the overview narrative confirms the member question was asked, so the score of 100 is narratively supported. No contradiction exists on the score itself. Flagging is withdrawn — no valid issue."
+            },
+            {
+                "severity": "CRITICAL",
+                "reportDtlId": 829602,
+                "questionId": 29751,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Were you invited to join the Loyalty Program if you weren't a member?",
+                "score": 100,
+                "maxScore": 100,
+                "issue": "Response text contradicts score — invitation to join was explicitly NOT made",
+                "description": "The report overview summary explicitly states: 'they did not ask whether I would like to join.' The question asks whether the shopper was invited to join the Loyalty Program if not a member. The selected response states 'Yes, the staff member offered clearly and positively,' which directly contradicts the narrative account that no invitation to join was extended. This is an explicit contradiction between the reported experience and the scored response, warranting a critical flag."
+            }
+        ]
+    }
+}
