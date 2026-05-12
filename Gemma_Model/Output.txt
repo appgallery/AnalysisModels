@@ -914,3 +914,42 @@ Version : G111
         }
     ]
 }
+
+Version : G112
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "type": "irrelevant_response",
+            "source": "qaCandidates",
+            "reportDtlId": "554435",
+            "questionId": 974,
+            "sentence": "GAM1 was wearing dirty clothes and did not appear professional.",
+            "message": "Response content does not answer the question being asked"
+        },
+        {
+            "type": "irrelevant_response",
+            "source": "qaCandidates",
+            "reportDtlId": "554436",
+            "questionId": 13805,
+            "sentence": "Nobody greeted me when I entered the gaming room and I had to ask for assistance after waiting 10 minutes.",
+            "message": "Response content does not answer the question being asked"
+        },
+        {
+            "type": "irrelevant_response",
+            "source": "qaCandidates",
+            "reportDtlId": "554437",
+            "questionId": 6666,
+            "sentence": "GAM1 appeared rude, impatient and unfriendly throughout the visit.",
+            "message": "Response content does not answer the question being asked"
+        },
+        {
+            "type": "score_mismatch",
+            "source": "qaCandidates",
+            "reportDtlId": "554437",
+            "questionId": 6666,
+            "message": "Highly positive response with score 100 contradicts the sentiment and question intent as the response is irrelevant to the question of staff demeanor."
+        }
+    ]
+}
