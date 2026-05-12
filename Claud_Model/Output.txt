@@ -353,3 +353,21 @@
                 "description": "The paragraph beginning 'I was not able to identify which staff member was a manager because BIS1 and BIS2, and BAR1 were all wearing the same uniform...' appears three times consecutively in the SECURITY & MANAGEMENT section. This is a copy-paste error and the duplicates should be removed, retaining only one instance."
             }
         ]
+
+
+
+
+
+
+  {
+                "severity": "LOW",
+                "reportDtlId": null,
+                "questionId": null,
+                "reportOverviewId": 53241,
+                "reportOverviewTitle": "SECURITY & MANAGEMENT",
+                "questionLabel": null,
+                "score": null,
+                "maxScore": null,
+                "issue": "Nonsensical text appended to summary",
+                "description": "The SECURITY & MANAGEMENT summary ends with the string 'xucbwekudhgksahxl sjhbxuisAH ASJHXBSH', which appears to be random keystrokes or placeholder text. This should be removed before the report is finalised as it undermines the professionalism and credibility of the report."
+            }
