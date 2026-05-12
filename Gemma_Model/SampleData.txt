@@ -1962,3 +1962,68 @@ Version : G202
     ]
   }
 }
+
+Version : G203
+{
+  "sampleData": {
+    "reportOverviewSummary": [
+      {
+        "reportOverviewId": 53815,
+        "title": "Shoppers overview of visit",
+        "value": "The staff were very friendly and was greeting every customers when they enters the venue. The gaming room smell bad and there was empty glasses laying on the tables for long time. I seen one machine that were broken but no staff member were fixing it. The security guard look professional however the patrons was being loud and disrespectful near the bar area. Overall the experience were enjoyable although the service take too long and the food were cold when it arrive."
+      }
+    ],
+    "qaCandidates": [
+      {
+        "reportDtlId": 795722,
+        "questionId": 20165,
+        "questionLabel": "How did the exterior of the store appear when you arrived? Consider lighting, windows, and signage.",
+        "qType": "R",
+        "value": "Spotless and well-maintained. It was very inviting.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 795723,
+        "questionId": 30463,
+        "questionLabel": "What was the condition of the front counter area?",
+        "qType": "R",
+        "value": "Spotless – no dust, rubbish, or clutter.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 795724,
+        "questionId": 20646,
+        "questionLabel": "How would you rate the merchandising of displays and promotions throughout the store?",
+        "qType": "R",
+        "value": "Outstanding - eye-catching, well-stocked, clearly priced and themed.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 795725,
+        "questionId": 20151,
+        "questionLabel": "How clean and organised was the store interior?",
+        "qType": "R",
+        "value": "Extremely clean, tidy and well-presented throughout.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 795726,
+        "questionId": 20520,
+        "questionLabel": "How was the cardboard rubbish from deliveries managed?",
+        "qType": "R",
+        "value": "Neatly stacked away from walkways.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      }
+    ]
+  }
+}
