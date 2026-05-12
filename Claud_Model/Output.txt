@@ -311,3 +311,45 @@
         ]
     }
 }
+
+
+
+
+
+ {
+                "severity": "LOW",
+                "reportDtlId": 792058,
+                "questionId": 27578,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "We endeavour to be exceptional hosts. Did any team member or moment stand-out for you as exceptional?",
+                "score": 100,
+                "maxScore": 100,
+                "issue": "Response text is duplicated three times",
+                "description": "The response 'There was no particular team member or moment that was a standout.' is repeated three times verbatim. This appears to be a data entry or copy-paste error and should be corrected to a single instance of the response."
+            },
+            {
+                "severity": "LOW",
+                "reportDtlId": null,
+                "questionId": null,
+                "reportOverviewId": 53240,
+                "reportOverviewTitle": "GAMING",
+                "questionLabel": null,
+                "score": null,
+                "maxScore": null,
+                "issue": "Duplicate paragraph in GAMING summary",
+                "description": "The paragraph beginning 'I was not able to identify which staff member was a manager because BIS1 and BIS2, and BAR1 were all wearing the same uniform...' appears twice consecutively in the GAMING section. This is a copy-paste error and the duplicate should be removed."
+            },
+            {
+                "severity": "LOW",
+                "reportDtlId": null,
+                "questionId": null,
+                "reportOverviewId": 53241,
+                "reportOverviewTitle": "SECURITY & MANAGEMENT",
+                "questionLabel": null,
+                "score": null,
+                "maxScore": null,
+                "issue": "Duplicate paragraph repeated three times in SECURITY & MANAGEMENT summary",
+                "description": "The paragraph beginning 'I was not able to identify which staff member was a manager because BIS1 and BIS2, and BAR1 were all wearing the same uniform...' appears three times consecutively in the SECURITY & MANAGEMENT section. This is a copy-paste error and the duplicates should be removed, retaining only one instance."
+            }
+        ]
