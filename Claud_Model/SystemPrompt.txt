@@ -24,3 +24,6 @@ change the prompt for give both question and summary
 
 
 checking score and comment alignment
+
+
+checking the Summary vs Question - Contradiction
