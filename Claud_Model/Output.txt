@@ -460,3 +460,20 @@
                 "issue": "Comment contradicts score",
                 "description": "The score is 0 and the response states 'There was numerous staff talking amongst themselves,' which supports a low score. However, commentAllowed is true and the comment reads 'it is very good staff and venue,' which is a positive statement that directly contradicts both the negative response and the zero score. The comment must align with the score when commentAllowed is true."
             },
+
+
+
+
+        "issues": [
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 792029,
+                "questionId": 17524,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Did the bar attendant greet you in a friendly professional manner and engage in conversation? If NOT please describe their manner and who served you?",
+                "score": 100,
+                "maxScore": 100,
+                "issue": "Incomplete response text",
+                "description": "The response contains an incomplete sentence: 'He did answer my questions when asked and did offer me .' The sentence trails off without completing the thought, indicating missing content. This makes the response factually incomplete and unverifiable as written."
+            },
