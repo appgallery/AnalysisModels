@@ -442,3 +442,21 @@
                 "issue": "Comment contradicts score",
                 "description": "The score is 0, indicating a negative outcome (staff talking among themselves unprofessionally). However, the comment states 'it is very good staff and venue,' which is a positive statement that directly contradicts the negative score. Since commentAllowed is true, the comment must align with the score."
             },
+
+
+
+
+
+
+ {
+                "severity": "MODERATE",
+                "reportDtlId": 792055,
+                "questionId": 28915,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Were the staff members talking among themselves, looking to be more social than professional?  If SO were they ignoring customers or did they stop talking to serve customers?",
+                "score": 0,
+                "maxScore": 100,
+                "issue": "Comment contradicts score",
+                "description": "The score is 0 and the response states 'There was numerous staff talking amongst themselves,' which supports a low score. However, commentAllowed is true and the comment reads 'it is very good staff and venue,' which is a positive statement that directly contradicts both the negative response and the zero score. The comment must align with the score when commentAllowed is true."
+            },
