@@ -145,3 +145,38 @@
 
 
 
+
+
+
+{
+    "success": true,
+    "data": {
+        "issues": [
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 795736,
+                "questionId": 20845,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "If asked, were the benefits of the Loyalty Program explained?",
+                "score": 75,
+                "maxScore": 100,
+                "issue": "Score inconsistency given the conditional premise of the question",
+                "description": "Question 29751 (reportDtlId 795735) explicitly confirms the staff did NOT invite the shopper to join the Loyalty Program, and the comment on question 29549 (reportDtlId 795734) states TM1 'did not explain anything in depth about the loyalty program.' The response here states 'Yes, but only briefly mentioned the benefits,' which is used to justify a 75/100 score. However, since the shopper was not a member and was not invited to join, the conditional premise ('If asked') was not fully met. A score of 75 implies a partially satisfactory explanation was given, yet the broader context — confirmed within the same report — is that no invitation to join was extended, making a partial benefit explanation score questionable. This is flagged as a moderate concern given the comment on reportDtlId 795734 explicitly states benefits were not explained in depth, which may conflict with the 75/100 partial-credit score awarded here."
+            },
+            {
+                "severity": "LOW",
+                "reportDtlId": null,
+                "questionId": null,
+                "reportOverviewId": 53815,
+                "reportOverviewTitle": "Shoppers overview of visit",
+                "questionLabel": null,
+                "score": null,
+                "maxScore": null,
+                "issue": "Minor typographical error in report summary",
+                "description": "The word 'arount' in the sentence 'I had wandered arount a couple of minutes or so' appears to be a typographical error and should read 'around'. This should be corrected before the report is finalised."
+            }
+        ]
+    }
+}
+
