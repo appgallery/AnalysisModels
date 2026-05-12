@@ -13,3 +13,6 @@ checking summary for syntax error
 
 
 checking summary for syntax error after changing the data 
+
+
+change prompt to gchecking garbage value and copy paste
