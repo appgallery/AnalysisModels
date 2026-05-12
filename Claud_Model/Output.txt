@@ -371,3 +371,38 @@
                 "issue": "Nonsensical text appended to summary",
                 "description": "The SECURITY & MANAGEMENT summary ends with the string 'xucbwekudhgksahxl sjhbxuisAH ASJHXBSH', which appears to be random keystrokes or placeholder text. This should be removed before the report is finalised as it undermines the professionalism and credibility of the report."
             }
+
+
+
+
+
+
+
+
+
+
+            {
+                "severity": "LOW",
+                "reportDtlId": 792024,
+                "questionId": 23252,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Please check Instagram and FB, are all promotions up to date? Please state the date of last entry. Constructive feedback is helpful.",
+                "score": 100,
+                "maxScore": 100,
+                "issue": "Response contains apparent nonsensical text",
+                "description": "The response contains the string 'ubduiwe ehkjdbqwiue hdbw squwdnwp9do jwdndndiwsdj' appended to an otherwise valid response. This appears to be random or test characters that should be removed before submission, as it undermines the integrity of the report."
+            },
+            {
+                "severity": "LOW",
+                "reportDtlId": null,
+                "questionId": null,
+                "reportOverviewId": 53241,
+                "reportOverviewTitle": "SECURITY & MANAGEMENT",
+                "questionLabel": null,
+                "score": null,
+                "maxScore": null,
+                "issue": "Summary contains apparent nonsensical text",
+                "description": "The SECURITY & MANAGEMENT overview summary ends with the string 'xucbwekudhgksahxl sjhbxuisAH ASJHXBSH', which appears to be random or test characters. This text should be removed as it is unprofessional and undermines the credibility of the report."
+            }
+        ]
