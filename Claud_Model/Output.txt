@@ -193,3 +193,37 @@
         "raw": "{\n  \"issues\": [\n    {\n      \"severity\": \"MODERATE\",\n      \"reportDtlId\": 795736,\n      \"questionId\": 20845,\n      \"reportOverviewId\": null,\n      \"reportOverviewTitle\": null,\n      \"questionLabel\": \"If asked, were the benefits of the Loyalty Program explained?\",\n      \"score\": 75,\n      \"maxScore\": 100,\n      \"issue\": \"Score inconsistency relative to loyalty program interaction context\",\n      \"description\": \"Question 20845 asks whether the benefits of the Loyalty Program were explained, contingent on being asked ('If asked'). Per the shopper's own comment on question 29549 (reportDtlId 795734), TM1 only 'briefly stated that some of the products purchased today would be slightly cheaper if a member' and 'did not explain anything in depth about the loyalty program.' Additionally, question 29751 (reportDtlId 795735) confirms the shopper was not invited to join, scoring 0. The response selected ('Yes, but only briefly mentioned the benefits') supports a partial score, and 75 is not objectively contradicted by the response text alone. However, the comment on the linked loyalty question explicitly states no in-depth explanation was given, which is consistent with a partial score. No explicit contradiction is present between the response text and the score of 75 for this question in isolation. No flag required.\"\n    }\n  ]\n}\n\n\nWait, let me re-evaluate strictly per the rules. Cross-question comparisons are strongly discouraged, and report summaries must never be used to validate scores. The response for 795736 says \"Yes, but only briefly mentioned the benefits\" and the score is 75/100 — this is internally consistent (partial positive response, partial score). No explicit contradiction exists.\n\n\n{\n  \"issues\": []\n}"
     }
 }
+
+
+
+
+
+
+
+
+
+"issues": [
+            {
+                "severity": "CRITICAL",
+                "reportDtlId": 795736,
+                "questionId": 20845,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "If asked, were the benefits of the Loyalty Program explained?",
+                "score": 100,
+                "maxScore": 100,
+                "issue": "Score contradicts response evidence",
+                "description": "The comment on question 29549 (reportDtlId 795734) explicitly states that TM1 'did not explain anything in depth about the loyalty program', and the overview summary confirms TM1 'did not ask if I wanted to join' and only briefly mentioned some items would be cheaper. The selected response for this question states 'Yes, they clearly explained value and benefits', which is directly contradicted by the shopper's own documented account that no in-depth explanation was provided. This constitutes an explicit contradiction between the response text and the supporting evidence recorded by the shopper."
+            },
+            {
+                "severity": "LOW",
+                "reportDtlId": 795742,
+                "questionId": 27075,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Was there anything else that stood out, positive or negative, during your visit?",
+                "score": 100,
+                "maxScore": 100,
+                "issue": "Response contains apparent keyboard/input noise",
+                "description": "The response text ends with a string of random characters ('rdxctrfvygbhjnhcfttywhsdxjts hjshvxitufdsvxywqta') that appear to be accidental keyboard input and do not form any meaningful content. This should be removed to maintain report integrity and professionalism."
+            },
