@@ -275,3 +275,39 @@
         ]
     }
 }
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "issues": [
+            {
+                "severity": "CRITICAL",
+                "reportDtlId": 795736,
+                "questionId": 20845,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "If asked, were the benefits of the Loyalty Program explained?",
+                "score": 100,
+                "maxScore": 100,
+                "issue": "Score contradicts comment on adjacent loyalty question",
+                "description": "The comment on question 29549 (reportDtlId 795734) explicitly states that TM1 'did not explain anything in depth about the loyalty program,' and the report overview confirms TM1 'did not ask if I wanted to join' and only briefly mentioned items would be cheaper. Question 20845 asks whether the benefits of the Loyalty Program were explained, and the selected response states 'Yes, they clearly explained value and benefits' with a score of 100. These two questions explicitly describe the same event and directly contradict each other: the documented comment on the loyalty membership question explicitly states no in-depth explanation was given, while this question records that benefits were clearly explained. This is an explicit logical contradiction between questions describing the same interaction."
+            },
+            {
+                "severity": "CRITICAL",
+                "reportDtlId": 795742,
+                "questionId": 27075,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Was there anything else that stood out, positive or negative, during your visit?",
+                "score": 100,
+                "maxScore": 100,
+                "issue": "Response text is entirely inconsistent with the score and appears to be fabricated or erroneous filler content",
+                "description": "The response text states 'every this is negetive there i do not get a vibe there. I feel unsafe there,' which is clearly negative in sentiment and describes a poor experience. However, the score assigned is 100 out of 100. This is an explicit contradiction between a clearly negative response and a maximum positive score. Additionally, the response text appears to be nonsensical placeholder or test content that is unrelated to a genuine mystery shop observation, and contains grammatical errors suggesting it was not a legitimate shopper response."
+            }
+        ]
+    }
+}
