@@ -989,3 +989,10 @@ Version : G203
         }
     ]
 }
+
+Version : G204
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": []
+}
