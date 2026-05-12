@@ -41,3 +41,6 @@ FBG checking garbage taxt in the Questiom
 
 
 FBG cheking Score and value alignment
+
+
+FBG cheking Score and value alignment in other data 
