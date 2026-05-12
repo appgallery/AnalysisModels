@@ -406,3 +406,21 @@
                 "description": "The SECURITY & MANAGEMENT overview summary ends with the string 'xucbwekudhgksahxl sjhbxuisAH ASJHXBSH', which appears to be random or test characters. This text should be removed as it is unprofessional and undermines the credibility of the report."
             }
         ]
+
+
+
+
+
+
+ {
+                "severity": "MODERATE",
+                "reportDtlId": 792056,
+                "questionId": 30406,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "What events were being promoted in the venue? Mothers Day, UFC, Family Fun Day. Please give full details.",
+                "score": 100,
+                "maxScore": 100,
+                "issue": "Response is inadequate for question type",
+                "description": "The question is a text (qType T) question asking for full details of events being promoted in the venue. The response is simply 'No', which provides no descriptive detail. The venue overview summary notes promotional material for current and upcoming promotions was visible throughout the venue, making a bare 'No' response factually inconsistent with the shopper's own reported experience."
+            },
