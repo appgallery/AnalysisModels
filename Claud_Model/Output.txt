@@ -636,3 +636,62 @@
         ]
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "issues": [
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 794066,
+                "questionId": "974",
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Are the staff well presented and in correct uniform, red or black shirt in the gaming room, black pants?",
+                "score": "100",
+                "maxScore": "100",
+                "issue": "Response contains non-editorial gibberish text",
+                "description": "The response ends with 'qwerty54wsx', which appears to be random keyboard input unrelated to the question. This text should be removed as it is not part of a legitimate response."
+            },
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 794069,
+                "questionId": "13805",
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes? Describe who welcomed/assisted you.",
+                "score": "50",
+                "maxScore": "100",
+                "issue": "Response and comment describe conflicting experiences regarding greeting",
+                "description": "The response states 'I was not greeted upon entry into the gaming room, however i was offered a drink within 5 minutes at my machine.' The comment states 'GAM1 approached me within 5 minutes of arriving in the gaming room to ask if I would like a drink.' These are not contradictory with each other, but the response explicitly states no greeting was received on entry, while the comment field (which is allowed) provides supporting detail. The score of 50 is consistent with a partial experience (no greeting but drink offered). No score contradiction exists. However, the comment field is enabled and the comment aligns with the response — no issue with scoring logic."
+            },
+            {
+                "severity": "CRITICAL",
+                "reportDtlId": null,
+                "questionId": null,
+                "reportOverviewId": 53532,
+                "reportOverviewTitle": "SECURITY",
+                "questionLabel": null,
+                "score": null,
+                "maxScore": null,
+                "issue": "Report overview contains gibberish/placeholder text",
+                "description": "The SECURITY overview section contains the text 'hbcdiubckjabduji' following the factual statement about no security being present. This appears to be random keyboard input or placeholder text that was not removed before submission and must be deleted."
+            }
+        ]
+    }
+}
