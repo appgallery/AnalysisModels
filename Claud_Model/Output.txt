@@ -584,3 +584,55 @@
         ]
     }
 }
+
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "issues": [
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 794066,
+                "questionId": "974",
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Are the staff well presented and in correct uniform, red or black shirt in the gaming room, black pants?",
+                "score": "100",
+                "maxScore": "100",
+                "issue": "Response contains non-editorial gibberish text",
+                "description": "The response contains the string 'qwerty54wsx' which appears to be random keyboard input and is not part of a legitimate report response. This text should be removed."
+            },
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 794069,
+                "questionId": "13805",
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes? Describe who welcomed/assisted you.",
+                "score": "50",
+                "maxScore": "100",
+                "issue": "Response and comment describe conflicting experiences regarding greeting",
+                "description": "The response states 'I was not greeted upon entry into the gaming room, however i was offered a drink within 5 minutes at my machine.' The comment field states 'GAM1 approached me within 5 minutes of arriving in the gaming room to ask if I would like a drink.' The comment does not contradict the score but the response text conflicts with the broader report narrative. More critically, the question asks whether the shopper was 'welcomed on arrival' — the response explicitly states they were NOT greeted on arrival, which supports a reduced score. However, the comment field (commentAllowed = true) describes being approached within 5 minutes for a drink, which partially satisfies the question. The score of 50 is logically consistent with partial fulfilment. No score contradiction exists, but the comment and response should be reconciled for clarity."
+            },
+            {
+                "severity": "CRITICAL",
+                "reportDtlId": null,
+                "questionId": null,
+                "reportOverviewId": 53532,
+                "reportOverviewTitle": "SECURITY",
+                "questionLabel": null,
+                "score": null,
+                "maxScore": null,
+                "issue": "Security overview summary contains gibberish text",
+                "description": "The SECURITY summary contains the string 'hbcdiubckjabduji' which is clearly random keyboard input and not legitimate report content. This text must be removed before the report is finalised."
+            }
+        ]
+    }
+}
