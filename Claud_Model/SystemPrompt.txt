@@ -50,3 +50,7 @@ FBG checking Question vs summary contradiction
 
 
 FBG checking incomplate response
+
+
+
+Gaming checking consistency in output
