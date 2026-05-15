@@ -1035,3 +1035,66 @@ Version : G206
         }
     ]
 }
+
+Version : G207 
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": 20165,
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Exact title",
+            "questionLabel": "How did the exterior of the store appear when you arrived? Consider lighting, windows, and signage.",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The report overview text includes lorem ipsum placeholder text. Specifically: 'Spotless and well-maintained. It was very inviting.', the summary does not contain actual details."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": 30463,
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Retails",
+            "questionLabel": "What was the condition of the front counter area?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The report overview text includes lorem ipsum placeholder text. Specifically: 'Spotless and well-maintained. It was very inviting.', the summary does not contain actual details."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": 20646,
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Retails",
+            "questionLabel": "How would you rate the merchandising of displays and promotions throughout the store?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The report overview text includes lorem ipsum placeholder text. Specifically: 'Spotless and well-maintained. It was very inviting.', the summary does not contain actual details."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": 20151,
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Retails",
+            "questionLabel": "How clean and organised was the store interior?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The report overview text includes lorem ipsum placeholder text. Specifically: 'Spotless and well-maintained. It was very inviting.', the summary does not contain actual details."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": 20520,
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Retails",
+            "questionLabel": "How was the cardboard rubbish from deliveries managed?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The report overview text includes lorem ipsum placeholder text. Specifically: 'Spotless and well-maintained. It was very inviting.', the summary does not contain actual details."
+        }
+    ]
+}
