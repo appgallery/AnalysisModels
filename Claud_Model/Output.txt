@@ -887,3 +887,77 @@
         ]
     }
 }
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "issues": [
+            {
+                "severity": "CRITICAL",
+                "reportDtlId": 196184,
+                "questionId": 29523,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Were you asked if you are a My Health Rewards loyalty customer whilst in the store? <br>  a.   Yes, Name/describe the team member who asked. Please comment. <br>  b.  No, Were you advised of the benefits of the My Health Rewards program, and invited to sign up? Name/describe the team member. Please comment.",
+                "score": "3",
+                "maxScore": "3",
+                "issue": "Score contradicts comment content",
+                "description": "The selected response is 'Yes I was offered and told of benefits' which maps to a full score of 3/3. However, the comment explicitly states 'I was asked by TM2 Natasha if I was a member, I said no. That was all.' This directly contradicts the selected response — the shopper was only asked if they were a member and nothing further occurred; no benefits were described and no invitation to sign up was made. The comment describes a partial or failed interaction, which is inconsistent with the maximum score awarded."
+            },
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 196193,
+                "questionId": 18380,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Did the team member ask appropriate questions to understand what you were looking for today?",
+                "score": "0",
+                "maxScore": "2",
+                "issue": "Comment partially contradicts score of zero",
+                "description": "The selected response is 'No' and the score is 0/2. However, the comment states 'I explained who I wanted it for and why and she explained the difference and why one was better.' This describes a two-way interaction where the team member provided relevant product advice based on the shopper's explanation. While the shopper volunteered the information rather than being asked, the comment does not clearly support a zero score — it describes a functional advisory exchange. The comment is ambiguous but leans toward partial engagement rather than a complete failure to ask questions."
+            },
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 196196,
+                "questionId": 18539,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Did the team member offer services or advice that could be of help to your original enquiry?",
+                "score": "0",
+                "maxScore": "2",
+                "issue": "Comment contradicts score and selected response",
+                "description": "The selected response is 'No I was not offered advice or services' and the score is 0/2. However, the comment states 'TM2 did not ask me any questions.' This is inconsistent with the shopper's own account in question 196193 and the report summary, which both describe TM2 Natasha explaining the difference between the two products and advising which was better suited to the shopper's needs. The comment here focuses on questions not being asked, but the broader record indicates advice was in fact provided, creating a contradiction with the zero score on this question."
+            },
+            {
+                "severity": "LOW",
+                "reportDtlId": null,
+                "questionId": null,
+                "reportOverviewId": 8340,
+                "reportOverviewTitle": "Interior",
+                "questionLabel": null,
+                "score": null,
+                "maxScore": null,
+                "issue": "Typographical errors in summary text",
+                "description": "The Interior summary contains multiple typographical errors: 'steore' should be 'store', 'passs' should be 'pass'. These should be corrected before the report is finalised."
+            },
+            {
+                "severity": "LOW",
+                "reportDtlId": null,
+                "questionId": null,
+                "reportOverviewId": 8341,
+                "reportOverviewTitle": "Exterior",
+                "questionLabel": null,
+                "score": null,
+                "maxScore": null,
+                "issue": "Typographical error in summary text",
+                "description": "The Exterior summary contains a typographical error: 'exterqior' should be 'exterior'. This should be corrected before the report is finalised."
+            }
+        ]
+    }
+}
