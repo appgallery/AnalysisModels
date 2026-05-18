@@ -840,3 +840,50 @@
         ]
     }
 }
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "issues": [
+            {
+                "severity": "CRITICAL",
+                "reportDtlId": 196184,
+                "questionId": 29523,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Were you asked if you are a My Health Rewards loyalty customer whilst in the store? <br>  a.   Yes, Name/describe the team member who asked. Please comment. <br>  b.  No, Were you advised of the benefits of the My Health Rewards program, and invited to sign up? Name/describe the team member. Please comment.",
+                "score": "3",
+                "maxScore": "3",
+                "issue": "Score contradicts comment and report narrative",
+                "description": "The selected response is 'Yes I was offered and told of benefits' which supports a full score of 3/3. However, the comment explicitly states 'I was asked by TM2 Natasha if I was a member, I said no. That was all.' This indicates the shopper was asked if they were a member but was NOT told of the benefits and was NOT invited to sign up. The comment directly contradicts the selected response value, making the full score of 3/3 unsupported."
+            },
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 196193,
+                "questionId": 18380,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Did the team member ask appropriate questions to understand what you were looking for today?",
+                "score": "0",
+                "maxScore": "2",
+                "issue": "Comment partially contradicts score of zero",
+                "description": "The selected response is 'No' and the score is 0/2. However, the comment states 'I explained who I wanted it for and why and she explained the difference and why one was better.' This describes a two-way interaction where the shopper provided context and the team member gave a relevant explanation. While the team member may not have proactively asked questions, the comment describes a functional advisory exchange, which creates a partial contradiction with a score of zero and a response of 'No'."
+            },
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 196196,
+                "questionId": 18539,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Did the team member offer services or advice that could be of help to your original enquiry?",
+                "score": "0",
+                "maxScore": "2",
+                "issue": "Comment contradicts score and response",
+                "description": "The selected response is 'No I was not offered advice or services' and the score is 0/2. However, the comment states 'TM2 did not ask me any questions.' This comment addresses whether questions were asked, not whether advice was given. Furthermore, question 196195 (questionId 18486) records a 'Yes' response with full score 2/2 for 'Did the team member give you information and advice about the products you were being offered today?' and question 196193 comment confirms the team member 'explained the difference and why one was better.' The comment on this question does not support the 'No' response, as advice was demonstrably given per the shopper's own account."
+            }
+        ]
+    }
+}
