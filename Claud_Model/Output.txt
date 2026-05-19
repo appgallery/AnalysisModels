@@ -1161,3 +1161,24 @@
         ]
     }
 }
+
+
+
+
+
+
+
+
+
+{
+                "severity": "MODERATE",
+                "reportDtlId": 196196,
+                "questionId": 18539,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Did the team member offer services or advice that could be of help to your original enquiry?",
+                "score": 0,
+                "maxScore": 2,
+                "issue": "Comment contains internally contradictory statements",
+                "description": "The selected response is 'No I was not offered advice or services' and the score is 0, which is consistent. However, the comment states 'TM2 did not offer advice or services' and then immediately states 'TM1 offered me the service and greeted me.' This second statement directly contradicts both the narrative in the Service & Recommendations summary (which states TM1 did not approach or greet the shopper) and the response to question 196187 (where TM1 is described as not greeting the shopper). The comment contains a factual error that is internally contradictory and inconsistent with the shopper's own reported experience."
+            }
