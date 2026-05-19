@@ -90,4 +90,8 @@ chemist checking Gabage taxt in summery and question with other data
 
 Chemist checking comment and score alignmnet
 
+
 Chemist checking Summary vs Question - Contradiction 
+
+
+Chemist checking contradiction with the summery and diffrent question 
