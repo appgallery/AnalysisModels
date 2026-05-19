@@ -1128,3 +1128,23 @@ Version : G208
         }
     ]
 }
+
+Version : G209
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": 20646,
+            "reportOverviewId": null,
+            "reportOverviewTitle": "Retails",
+            "questionLabel": "How would you rate the merchandising of displays and promotions throughout the store?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "Question text contains generic language: 'Spotless and well-maintained. It was very inviting.'  This does not provide any specific details or evaluation.",
+            "description": "The question asks for an evaluation of the merchandising but relies on general descriptive statements without providing a concrete assessment."
+        }
+    ]
+}
