@@ -82,10 +82,12 @@ Chemist checking speling and grammer error
 Chemist Checking Summary - grammer - spelling - sentence formation in summery 
 
 
-chemist checking Gabage taxt in summery and question
+chemist checking Gabage taxt in summery and question 
 
 
 chemist checking Gabage taxt in summery and question with other data
 
 
 Chemist checking comment and score alignmnet
+
+Chemist checking Summary vs Question - Contradiction 
