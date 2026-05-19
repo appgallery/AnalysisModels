@@ -86,3 +86,6 @@ chemist checking Gabage taxt in summery and question
 
 
 chemist checking Gabage taxt in summery and question with other data
+
+
+Chemist checking comment and score alignmnet
