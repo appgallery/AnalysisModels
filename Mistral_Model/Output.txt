@@ -81,3 +81,49 @@
         }
     ]
 }
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "mistral:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": null,
+            "questionId": null,
+            "reportOverviewId": 24184,
+            "reportOverviewTitle": "BAR",
+            "questionLabel": null,
+            "score": null,
+            "maxScore": null,
+            "issue": "Garbage Text: 'I were serverd by Paris. She were friewndly and rfred smiling.'"
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": null,
+            "questionId": null,
+            "reportOverviewId": 24185,
+            "reportOverviewTitle": "BISTRO",
+            "questionLabel": null,
+            "score": null,
+            "maxScore": null,
+            "issue": "Copy/Paste detection: 'There was a queue to order the meals with two registers open. I was served by Jeanet,' and later in the summary 'We did not receive a courtesy call during our meals.' This sentence structure is repeated word-for-word."
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": null,
+            "questionId": null,
+            "reportOverviewId": 24186,
+            "reportOverviewTitle": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+            "questionLabel": null,
+            "score": null,
+            "maxScore": null,
+            "issue": "Copy/Paste detection: 'The enetry was not clean without rubbish or cigarette butts.' and later in the summary 'There were some empty cutlery containers on the condiments table,'. This sentence structure is repeated word-for-word."
+        }
+    ]
+}
