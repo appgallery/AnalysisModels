@@ -2575,3 +2575,68 @@ Version : G211
     ]
   }
 }
+
+Version : G212
+{
+  "sampleData": {
+    "reportOverviewSummary": [
+      {
+        "reportOverviewId": 53815,
+        "title": "Retails",
+        "value": "I arrived at the store on Thursday afternoon, and could see, although there was some sidewalk construction work with orange witches hats and barriers, the storefront was still very easy to access with clear, unobstructed doorways, prominent signage that was clean and easy to read, clean smudge-free glass windows, and an overall safe and inviting atmosphere. Once inside the store, I could see a very clean and tidy space throughout, no rubbish, debris or clutter was seen on the ground, excellent lighting and some soft background music playing."
+      }
+    ],
+    "qaCandidates": [
+      {
+        "reportDtlId": 795722,
+        "questionId": 20165,
+        "questionLabel": "How did the exterior of the store appear when you arrived? Consider lighting, windows, and signage.",
+        "qType": "R",
+        "value": "The exterior appeared clean, safe, and inviting with prominent signage, smudge-free windows, and unobstructed access despite nearby construction work.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 795723,
+        "questionId": 30463,
+        "questionLabel": "What was the condition of the front counter area?",
+        "qType": "R",
+        "value": "The front counter area was clean, tidy, and well-organised. TM1 provided friendly and courteous service during checkout.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 795724,
+        "questionId": 20646,
+        "questionLabel": "How would you rate the merchandising of displays and promotions throughout the store?",
+        "qType": "R",
+        "value": "Displays were highly stocked, visually appealing, and well merchandised with easy-to-read price tags and fresh produce presentations.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 795725,
+        "questionId": 20151,
+        "questionLabel": "How clean and organised was the store interior?",
+        "qType": "R",
+        "value": "The store interior was very clean and organised with no rubbish, debris, or clutter visible throughout the visit.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 795726,
+        "questionId": 20520,
+        "questionLabel": "How was the cardboard rubbish from deliveries managed?",
+        "qType": "R",
+        "value": "No cardboard rubbish or delivery clutter was visible anywhere in the store, indicating it was managed effectively.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      }
+    ]
+  }
+}
