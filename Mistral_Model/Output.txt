@@ -2,3 +2,36 @@
     "success": false,
     "message": "Ollama returned invalid JSON"
 }
+
+
+
+{
+    "success": true,
+    "model": "mistral:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 24184,
+            "questionId": null,
+            "reportOverviewId": 24184,
+            "reportOverviewTitle": "BAR",
+            "questionLabel": null,
+            "score": null,
+            "maxScore": null,
+            "issue": "Incorrect grammar and verb tense in the summary",
+            "description": "The sentence 'I were serverd by Paris. She were friewndly and smiling.' should be corrected to 'I was served by Paris. She was friendly and smiling'."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 24186,
+            "questionId": null,
+            "reportOverviewId": 24186,
+            "reportOverviewTitle": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+            "questionLabel": null,
+            "score": null,
+            "maxScore": null,
+            "issue": "Incorrect grammar and verb tense in the summary",
+            "description": "The sentence 'The enetry was not clean without rubbish or cigarette butts.' should be corrected to 'The entry was not clean; there was rubbish and cigarette butts'."
+        }
+    ]
+}
