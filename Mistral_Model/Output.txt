@@ -127,3 +127,27 @@
         }
     ]
 }
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "mistral:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 564164,
+            "questionId": 14620,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "When ordering at the bar or bistro did the staff member ask if you were a member and if not did they explain cleary on how to become a member?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The question asks about explaining membership clearly, but no mention was made of promotions or offers.",
+            "description": "The statement 'I was asked at both the bistro and bar if I was a member, and BAR explained how to join dcdx c' does not specify that the explanation was clear."
+        }
+    ]
+}
