@@ -35,3 +35,49 @@
         }
     ]
 }
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "mistral:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 24184,
+            "questionId": null,
+            "reportOverviewId": 24184,
+            "reportOverviewTitle": "BAR",
+            "questionLabel": null,
+            "score": null,
+            "maxScore": null,
+            "issue": "Incorrect grammar in the summary: 'I were serverd by Paris. She were friewndly and smiling.' Correct: 'I was served by Paris. She was friendly and smiling.'"
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": 24185,
+            "questionId": null,
+            "reportOverviewId": 24185,
+            "reportOverviewTitle": "BISTRO",
+            "questionLabel": null,
+            "score": null,
+            "maxScore": null,
+            "issue": "Incorrect spelling in the summary: 'bistrao'. Correct: 'bistro'"
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": 24186,
+            "questionId": null,
+            "reportOverviewId": 24186,
+            "reportOverviewTitle": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+            "questionLabel": null,
+            "score": null,
+            "maxScore": null,
+            "issue": "Incorrect spelling in the summary: 'TAB'. Correct: 'Tab'"
+        }
+    ]
+}
