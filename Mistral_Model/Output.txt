@@ -175,3 +175,39 @@
         }
     ]
 }
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "mistral:7b",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 564163,
+            "questionId": 7511,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Please check Instagram and FB, are the venues promotions current?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The reported score contradicts the statement 'Same current post in baoth platfoarms advertisinag live music entertainment.' as the promotion content is not necessarily limited to only live music.",
+            "description": "The reported promotions on Instagram and FB were confirmed to be current, but the report mentions 'live music entertainment' which might imply that only live music events are considered. However, the question does not specify this limitation."
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 564167,
+            "questionId": 7646,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Please either make a booking online or call the venue. How was your experince? Please give details",
+            "score": 70,
+            "maxScore": 100,
+            "issue": "'I made a booking online, which was a simple process. I received an immediate confirmation email.' does not align with the score of 70.",
+            "description": "The reported booking and confirmation process was smooth and easy, but the score given is low."
+        }
+    ]
+}
