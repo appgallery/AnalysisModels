@@ -151,3 +151,27 @@
         }
     ]
 }
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "mistral:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 564164,
+            "questionId": 14620,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "When ordering at the bar or bistro did the staff member ask if you were a member and if not did they explain cleary on how to become a member?",
+            "score": 50,
+            "maxScore": 100,
+            "issue": "The score provided does not align with the response. The respondent was asked about membership at both the bar and bistro, but no explanation of the membership process was given by BAR.",
+            "description": "According to the response, the respondent was only told how to join the membership by BAR, but this action does not meet the criteria for the maximum score (explaining the membership process clearly)."
+        }
+    ]
+}
