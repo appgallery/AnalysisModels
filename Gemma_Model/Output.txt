@@ -1213,3 +1213,71 @@ Version : G211
         }
     ]
 }
+
+Version : G212
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": 20165,
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Retails",
+            "questionLabel": "How did the exterior of the store appear when you arrived? Consider lighting, windows, and signage.",
+            "score": null,
+            "maxScore": null,
+            "issue": "The 'value' field for question 20165 is a block of text that might be interpreted as copy-pasting from another section. Ensure consistency between sections to ensure the review flows smoothly. ",
+            "description": "Ensure that all sections are distinct and follow proper writing conventions."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": 30463,
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Retails",
+            "questionLabel": "What was the condition of the front counter area?",
+            "score": null,
+            "maxScore": null,
+            "issue": "The 'value' field for question 30463 is a block of text that might be interpreted as copy-pasting from another section. Ensure consistency between sections to ensure the review flows smoothly. ",
+            "description": "Ensure that all sections are distinct and follow proper writing conventions."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": 20646,
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Retails",
+            "questionLabel": "How would you rate the merchandising of displays and promotions throughout the store?",
+            "score": null,
+            "maxScore": null,
+            "issue": "The 'value' field for question 20646 is a block of text that might be interpreted as copy-pasting from another section. Ensure consistency between sections to ensure the review flows smoothly. ",
+            "description": "Ensure that all sections are distinct and follow proper writing conventions."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": 20151,
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Retails",
+            "questionLabel": "How clean and organised was the store interior?",
+            "score": null,
+            "maxScore": null,
+            "issue": "The 'value' field for question 20151 is a block of text that might be interpreted as copy-pasting from another section. Ensure consistency between sections to ensure the review flows smoothly. ",
+            "description": "Ensure that all sections are distinct and follow proper writing conventions."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": 20520,
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Retails",
+            "questionLabel": "How was the cardboard rubbish from deliveries managed?",
+            "score": null,
+            "maxScore": null,
+            "issue": "The 'value' field for question 20520 is a block of text that might be interpreted as copy-pasting from another section. Ensure consistency between sections to ensure the review flows smoothly. ",
+            "description": "Ensure that all sections are distinct and follow proper writing conventions."
+        }
+    ]
+}
