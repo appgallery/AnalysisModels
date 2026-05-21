@@ -1281,3 +1281,37 @@ Version : G212
         }
     ]
 }
+
+CHEMIST
+
+Version : G301
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "severity": "LOW",
+            "reportDtlId": 182712,
+            "questionId": 6334,
+            "reportOverviewId": 6761,
+            "reportOverviewTitle": "Exterior",
+            "questionLabel": "Is the front appearance of the store appealing? Is it clean and well-lit with easy and safe access? Is it inviting? Does it have fully-stocked bins or displays that have clearly visible price tickets?",
+            "score": 2,
+            "maxScore": 3,
+            "issue": "Response mentions dirt on window but states appearance was 'mostly clean'",
+            "description": "The response should directly address the cleanliness of the storefront. The description indicates some dirt is present which conflicts with a score of mostly clean."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": 182714,
+            "questionId": 1208,
+            "reportOverviewId": 6762,
+            "reportOverviewTitle": "Interior",
+            "questionLabel": "As you walk into the store, do you find it inviting?",
+            "score": 2,
+            "maxScore": 2,
+            "issue": "Response mentions the interior being 'clean and well-lit' but lacks detail on welcoming atmosphere",
+            "description": "The description should provide context for the welcoming feeling. The provided information lacks details about elements contributing to the welcoming atmosphere."
+        }
+    ]
+}
