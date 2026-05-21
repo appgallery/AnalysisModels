@@ -8,10 +8,16 @@ const ollamaQueue = new PQueue({
 const cleanJSONResponse = (text) => {
   if (!text) return "";
 
-  return text
+  // Remove markdown fences
+  const cleaned = text
     .replace(/```json\s*/gi, "")
     .replace(/```/g, "")
     .trim();
+
+  // Extract first JSON object
+  const match = cleaned.match(/\{[\s\S]*\}/);
+
+  return match ? match[0] : cleaned;
 };
 
 const safeParseJSON = (text) => {
