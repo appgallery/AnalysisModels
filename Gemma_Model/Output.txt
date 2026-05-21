@@ -1128,3 +1128,190 @@ Version : G208
         }
     ]
 }
+
+Version : G209
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": 20646,
+            "reportOverviewId": null,
+            "reportOverviewTitle": "Retails",
+            "questionLabel": "How would you rate the merchandising of displays and promotions throughout the store?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "Question text contains generic language: 'Spotless and well-maintained. It was very inviting.'  This does not provide any specific details or evaluation.",
+            "description": "The question asks for an evaluation of the merchandising but relies on general descriptive statements without providing a concrete assessment."
+        }
+    ]
+}
+
+Version : G210
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": 20646,
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Shoppers overview of visit",
+            "questionLabel": "How would you rate the merchandising of displays and promotions throughout the store?",
+            "score": 50,
+            "maxScore": 100,
+            "issue": "Generic response with generic language. Needs more specific details about product placement, shelf organization, signage, etc. Use concrete examples to support rating.",
+            "description": "The response is vague and lacks detail regarding the actual merchandising aspects of the store. Mentioning specific products or types of displays would enhance the analysis."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": 30463,
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Retails",
+            "questionLabel": "What was the condition of the front counter area?",
+            "score": 25,
+            "maxScore": 100,
+            "issue": "Generic response with vague descriptions. Provide more details about the front counter condition - cleanliness, organization, and visual appeal.",
+            "description": "The response fails to mention specific observations regarding the front counter area's condition. Focusing on aspects like table/counter cleanliness, orderliness of displays, or presence of clutter would improve the response."
+        }
+    ]
+}
+
+Version : G211
+
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": null,
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Shoppers overview of visit",
+            "questionLabel": null,
+            "score": null,
+            "maxScore": null,
+            "issue": "Summary repetition: 'The fruit and vegetable section looked very fresh with highly stocked product displays that were very visually pleasing.' and 'I had wandered around for a couple of minutes or so, and was happily acknowledged by a smiling and polite TM1...'. This sentence is repeated in multiple summaries. ",
+            "description": "This issue relates to the summary's use of repetitive language. Ensure distinct descriptions of each aspect of the visit."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": null,
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Retails",
+            "questionLabel": null,
+            "score": null,
+            "maxScore": null,
+            "issue": "Summary lacks detail on store environment: 'The exterior appeared clean, safe, and inviting with prominent signage, smudge-free windows, and unobstructed access despite nearby construction work.' The summary should provide details about the store's ambiance. ",
+            "description": "Ensure the summary provides specific information about the store's environment beyond general impressions."
+        }
+    ]
+}
+
+Version : G212
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": 20165,
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Retails",
+            "questionLabel": "How did the exterior of the store appear when you arrived? Consider lighting, windows, and signage.",
+            "score": null,
+            "maxScore": null,
+            "issue": "The 'value' field for question 20165 is a block of text that might be interpreted as copy-pasting from another section. Ensure consistency between sections to ensure the review flows smoothly. ",
+            "description": "Ensure that all sections are distinct and follow proper writing conventions."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": 30463,
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Retails",
+            "questionLabel": "What was the condition of the front counter area?",
+            "score": null,
+            "maxScore": null,
+            "issue": "The 'value' field for question 30463 is a block of text that might be interpreted as copy-pasting from another section. Ensure consistency between sections to ensure the review flows smoothly. ",
+            "description": "Ensure that all sections are distinct and follow proper writing conventions."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": 20646,
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Retails",
+            "questionLabel": "How would you rate the merchandising of displays and promotions throughout the store?",
+            "score": null,
+            "maxScore": null,
+            "issue": "The 'value' field for question 20646 is a block of text that might be interpreted as copy-pasting from another section. Ensure consistency between sections to ensure the review flows smoothly. ",
+            "description": "Ensure that all sections are distinct and follow proper writing conventions."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": 20151,
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Retails",
+            "questionLabel": "How clean and organised was the store interior?",
+            "score": null,
+            "maxScore": null,
+            "issue": "The 'value' field for question 20151 is a block of text that might be interpreted as copy-pasting from another section. Ensure consistency between sections to ensure the review flows smoothly. ",
+            "description": "Ensure that all sections are distinct and follow proper writing conventions."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": 20520,
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Retails",
+            "questionLabel": "How was the cardboard rubbish from deliveries managed?",
+            "score": null,
+            "maxScore": null,
+            "issue": "The 'value' field for question 20520 is a block of text that might be interpreted as copy-pasting from another section. Ensure consistency between sections to ensure the review flows smoothly. ",
+            "description": "Ensure that all sections are distinct and follow proper writing conventions."
+        }
+    ]
+}
+
+CHEMIST
+
+Version : G301
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "severity": "LOW",
+            "reportDtlId": 182712,
+            "questionId": 6334,
+            "reportOverviewId": 6761,
+            "reportOverviewTitle": "Exterior",
+            "questionLabel": "Is the front appearance of the store appealing? Is it clean and well-lit with easy and safe access? Is it inviting? Does it have fully-stocked bins or displays that have clearly visible price tickets?",
+            "score": 2,
+            "maxScore": 3,
+            "issue": "Response mentions dirt on window but states appearance was 'mostly clean'",
+            "description": "The response should directly address the cleanliness of the storefront. The description indicates some dirt is present which conflicts with a score of mostly clean."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": 182714,
+            "questionId": 1208,
+            "reportOverviewId": 6762,
+            "reportOverviewTitle": "Interior",
+            "questionLabel": "As you walk into the store, do you find it inviting?",
+            "score": 2,
+            "maxScore": 2,
+            "issue": "Response mentions the interior being 'clean and well-lit' but lacks detail on welcoming atmosphere",
+            "description": "The description should provide context for the welcoming feeling. The provided information lacks details about elements contributing to the welcoming atmosphere."
+        }
+    ]
+}

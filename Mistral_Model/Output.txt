@@ -1,0 +1,213 @@
+{
+    "success": false,
+    "message": "Ollama returned invalid JSON"
+}
+
+
+
+{
+    "success": true,
+    "model": "mistral:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 24184,
+            "questionId": null,
+            "reportOverviewId": 24184,
+            "reportOverviewTitle": "BAR",
+            "questionLabel": null,
+            "score": null,
+            "maxScore": null,
+            "issue": "Incorrect grammar and verb tense in the summary",
+            "description": "The sentence 'I were serverd by Paris. She were friewndly and smiling.' should be corrected to 'I was served by Paris. She was friendly and smiling'."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 24186,
+            "questionId": null,
+            "reportOverviewId": 24186,
+            "reportOverviewTitle": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+            "questionLabel": null,
+            "score": null,
+            "maxScore": null,
+            "issue": "Incorrect grammar and verb tense in the summary",
+            "description": "The sentence 'The enetry was not clean without rubbish or cigarette butts.' should be corrected to 'The entry was not clean; there was rubbish and cigarette butts'."
+        }
+    ]
+}
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "mistral:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 24184,
+            "questionId": null,
+            "reportOverviewId": 24184,
+            "reportOverviewTitle": "BAR",
+            "questionLabel": null,
+            "score": null,
+            "maxScore": null,
+            "issue": "Incorrect grammar in the summary: 'I were serverd by Paris. She were friewndly and smiling.' Correct: 'I was served by Paris. She was friendly and smiling.'"
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": 24185,
+            "questionId": null,
+            "reportOverviewId": 24185,
+            "reportOverviewTitle": "BISTRO",
+            "questionLabel": null,
+            "score": null,
+            "maxScore": null,
+            "issue": "Incorrect spelling in the summary: 'bistrao'. Correct: 'bistro'"
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": 24186,
+            "questionId": null,
+            "reportOverviewId": 24186,
+            "reportOverviewTitle": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+            "questionLabel": null,
+            "score": null,
+            "maxScore": null,
+            "issue": "Incorrect spelling in the summary: 'TAB'. Correct: 'Tab'"
+        }
+    ]
+}
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "mistral:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": null,
+            "questionId": null,
+            "reportOverviewId": 24184,
+            "reportOverviewTitle": "BAR",
+            "questionLabel": null,
+            "score": null,
+            "maxScore": null,
+            "issue": "Garbage Text: 'I were serverd by Paris. She were friewndly and rfred smiling.'"
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": null,
+            "questionId": null,
+            "reportOverviewId": 24185,
+            "reportOverviewTitle": "BISTRO",
+            "questionLabel": null,
+            "score": null,
+            "maxScore": null,
+            "issue": "Copy/Paste detection: 'There was a queue to order the meals with two registers open. I was served by Jeanet,' and later in the summary 'We did not receive a courtesy call during our meals.' This sentence structure is repeated word-for-word."
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": null,
+            "questionId": null,
+            "reportOverviewId": 24186,
+            "reportOverviewTitle": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+            "questionLabel": null,
+            "score": null,
+            "maxScore": null,
+            "issue": "Copy/Paste detection: 'The enetry was not clean without rubbish or cigarette butts.' and later in the summary 'There were some empty cutlery containers on the condiments table,'. This sentence structure is repeated word-for-word."
+        }
+    ]
+}
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "mistral:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 564164,
+            "questionId": 14620,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "When ordering at the bar or bistro did the staff member ask if you were a member and if not did they explain cleary on how to become a member?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The question asks about explaining membership clearly, but no mention was made of promotions or offers.",
+            "description": "The statement 'I was asked at both the bistro and bar if I was a member, and BAR explained how to join dcdx c' does not specify that the explanation was clear."
+        }
+    ]
+}
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "mistral:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 564164,
+            "questionId": 14620,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "When ordering at the bar or bistro did the staff member ask if you were a member and if not did they explain cleary on how to become a member?",
+            "score": 50,
+            "maxScore": 100,
+            "issue": "The score provided does not align with the response. The respondent was asked about membership at both the bar and bistro, but no explanation of the membership process was given by BAR.",
+            "description": "According to the response, the respondent was only told how to join the membership by BAR, but this action does not meet the criteria for the maximum score (explaining the membership process clearly)."
+        }
+    ]
+}
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "mistral:7b",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 564163,
+            "questionId": 7511,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Please check Instagram and FB, are the venues promotions current?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The reported score contradicts the statement 'Same current post in baoth platfoarms advertisinag live music entertainment.' as the promotion content is not necessarily limited to only live music.",
+            "description": "The reported promotions on Instagram and FB were confirmed to be current, but the report mentions 'live music entertainment' which might imply that only live music events are considered. However, the question does not specify this limitation."
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 564167,
+            "questionId": 7646,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Please either make a booking online or call the venue. How was your experince? Please give details",
+            "score": 70,
+            "maxScore": 100,
+            "issue": "'I made a booking online, which was a simple process. I received an immediate confirmation email.' does not align with the score of 70.",
+            "description": "The reported booking and confirmation process was smooth and easy, but the score given is low."
+        }
+    ]
+}

@@ -720,3 +720,510 @@
         ]
     }
 }
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "issues": [
+            {
+                "severity": "CRITICAL",
+                "reportDtlId": 794066,
+                "questionId": 974,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Are the staff well presented and in correct uniform, red or black shirt in the gaming room, black pants?",
+                "score": 100,
+                "maxScore": 100,
+                "issue": "Score contradicts response text",
+                "description": "The response states 'GAM1 was not well presented in uniform, wearing a pink shirt and black pants,' explicitly indicating the staff member was NOT in the correct uniform (red or black shirt required). This is a negative finding that directly contradicts the maximum score of 100."
+            },
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 794069,
+                "questionId": 13805,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes? Describe who welcomed/assisted you.",
+                "score": 50,
+                "maxScore": 100,
+                "issue": "Response and comment describe being offered assistance within 5 minutes, partially supporting a higher score, but the response also states no greeting on entry",
+                "description": "The response states 'I was not greeted upon entry into the gaming room, however I was offered a drink within 5 minutes at my machine.' The comment confirms GAM1 approached within 5 minutes to offer a drink. The question asks about being welcomed on arrival AND offered assistance within 5 minutes. The shopper was offered assistance within 5 minutes but was not welcomed/greeted on arrival. A score of 50 is consistent with partial fulfilment of the question criteria. No contradiction exists; this is flagged only as a note that the score aligns with the partial positive response."
+            }
+        ]
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "issues": [
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 794069,
+                "questionId": 13805,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes? Describe who welcomed/assisted you.",
+                "score": 50,
+                "maxScore": 100,
+                "issue": "Conflicting greeting timeframe between question response and comment",
+                "description": "The response states the shopper was offered a drink 'within 5 minutes at my machine', while the comment states 'GAM1 approached me within 5 minutes of arriving in the gaming room to ask if I would like a drink.' However, the response also explicitly states 'I was not greeted upon entry into the gaming room', which supports a partial score. The comment and response are internally consistent with the 50 score given the lack of a formal greeting on arrival. No contradiction requiring flagging exists beyond noting the response and comment are aligned with the partial score."
+            }
+        ]
+    }
+}
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "issues": [
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 794069,
+                "questionId": 13805,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes? Describe who welcomed/assisted you.",
+                "score": 50,
+                "maxScore": 100,
+                "issue": "Greeting timeline inconsistency between response and comment",
+                "description": "The response states the shopper was offered a drink 'within 5 minutes at my machine', while the comment states 'GAM1 approached me within 5 minutes of arriving in the gaming room to ask if I would like a drink.' Both indicate the drink offer occurred within 5 minutes, yet the response also states 'I was not greeted upon entry into the gaming room.' The score of 50 is consistent with not being formally welcomed/greeted on arrival. No contradiction exists between the score and the response; the partial score is supported by the lack of a formal greeting. No flag required on score logic. However, the GAMING overview summary states 'I was warmly greeted by GAM1 within 15 minutes of arriving in the gaming room,' which conflicts with the question response stating the drink was offered within 5 minutes. Note: per rules, summary sections must not be used to validate scores, so this is flagged only as an editorial narrative inconsistency in the overview summary."
+            },
+            {
+                "severity": "MODERATE",
+                "reportDtlId": null,
+                "questionId": null,
+                "reportOverviewId": 53530,
+                "reportOverviewTitle": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+                "questionLabel": null,
+                "score": null,
+                "maxScore": null,
+                "issue": "Greeting timeframe inconsistency within overview summaries",
+                "description": "The EXTERIOR, ENTRY AND VENUE OVERVIEW summary states 'I was warmly greeted by GAM1 within five minutes of arriving in the gaming room,' while the GAMING summary states 'I was warmly greeted by GAM1 within 15 minutes of arriving in the gaming room.' These two summary sections explicitly contradict each other on the timeframe of the greeting. One should be corrected to ensure consistency."
+            },
+            {
+                "severity": "MODERATE",
+                "reportDtlId": null,
+                "questionId": null,
+                "reportOverviewId": 53533,
+                "reportOverviewTitle": "GAMING",
+                "questionLabel": null,
+                "score": null,
+                "maxScore": null,
+                "issue": "Greeting timeframe inconsistency with EXTERIOR summary and greeting description inconsistency",
+                "description": "The GAMING summary states 'I was warmly greeted by GAM1 within 15 minutes of arriving in the gaming room,' which contradicts the EXTERIOR, ENTRY AND VENUE OVERVIEW summary that states 'within five minutes.' Additionally, the GAMING summary states 'The gaming room was not clean, tidy, and not well-maintained when I arrived. The floors and surfaces were not clean, with no visible rubbish.' The phrase 'not clean' combined with 'no visible rubbish' is internally ambiguous and potentially contradictory — if there is no visible rubbish, the basis for stating the room was not clean and not well-maintained is unclear and should be clarified editorially."
+            }
+        ]
+    }
+}
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "issues": [
+            {
+                "severity": "CRITICAL",
+                "reportDtlId": 196184,
+                "questionId": 29523,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Were you asked if you are a My Health Rewards loyalty customer whilst in the store? <br>  a.   Yes, Name/describe the team member who asked. Please comment. <br>  b.  No, Were you advised of the benefits of the My Health Rewards program, and invited to sign up? Name/describe the team member. Please comment.",
+                "score": "3",
+                "maxScore": "3",
+                "issue": "Score contradicts comment and report narrative",
+                "description": "The selected response is 'Yes I was offered and told of benefits' which supports a full score of 3/3. However, the comment explicitly states 'I was asked by TM2 Natasha if I was a member, I said no. That was all.' This indicates the shopper was asked if they were a member but was NOT told of the benefits and was NOT invited to sign up. The comment directly contradicts the selected response value, making the full score of 3/3 unsupported."
+            },
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 196193,
+                "questionId": 18380,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Did the team member ask appropriate questions to understand what you were looking for today?",
+                "score": "0",
+                "maxScore": "2",
+                "issue": "Comment partially contradicts score of zero",
+                "description": "The selected response is 'No' and the score is 0/2. However, the comment states 'I explained who I wanted it for and why and she explained the difference and why one was better.' This describes a two-way interaction where the shopper provided context and the team member gave a relevant explanation. While the team member may not have proactively asked questions, the comment describes a functional advisory exchange, which creates a partial contradiction with a score of zero and a response of 'No'."
+            },
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 196196,
+                "questionId": 18539,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Did the team member offer services or advice that could be of help to your original enquiry?",
+                "score": "0",
+                "maxScore": "2",
+                "issue": "Comment contradicts score and response",
+                "description": "The selected response is 'No I was not offered advice or services' and the score is 0/2. However, the comment states 'TM2 did not ask me any questions.' This comment addresses whether questions were asked, not whether advice was given. Furthermore, question 196195 (questionId 18486) records a 'Yes' response with full score 2/2 for 'Did the team member give you information and advice about the products you were being offered today?' and question 196193 comment confirms the team member 'explained the difference and why one was better.' The comment on this question does not support the 'No' response, as advice was demonstrably given per the shopper's own account."
+            }
+        ]
+    }
+}
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "issues": [
+            {
+                "severity": "CRITICAL",
+                "reportDtlId": 196184,
+                "questionId": 29523,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Were you asked if you are a My Health Rewards loyalty customer whilst in the store? <br>  a.   Yes, Name/describe the team member who asked. Please comment. <br>  b.  No, Were you advised of the benefits of the My Health Rewards program, and invited to sign up? Name/describe the team member. Please comment.",
+                "score": "3",
+                "maxScore": "3",
+                "issue": "Score contradicts comment content",
+                "description": "The selected response is 'Yes I was offered and told of benefits' which maps to a full score of 3/3. However, the comment explicitly states 'I was asked by TM2 Natasha if I was a member, I said no. That was all.' This directly contradicts the selected response — the shopper was only asked if they were a member and nothing further occurred; no benefits were described and no invitation to sign up was made. The comment describes a partial or failed interaction, which is inconsistent with the maximum score awarded."
+            },
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 196193,
+                "questionId": 18380,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Did the team member ask appropriate questions to understand what you were looking for today?",
+                "score": "0",
+                "maxScore": "2",
+                "issue": "Comment partially contradicts score of zero",
+                "description": "The selected response is 'No' and the score is 0/2. However, the comment states 'I explained who I wanted it for and why and she explained the difference and why one was better.' This describes a two-way interaction where the team member provided relevant product advice based on the shopper's explanation. While the shopper volunteered the information rather than being asked, the comment does not clearly support a zero score — it describes a functional advisory exchange. The comment is ambiguous but leans toward partial engagement rather than a complete failure to ask questions."
+            },
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 196196,
+                "questionId": 18539,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Did the team member offer services or advice that could be of help to your original enquiry?",
+                "score": "0",
+                "maxScore": "2",
+                "issue": "Comment contradicts score and selected response",
+                "description": "The selected response is 'No I was not offered advice or services' and the score is 0/2. However, the comment states 'TM2 did not ask me any questions.' This is inconsistent with the shopper's own account in question 196193 and the report summary, which both describe TM2 Natasha explaining the difference between the two products and advising which was better suited to the shopper's needs. The comment here focuses on questions not being asked, but the broader record indicates advice was in fact provided, creating a contradiction with the zero score on this question."
+            },
+            {
+                "severity": "LOW",
+                "reportDtlId": null,
+                "questionId": null,
+                "reportOverviewId": 8340,
+                "reportOverviewTitle": "Interior",
+                "questionLabel": null,
+                "score": null,
+                "maxScore": null,
+                "issue": "Typographical errors in summary text",
+                "description": "The Interior summary contains multiple typographical errors: 'steore' should be 'store', 'passs' should be 'pass'. These should be corrected before the report is finalised."
+            },
+            {
+                "severity": "LOW",
+                "reportDtlId": null,
+                "questionId": null,
+                "reportOverviewId": 8341,
+                "reportOverviewTitle": "Exterior",
+                "questionLabel": null,
+                "score": null,
+                "maxScore": null,
+                "issue": "Typographical error in summary text",
+                "description": "The Exterior summary contains a typographical error: 'exterqior' should be 'exterior'. This should be corrected before the report is finalised."
+            }
+        ]
+    }
+}
+
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "issues": [
+            {
+                "severity": "CRITICAL",
+                "reportDtlId": 196184,
+                "questionId": 29523,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Were you asked if you are a My Health Rewards loyalty customer whilst in the store? <br>  a.   Yes, Name/describe the team member who asked. Please comment. <br>  b.  No, Were you advised of the benefits of the My Health Rewards program, and invited to sign up? Name/describe the team member. Please comment.",
+                "score": "3",
+                "maxScore": "3",
+                "issue": "Score contradicts comment content",
+                "description": "The selected response is 'Yes I was offered and told of benefits' which supports a full score of 3. However, the comment explicitly states 'I was asked by TM2 Natasha if I was a member, I said no. That was all.' This indicates the shopper was only asked if they were a member and nothing further occurred — no benefits were described and no invitation to sign up was extended. The comment directly contradicts the selected response and the full score awarded."
+            },
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 196193,
+                "questionId": 18380,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Did the team member ask appropriate questions to understand what you were looking for today?",
+                "score": "0",
+                "maxScore": "2",
+                "issue": "Comment partially contradicts score",
+                "description": "The selected response is 'No' and the score is 0, suggesting the team member did not ask appropriate questions. However, the comment states 'I explained who I wanted it for and why and she explained the difference and why one was better,' which describes a productive exchange where the team member provided relevant advice. While the shopper volunteered the information rather than being asked, the comment describes a positive advisory interaction that is inconsistent with a zero score and a 'No' response."
+            },
+            {
+                "severity": "LOW",
+                "reportDtlId": 196196,
+                "questionId": 18539,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Did the team member offer services or advice that could be of help to your original enquiry?",
+                "score": "0",
+                "maxScore": "2",
+                "issue": "Comment conflicts with score and response",
+                "description": "The selected response is 'No I was not offered advice or services' and the score is 0. However, the comment states only 'TM2 did not ask me any questions.' This is inconsistent with other responses in the same report (e.g., reportDtlId 196195 scores 2/2 for giving product information and advice, and reportDtlId 196194 scores 2/2 for feeling listened to). While cross-question comparison is restricted, within this question the comment ('did not ask questions') does not directly confirm that no advice was given, creating ambiguity between the comment and the zero score for advice offered."
+            },
+            {
+                "severity": "LOW",
+                "reportDtlId": 8340,
+                "questionId": null,
+                "reportOverviewId": 8340,
+                "reportOverviewTitle": "Interior",
+                "questionLabel": null,
+                "score": null,
+                "maxScore": null,
+                "issue": "Editorial: Nonsensical characters and typographical errors in summary",
+                "description": "The Interior summary contains the phrase 'The steore were neat' (should be 'The store was neat') and ends with the nonsensical string 'gfvsfdvf' which appears to be accidental keyboard input. These should be corrected before submission."
+            },
+            {
+                "severity": "LOW",
+                "reportDtlId": 8341,
+                "questionId": null,
+                "reportOverviewId": 8341,
+                "reportOverviewTitle": "Exterior",
+                "questionLabel": null,
+                "score": null,
+                "maxScore": null,
+                "issue": "Editorial: Nonsensical characters at end of summary",
+                "description": "The Exterior summary ends with the nonsensical string 'fvfdvf' which appears to be accidental keyboard input and should be removed before submission."
+            }
+        ]
+    }
+}
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "issues": [
+            {
+                "severity": "CRITICAL",
+                "reportDtlId": 196184,
+                "questionId": 29523,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Were you asked if you are a My Health Rewards loyalty customer whilst in the store? <br>  a.   Yes, Name/describe the team member who asked. Please comment. <br>  b.  No, Were you advised of the benefits of the My Health Rewards program, and invited to sign up? Name/describe the team member. Please comment.",
+                "score": 3,
+                "maxScore": 3,
+                "issue": "Score contradicts comment content",
+                "description": "The selected response is 'Yes I was offered and told of benefits' which supports a full score of 3/3. However, the comment explicitly states 'I was asked by TM2 Natasha if I was a member, I said no. That was all.' This indicates the shopper was only asked if they were a member and nothing further occurred — no benefits were explained and no invitation to sign up was made. The comment directly contradicts the selected response value and the full score awarded."
+            },
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 196193,
+                "questionId": 18380,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Did the team member ask appropriate questions to understand what you were looking for today?",
+                "score": 0,
+                "maxScore": 2,
+                "issue": "Comment contradicts selected response and score",
+                "description": "The selected response is 'No' and the score is 0/2, indicating the team member did not ask appropriate questions. However, the comment states 'I explained who I wanted it for and why and she explained the difference and why one was better.' This describes a productive interaction where the team member provided relevant advice based on the shopper's explanation. While the team member may not have proactively asked questions, the comment describes a positive advisory exchange that appears inconsistent with a 'No' response and a zero score."
+            },
+            {
+                "severity": "LOW",
+                "reportDtlId": 196170,
+                "questionId": 21904,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Is the front appearance of the store appealing? Is it clean and well-lit with easy and safe access? Is it inviting? Does it have fully-stocked bins or displays that have clearly visible price tickets?",
+                "score": 3,
+                "maxScore": 3,
+                "issue": "Comment contains nonsensical characters",
+                "description": "The comment for this question contains the string 'fvrwedfr' which appears to be random keyboard input with no meaningful content. This is likely an accidental keystroke entry and should be removed to maintain report integrity."
+            },
+            {
+                "severity": "LOW",
+                "reportDtlId": 8340,
+                "questionId": null,
+                "reportOverviewId": 8340,
+                "reportOverviewTitle": "Interior",
+                "questionLabel": null,
+                "score": null,
+                "maxScore": null,
+                "issue": "Summary contains typographical error and nonsensical characters",
+                "description": "The Interior summary contains 'The steore' which appears to be a typo for 'The store', and ends with the string 'gfvsfdvf' which is random keyboard input with no meaningful content. Both should be corrected for a professional report."
+            }
+        ]
+    }
+}
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "issues": [
+            {
+                "severity": "CRITICAL",
+                "reportDtlId": 196170,
+                "questionId": 21904,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Is the front appearance of the store appealing? Is it clean and well-lit with easy and safe access? Is it inviting? Does it have fully-stocked bins or displays that have clearly visible price tickets?",
+                "score": 3,
+                "maxScore": 3,
+                "issue": "Comment directly contradicts selected response and score",
+                "description": "The selected response is 'Clean and Clear' and the score is 3/3 (maximum), indicating a positive assessment. However, the comment states 'Very dirty and messy and less stocked, with wide aisles so people can pass easily.' The comment explicitly describes a negative experience (dirty, messy, less stocked) which directly contradicts the positive response value and maximum score awarded."
+            },
+            {
+                "severity": "CRITICAL",
+                "reportDtlId": 196184,
+                "questionId": 29523,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Were you asked if you are a My Health Rewards loyalty customer whilst in the store? <br>  a.   Yes, Name/describe the team member who asked. Please comment. <br>  b.  No, Were you advised of the benefits of the My Health Rewards program, and invited to sign up? Name/describe the team member. Please comment.",
+                "score": 3,
+                "maxScore": 3,
+                "issue": "Selected response and score contradict the comment",
+                "description": "The selected response is 'Yes I was offered and told of benefits' and the score is 3/3 (maximum), indicating the shopper was asked about membership and informed of benefits. However, the comment states 'I was asked by TM2 Natasha if I was a member, I said no. That was all.' This explicitly indicates the shopper was NOT told of the benefits and was NOT invited to sign up — only asked if they were a member. The comment directly contradicts the selected response and the maximum score awarded."
+            },
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 196193,
+                "questionId": 18380,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Did the team member ask appropriate questions to understand what you were looking for today?",
+                "score": 0,
+                "maxScore": 2,
+                "issue": "Comment partially contradicts the score of zero",
+                "description": "The selected response is 'No' and the score is 0/2. However, the comment states 'I explained who I wanted it for and why and she explained the difference and why one was better.' This describes the team member engaging with the shopper's explanation and providing relevant product advice, which suggests some level of appropriate interaction occurred. The comment does not clearly support a score of zero, as it describes a meaningful exchange rather than a complete failure to engage."
+            },
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 196196,
+                "questionId": 18539,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Did the team member offer services or advice that could be of help to your original enquiry?",
+                "score": 0,
+                "maxScore": 2,
+                "issue": "Comment contradicts the score of zero",
+                "description": "The selected response is 'No I was not offered advice or services' and the score is 0/2. However, the comment states 'TM2 did not ask me any questions.' This is inconsistent with the narrative in question 196193 and the report summary, which describe TM2 explaining the difference between products and recommending one. Furthermore, question 196195 (questionId 18486) was scored 2/2 with response 'Yes' for giving product information and advice. A score of zero here alongside a confirmed 'Yes' on product advice in the adjacent question creates a direct logical tension within the same interaction."
+            }
+        ]
+    }
+}
+
+
+
+
+
+
+
+
+
+{
+                "severity": "MODERATE",
+                "reportDtlId": 196196,
+                "questionId": 18539,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Did the team member offer services or advice that could be of help to your original enquiry?",
+                "score": 0,
+                "maxScore": 2,
+                "issue": "Comment contains internally contradictory statements",
+                "description": "The selected response is 'No I was not offered advice or services' and the score is 0, which is consistent. However, the comment states 'TM2 did not offer advice or services' and then immediately states 'TM1 offered me the service and greeted me.' This second statement directly contradicts both the narrative in the Service & Recommendations summary (which states TM1 did not approach or greet the shopper) and the response to question 196187 (where TM1 is described as not greeting the shopper). The comment contains a factual error that is internally contradictory and inconsistent with the shopper's own reported experience."
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "issues": [
+            {
+                "severity": "CRITICAL",
+                "reportDtlId": 196170,
+                "questionId": 21904,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Is the front appearance of the store appealing? Is it clean and well-lit with easy and safe access? Is it inviting? Does it have fully-stocked bins or displays that have clearly visible price tickets?",
+                "score": 0,
+                "maxScore": 3,
+                "issue": "Response contradicts selected answer and score",
+                "description": "The selected response value is 'Dust' and the comment states 'Very dirty and messy and less stocked', resulting in a score of 0. However, the reportOverviewSummary for 'Exterior' explicitly states the exterior and entrance were 'very clean, no signs of rubbish or dust/dirt' and 'Signage looked in good condition.' Additionally, the 'Interior' summary describes the store as 'neat and tidy and clean inside' and 'well stocked.' The comment directly contradicts the shopper's own narrative descriptions of the store condition. The comment text appears inconsistent with the experience described elsewhere in the report, suggesting the comment may have been entered in error or applied to the wrong question."
+            },
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 196196,
+                "questionId": 18539,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Did the team member offer services or advice that could be of help to your original enquiry?",
+                "score": 0,
+                "maxScore": 2,
+                "issue": "Comment contains internally contradictory statements",
+                "description": "The selected response is 'No I was not offered advice or services' and the score is 0, which is consistent. However, the comment states 'TM2 did not offer advice or services' and then immediately states 'TM1 offered me the service and greeted me.' This second statement directly contradicts both the narrative in the Service & Recommendations summary (which states TM1 did not approach or greet the shopper) and the response to question 196187 (where TM1 is described as not greeting the shopper). The comment contains a factual error that is internally contradictory and inconsistent with the shopper's own reported experience."
+            }
+        ]
+    }
+}
