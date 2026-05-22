@@ -1354,3 +1354,10 @@ Version : G303
         }
     ]
 }
+
+Version : G304
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": []
+}
