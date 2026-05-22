@@ -286,3 +286,50 @@
         }
     ]
 }
+
+
+
+
+
+{
+    "success": true,
+    "model": "mistral:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 24184,
+            "questionId": null,
+            "reportOverviewId": 24184,
+            "reportOverviewTitle": "BAR",
+            "questionLabel": null,
+            "score": null,
+            "maxScore": null,
+            "issue": "'She were friewndly' - Incorrect subject-verb agreement",
+            "description": "The subject 'Paris' should be followed by a singular verb 'was' instead of 'were'"
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 24184,
+            "questionId": null,
+            "reportOverviewId": 24184,
+            "reportOverviewTitle": "BAR",
+            "questionLabel": null,
+            "score": null,
+            "maxScore": null,
+            "issue": "'I Was served by Paris.' - Incomplete sentence",
+            "description": "The sentence is incomplete and lacks a clear verb or action"
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": 24185,
+            "questionId": null,
+            "reportOverviewId": 24185,
+            "reportOverviewTitle": "BISTRO",
+            "questionLabel": null,
+            "score": null,
+            "maxScore": null,
+            "issue": "'were bussy' - Incorrect verb tense",
+            "description": "The verb 'was' should be used instead of 'were'"
+        }
+    ]
+}
