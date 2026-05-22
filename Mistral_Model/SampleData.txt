@@ -299,3 +299,165 @@
     ]
   }
 }
+
+
+
+
+
+
+
+
+
+"sampleData": {
+    "reportOverviewSummary": [
+      {
+        "reportOverviewId": 24184,
+        "title": "BAR",
+        "value": "I Was served by Paris. She were friewndly and smiling."
+      },
+      {
+        "reportOverviewId": 24185,
+        "title": "BISTRO",
+        "value": "The bistrao were bussy with people having meals there as well as in the paviwlion. There were food scraps and rubbish, and paper on the floor, which no one cleaned up. There was a queue to order the meals with two registers open. I was served by Jeanet, who was friendly and smiled. She said hi, how are you, before she was interrupted by the chef, who told her about unavailable meal items. She asked if I was a member, and when I said no replied 'That's fine' and then took my order. I ordered the battered fish and chips and the beef curry (special). Both meals were hot and tasty. They were ready in 10 minutes. I picked them up from BIS2, who was at the bistro counter. There were some empty cutlery containers on the condiments table, and I had to ask BIS2 for a spoon. We did not receive a courtesy call during our meals. Our plates were collected within 10 minutes; however, we were not asked how our meals were."
+      },
+      {
+        "reportOverviewId": 24186,
+        "title": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+        "value": "The enetry was not clean without rubbish or cigarette butts. The TAB/sports bar area was messy with no papers or empty glasses. The advertising in the hoatel was current. There was no security when I arrived. SEC1 was standing at the entrance when I was leaving and was speaking to SEC2, who was sitting on a stool when I left. They both ignored me as I walked past."
+      }
+    ],
+    "questions": [
+      {
+        "reportDtlId": 564163,
+        "questionId": 7511,
+        "questionLabel": "Please check Instagram and FB, are the venues promotions current?",
+        "qType": "R",
+        "value": "All",
+        "comment": "Same current post in baoth platfoarms advertisinag live music entertainment.",
+        "commentAllowed": true,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 564164,
+        "questionId": 14620,
+        "questionLabel": "When ordering at the bar or bistro did the staff member ask if you were a member and if not did they explain cleary on how to become a member?",
+        "qType": "T",
+        "value": "I was not asked at both the bistro and bar that if I was a member, and BAR explained how to join. that is so rude",
+        "commentAllowed": false,
+        "score": 50,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 564165,
+        "questionId": 7477,
+        "questionLabel": "Please check all venue promotional art work displayed in various areas of the venue. Please check that the art work displayed is up to date and in good condition (not blue tacked on walls). Please provide photos of any damaged, missing or out of date promotional artwork.",
+        "qType": "T",
+        "value": "The flyers and promotional material were current and in good condition.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 564166,
+        "questionId": 14747,
+        "questionLabel": "When served at the bistro or bar did the staff member mention anything about the venues current promotions or offers?",
+        "qType": "T",
+        "value": "No mention was made of promotions or offers; however, I was given information on how to join the membership by BAR.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 564167,
+        "questionId": 7646,
+        "questionLabel": "Please either make a booking online or call the venue. How was your experince? Please give details",
+        "qType": "T",
+        "value": "I made a booking online, which was a simple process. I received an immediate confirmation email.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      }
+    ]
+  }
+}
+
+
+
+
+
+
+
+"sampleData": {
+    "reportOverviewSummary": [
+      {
+        "reportOverviewId": 24184,
+        "title": "BAR",
+        "value": "I Was served by Paris. She was friewndly and smiling."
+      },
+      {
+        "reportOverviewId": 24185,
+        "title": "BISTRO",
+        "value": "The bistrao were bussy with people having meals there as well as in the paviwlion. There were food scraps and rubbish, and paper on the floor, which no one cleaned up. There was a queue to order the meals with two registers open. I was served by Jeanet, who was friendly and smiled. She said hi, how are you, before she was interrupted by the chef, who told her about unavailable meal items. She asked if I was a member, and when I said no replied 'That's fine' and then took my order. I ordered the battered fish and chips and the beef curry (special). Both meals were hot and tasty. They were ready in 10 minutes. I picked them up from BIS2, who was at the bistro counter. There were some empty cutlery containers on the condiments table, and I had to ask BIS2 for a spoon. We did not receive a courtesy call during our meals. Our plates were collected within 10 minutes; however, we were not asked how our meals were."
+      },
+      {
+        "reportOverviewId": 24186,
+        "title": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+        "value": "The entry was not clean without rubbish or cigarette butts. The TAB/sports bar area was messy with no papers or empty glasses. The advertising in the hoatel was current. There was no security when I arrived. SEC1 was standing at the entrance when I was leaving and was speaking to SEC2, who was sitting on a stool when I left. They both ignored me as I walked past."
+      }
+    ],
+    "questions": [
+      {
+        "reportDtlId": 564163,
+        "questionId": 7511,
+        "questionLabel": "Please check Instagram and FB, are the venues promotions current?",
+        "qType": "R",
+        "value": "All",
+        "comment": "Same current post in baoth platfoarms advertisinag live music entertainment.",
+        "commentAllowed": true,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 564164,
+        "questionId": 14620,
+        "questionLabel": "When ordering at the bar or bistro did the staff member ask if you were a member and if not did they explain cleary on how to become a member?",
+        "qType": "T",
+        "value": "I was not asked at both the bistro and bar that if I was a member, and BAR explained how to join. that is so rude",
+        "commentAllowed": false,
+        "score": 50,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 564165,
+        "questionId": 7477,
+        "questionLabel": "Please check all venue promotional art work displayed in various areas of the venue. Please check that the art work displayed is up to date and in good condition (not blue tacked on walls). Please provide photos of any damaged, missing or out of date promotional artwork.",
+        "qType": "T",
+        "value": "The flyers and promotional material were current and in not so good condition.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 564166,
+        "questionId": 14747,
+        "questionLabel": "When served at the bistro or bar did the staff member mention anything about the venues current promotions or offers?",
+        "qType": "T",
+        "value": "mention was made of promotions or offers; however, I was given information on how to join the membership by BAR.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 564167,
+        "questionId": 7646,
+        "questionLabel": "Please either make a booking online or call the venue. How was your experince? Please give details",
+        "qType": "T",
+        "value": "I do not made a booking online, which was not so simple process.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      }
+    ]
+  }
+}
