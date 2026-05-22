@@ -1322,3 +1322,35 @@ Version : G302
     "model": "gemma2:2b",
     "issues": []
 }
+
+Version : G303
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "severity": "LOW",
+            "reportDtlId": 182712,
+            "questionId": 6334,
+            "reportOverviewId": "6761",
+            "reportOverviewTitle": "Exterior",
+            "questionLabel": "Is the front appearance of the store appealing? Is it clean and well-lit with easy and safe access? Is it inviting? Does it have fully-stocked bins or displays that have clearly visible price tickets?",
+            "score": 2,
+            "maxScore": 3,
+            "issue": "Report Overview summary contains a grammatical error in the second sentence. It states \"There was some dirt on the window, but otherwise, it appeared very tidy\". There should be no comma after 'window' and the use of ‘it’ should be replaced with a more natural pronoun such as 'the store'.",
+            "description": "Sentence contains a grammatical error."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": 182714,
+            "questionId": 1208,
+            "reportOverviewId": "6762",
+            "reportOverviewTitle": "Interior",
+            "questionLabel": "As you walk into the store, do you find it inviting?",
+            "score": 2,
+            "maxScore": 2,
+            "issue": "Report Overview summary contains a grammatical error in the second sentence. There should be no comma after 'window' and the use of ‘it’ should be replaced with a more natural pronoun such as 'the store'.",
+            "description": "Sentence contains a grammatical error."
+        }
+    ]
+}
