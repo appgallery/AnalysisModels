@@ -1378,3 +1378,26 @@ Version : G305
         }
     ]
 }
+
+Version : G306
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "reportOverviewId": 6761,
+            "severity": "CRITICAL",
+            "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+            "reportOverviewId": 6762,
+            "severity": "CRITICAL",
+            "message": "The store was very clean and the staffs was friendly when I entered the venue. I seen several products that was arranged nicely on the shelves and the pricing tags were easy to read. The employee greet me with a smile and ask if I needs any assistance. I was looking around for few minutes before I finds the item that I wanted. Overall, the experience were pleasant and the service make me feel welcomed."
+        },
+        {
+            "reportOverviewId": 6763,
+            "severity": "CRITICAL",
+            "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+    ]
+}
