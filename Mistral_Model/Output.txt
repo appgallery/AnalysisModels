@@ -333,3 +333,27 @@
         }
     ]
 }
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "mistral:7b",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 554432,
+            "questionId": "24133",
+            "reportOverviewId": null,
+            "reportOverviewTitle": "GAMING",
+            "questionLabel": "I were greqeted by GAM1 upon entering the gaming room.",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "Incorrect grammar in question response",
+            "description": "The verb 'were' should be replaced with 'was'."
+        }
+    ]
+}
