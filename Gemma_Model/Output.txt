@@ -1433,3 +1433,51 @@ Version : G309
     "model": "gemma2:2b",
     "issues": []
 }
+
+Version : G310
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "reportDtlId": 182712,
+            "questionId": 6334,
+            "questionLabel": "Is the front appearance of the store appealing? Is it clean and well-lit with easy and safe access? Is it inviting? Does it have fully-stocked bins or displays that have clearly visible price tickets?",
+            "issueType": "Question Value Copy-Paste Detection",
+            "severity": "CRITICAL",
+            "issueDescription": "Value 'Clean and Clear' appears in multiple questions and relates to the store appearance. It's a generic value reused across unrelated questions, indicating potential copy-paste behavior."
+        },
+        {
+            "reportDtlId": 182714,
+            "questionId": 1208,
+            "questionLabel": "As you walk into the store, do you find it inviting?",
+            "issueType": "Question Value Copy-Paste Detection",
+            "severity": "CRITICAL",
+            "issueDescription": "'Clean and Clear' appears in this question too. The repeated use of 'Clean and Clear' across various questions suggests a potential case of copy-paste for wording repetition and contextual relevance."
+        },
+        {
+            "reportDtlId": 182715,
+            "questionId": 6986,
+            "questionLabel": "Looking around the store aisles, do you find this store easily accessible? Is it free from  boxes and clutter?",
+            "issueType": "Question Value Copy-Paste Detection",
+            "severity": "CRITICAL",
+            "issueDescription": "'Clean and Clear' appears in this question too. The repeated use of 'Clean and Clear' across various questions suggests a potential case of copy-paste for wording repetition and contextual relevance."
+        },
+        {
+            "reportDtlId": 182716,
+            "questionId": 10060,
+            "questionLabel": "Was the pricing/ticketing clear and easy to read on shelf labels and shelf talkers?",
+            "issueType": "Question Value Copy-Paste Detection",
+            "severity": "CRITICAL",
+            "issueDescription": "'Clean and Clear' appears in this question too. The repeated use of 'Clean and Clear' across various questions suggests a potential case of copy-paste for wording repetition and contextual relevance."
+        },
+        {
+            "reportDtlId": 182717,
+            "questionId": 820,
+            "questionLabel": "Are the displays on the end of each aisle full and are they easy to shop?",
+            "issueType": "Question Value Copy-Paste Detection",
+            "severity": "CRITICAL",
+            "issueDescription": "'Clean and Clear' appears in this question too. The repeated use of 'Clean and Clear' across various questions suggests a potential case of copy-paste for wording repetition and contextual relevance."
+        }
+    ]
+}
