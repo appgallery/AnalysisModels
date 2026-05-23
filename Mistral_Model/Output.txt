@@ -357,3 +357,27 @@
         }
     ]
 }
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "mistral:7b",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": null,
+            "questionId": null,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": null,
+            "score": null,
+            "maxScore": null,
+            "issue": "In the Gaming summary, it mentions that GAM1 offered a complimentary beverage within 5 minutes, but in question 13805, the response indicates that the offer was made upon entry. This contradicts with question 13805.",
+            "description": "Please revise the Gaming summary to match question 13805's response."
+        }
+    ]
+}
