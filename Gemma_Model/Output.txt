@@ -1419,3 +1419,10 @@ Version : G307
         }
     ]
 }
+
+Version : G308
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": []
+}
