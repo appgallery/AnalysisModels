@@ -473,7 +473,7 @@
       {
         "reportOverviewId": 24132,
         "title": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
-        "value": "The veanue had streaet parking avaialable which was only a shoart distance away from the venue. The walkways leading to the entrance of the premises was free of obstructions, hazards and litter. The venue signage was clear and visible. There were garden beds situated on the exterior of the venue which was maintained with healthy green foliage. I observed adequate liquor and gaming signage displayed throughout the venue. There were no bad odours throughout the location. There was an ATM machine at the location which was operational. There were no issues with patrons during my time at the venue. There was a security presence at the venue. I was greeted by GAM1 upon entering the gaming room."
+        "value": "The veanue  deqdwedcds had streaet parking avaialable which was only a shoart distance away from the venue. The walkways leading to the entrance of the premises was free of obstructions, hazards and litter. The venue signage was clear and visible. There were garden beds situated on the exterior of the venue which was maintained with healthy green foliage. I observed adequate liquor and gaming signage displayed throughout the venue. There were no bad odours throughout the location. There was an ATM machine at the location which was operational. There were no issues with patrons during my time at the venue. There was a security presence at the venue. I was greeted by GAM1 upon entering the gaming room."
       },
       {
         "reportOverviewId": 24133,
