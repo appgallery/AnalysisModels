@@ -1481,3 +1481,10 @@ Version : G310
         }
     ]
 }
+
+Version : G311
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": []
+}
