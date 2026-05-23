@@ -3174,3 +3174,79 @@ Version : G307
     ]
   }
 }
+
+Version : G308
+{
+  "sampleData": {
+    "reportOverviewSummary": [
+      {
+        "reportOverviewId": 6761,
+        "title": "Exterior",
+        "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      {
+        "reportOverviewId": 6762,
+        "title": "Interior",
+        "value": "The store was very clean and the staffs was friendly when I entered the venue. I seen several products that was arranged nicely on the shelves and the pricing tags were easy to read. The employee greet me with a smile and ask if I needs any assistance. I was looking around for few minutes before I finds the item that I wanted. Overall, the experience were pleasant and the service make me feel welcomed."
+      },
+      {
+        "reportOverviewId": 6763,
+        "title": "Payment & Farewell",
+        "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      }
+    ],
+    "qaCandidates": [
+      {
+        "reportDtlId": 182712,
+        "questionId": 6334,
+        "questionLabel": "Is the front appearance of the store appealing? Is it clean and well-lit with easy and safe access? Is it inviting? Does it have fully-stocked bins or displays that have clearly visible price tickets?",
+        "qType": "R",
+        "value": "Clean and Clear",
+        "comment": "There was some dirt on the window, but otherwise, it appeared very tidy.",
+        "commentAllowed": true,
+        "score": 2,
+        "maxscore": 3
+      },
+      {
+        "reportDtlId": 182714,
+        "questionId": 1208,
+        "questionLabel": "As you walk into the store, do you find it inviting?",
+        "qType": "R",
+        "value": "Yes",
+        "commentAllowed": false,
+        "score": 2,
+        "maxscore": 2
+      },
+      {
+        "reportDtlId": 182715,
+        "questionId": 6986,
+        "questionLabel": "Looking around the store aisles, do you find this store easily accessible? Is it free from  boxes and clutter?",
+        "qType": "R",
+        "value": "Yes",
+        "commentAllowed": false,
+        "score": 3,
+        "maxscore": 3
+      },
+      {
+        "reportDtlId": 182716,
+        "questionId": 10060,
+        "questionLabel": "Was the pricing/ticketing clear and easy to read on shelf labels and shelf talkers?",
+        "qType": "R",
+        "value": "Yes",
+        "commentAllowed": false,
+        "score": 3,
+        "maxscore": 3
+      },
+      {
+        "reportDtlId": 182717,
+        "questionId": 820,
+        "questionLabel": "Are the displays on the end of each aisle full and are they easy to shop?",
+        "qType": "R",
+        "value": "High – no gaps",
+        "commentAllowed": false,
+        "score": 3,
+        "maxscore": 3
+      }
+    ]
+  }
+}
