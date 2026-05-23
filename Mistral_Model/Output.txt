@@ -430,3 +430,29 @@
         }
     ]
 }
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "mistral:7b",
+    "issues": [
+        {
+            "severity": "LOW",
+            "reportDtlId": 554436,
+            "questionId": "13805",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes? Describe who welcomed/assisted you.",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "Inconsistency between score and response: The comment 'I wsas greeted upon dfdsfcds entry by GAM1 and at this time I was offered a complimentary beverage which I accepted.' suggests initial contact with the staff member occurred after the 5-minute mark.",
+            "description": "The reported experience indicates that the offer of a drink happened after the 5-minute mark, which contradicts the 'within the first 5 minutes' requirement in the question."
+        }
+    ]
+}
