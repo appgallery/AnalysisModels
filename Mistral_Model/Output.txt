@@ -504,3 +504,26 @@
         }
     ]
 }
+
+
+
+
+
+{
+    "success": true,
+    "model": "mistral:7b",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 554435,
+            "questionId": "974",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Are the staff well presented and in correct uniform, red or black shirt in the gaming room, black pants?",
+            "score": 100,
+            "maxScore": 60,
+            "issue": "The scored response contradicts the provided narrative. GAM1 was noted to be wearing the not correct uniform in the gaming room.",
+            "description": "The report indicates that GAM1 was 'not' wearing the correct uniform but the score is '100', indicating 'yes'."
+        }
+    ]
+}
