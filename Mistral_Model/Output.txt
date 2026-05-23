@@ -381,3 +381,26 @@
         }
     ]
 }
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "mistral:7b",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 554436,
+            "questionId": "13805",
+            "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes? Describe who welcomed/assisted you.",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The response 'I was greeted upon entry into the gaming room and offered a drink at this time' contradicts the score of 100. The shopper explicitly mentions being offered a drink, but the question does not ask about beverages.",
+            "description": "The score suggests a perfect welcome and assistance within 5 minutes, while the response indicates that the shopper was only greeted upon entry and offered a drink at that time."
+        }
+    ]
+}
