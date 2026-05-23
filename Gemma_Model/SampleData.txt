@@ -3478,3 +3478,83 @@ Version : G311
     ]
   }
 }
+
+Version : G312
+{
+  "sampleData": {
+    "reportOverviewSummary": [
+      {
+        "reportOverviewId": 6761,
+        "title": "Exterior",
+        "value": "The exterior appeared very clean and highly inviting. The windows were spotless, displays were fully stocked, and access to the store was easy and welcoming."
+      },
+      {
+        "reportOverviewId": 6762,
+        "title": "Interior",
+        "value": "The interior was extremely organized and easy to navigate. The aisles were clutter-free, labels were clear, and customers could move comfortably throughout the store."
+      },
+      {
+        "reportOverviewId": 6763,
+        "title": "Payment & Farewell",
+        "value": "Michael provided exceptional service and was friendly, helpful, and efficient throughout the checkout process."
+      }
+    ],
+    "qaCandidates": [
+      {
+        "reportDtlId": 182712,
+        "questionId": 6334,
+        "questionLabel": "Is the front appearance of the store appealing? Is it clean and well-lit with easy and safe access? Is it inviting? Does it have fully-stocked bins or displays that have clearly visible price tickets?",
+        "qType": "R",
+        "value": "Poor",
+        "comment": "The storefront looked untidy and displays had visible gaps.",
+        "commentAllowed": true,
+        "score": 1,
+        "maxscore": 3
+      },
+      {
+        "reportDtlId": 182714,
+        "questionId": 1208,
+        "questionLabel": "As you walk into the store, do you find it inviting?",
+        "qType": "R",
+        "value": "No",
+        "comment": "The environment did not feel welcoming.",
+        "commentAllowed": true,
+        "score": 0,
+        "maxscore": 2
+      },
+      {
+        "reportDtlId": 182715,
+        "questionId": 6986,
+        "questionLabel": "Looking around the store aisles, do you find this store easily accessible? Is it free from boxes and clutter?",
+        "qType": "R",
+        "value": "No",
+        "comment": "Several aisles had clutter and movement was difficult.",
+        "commentAllowed": true,
+        "score": 1,
+        "maxscore": 3
+      },
+      {
+        "reportDtlId": 182716,
+        "questionId": 10060,
+        "questionLabel": "Was the pricing/ticketing clear and easy to read on shelf labels and shelf talkers?",
+        "qType": "R",
+        "value": "No",
+        "comment": "Many labels were difficult to read.",
+        "commentAllowed": true,
+        "score": 1,
+        "maxscore": 3
+      },
+      {
+        "reportDtlId": 182717,
+        "questionId": 820,
+        "questionLabel": "Are the displays on the end of each aisle full and are they easy to shop?",
+        "qType": "R",
+        "value": "Low – multiple gaps",
+        "comment": "Displays had multiple missing products.",
+        "commentAllowed": true,
+        "score": 1,
+        "maxscore": 3
+      }
+    ]
+  }
+}
