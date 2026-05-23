@@ -480,3 +480,27 @@
         }
     ]
 }
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "mistral:7b",
+    "issues": [
+        {
+            "severity": "LOW",
+            "reportDtlId": 554437,
+            "questionId": "6666",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Is the staff member smiling and presenting themselves as being approachable and friendly? Describe the staff member.",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The response 'GAM1 swas approachable, friendly, respectful and courteous.' contradicts the score of 100 which indicates a perfect response. The statement implies that GAM1 was also respectful and courteous in addition to being approachable and friendly.",
+            "description": "The description should only state if the staff member was approachable and friendly, not also respectful and courteous."
+        }
+    ]
+}
