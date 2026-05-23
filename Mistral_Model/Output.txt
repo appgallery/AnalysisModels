@@ -456,3 +456,27 @@
         }
     ]
 }
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "mistral:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 554436,
+            "questionId": "13805",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes? Describe who welcomed/assisted you.",
+            "score": 100,
+            "maxScore": 70,
+            "issue": "The score does not align with the comment provided. The comment suggests a delay in offering assistance beyond the required 5-minute window.",
+            "description": "The report states that you were offered a drink within the first 5 minutes, however the comment mentions a delay as it was accepted after this time."
+        }
+    ]
+}
