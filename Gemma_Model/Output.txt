@@ -1488,3 +1488,10 @@ Version : G311
     "model": "gemma2:2b",
     "issues": []
 }
+
+Version : G312
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": []
+}
