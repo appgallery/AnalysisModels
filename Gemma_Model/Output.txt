@@ -1426,3 +1426,10 @@ Version : G308
     "model": "gemma2:2b",
     "issues": []
 }
+
+Version : G309
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": []
+}
