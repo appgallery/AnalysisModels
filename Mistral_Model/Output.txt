@@ -604,3 +604,28 @@
         }
     ]
 }
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "mistral:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 795739,
+            "questionId": "20647",
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Shoppers overview of visit",
+            "questionLabel": "How would you rate the overall customer service experience during your visit?",
+            "score": "Excelldeaent - attentive, helpful, and welcoming.",
+            "maxScore": 100,
+            "issue": "The reported score of 'Excellent' contradicts the summary where the staff did not offer to join the Loyalty Program and explained the benefits briefly.",
+            "description": "The store received a high rating for customer service, but the report overview mentions that the staff did not invite the shopper to join the loyalty program."
+        }
+    ]
+}
