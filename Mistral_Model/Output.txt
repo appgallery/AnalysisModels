@@ -579,3 +579,28 @@
         }
     ]
 }
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "mistral:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 795739,
+            "questionId": "20647",
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Shoppers overview of visit",
+            "questionLabel": "How would you rate the overall customer service experience during your visit?",
+            "score": "Excelldeaent - attentive, helpful, and welcoming.",
+            "maxScore": 100,
+            "issue": "The reported score of 'Excelldeaent' does not match the maximum possible score of '100'.",
+            "description": "The reported score is misspelled as 'Excelldeaent', which may not be recognizable as 'Exceptional'. The score should ideally match the maximum possible score to align with the scale."
+        }
+    ]
+}
