@@ -527,3 +527,30 @@
         }
     ]
 }
+
+
+
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "mistral:7b",
+    "issues": [
+        {
+            "severity": "LOW",
+            "reportDtlId": 795733,
+            "questionId": "17305",
+            "questionLabel": "Did staff greet you with a “Hello” or similar during your shop? (Not just at the register).",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The report mentions 'greeted warmly multiple times' but score is 100 (Maximum)",
+            "description": "The score for this question suggests the staff greeted the shopper exceptionally well beyond just a simple 'hello', however the report states they were 'greeted warmly multiple times', which may imply more than one greeting."
+        }
+    ]
+}
