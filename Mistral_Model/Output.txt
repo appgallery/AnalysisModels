@@ -554,3 +554,28 @@
         }
     ]
 }
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "mistral:7b",
+    "issues": [
+        {
+            "severity": "LOW",
+            "reportDtlId": 795732,
+            "questionId": "29549",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Were you asked if you were a member of the Loyalty Program?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "Explanation of loyalty program benefits was brief.",
+            "description": "Although the staff member asked about your loyalty program membership and briefly mentioned some benefits, a more detailed explanation would have been preferred."
+        }
+    ]
+}
