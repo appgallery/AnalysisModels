@@ -655,3 +655,26 @@
         }
     ]
 }
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "mistral:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 795731,
+            "questionId": "31655",
+            "questionLabel": "You asked about the location of a product. How did the Maven respond?",
+            "score": 70,
+            "maxScore": 100,
+            "issue": "Comment and score do not align",
+            "description": "The comment indicates TM1 provided more detailed information than suggested by the score (70 out of 100)"
+        }
+    ]
+}
