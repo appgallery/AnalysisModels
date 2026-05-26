@@ -701,3 +701,26 @@
         }
     ]
 }
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "mistral:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 795739,
+            "questionId": "20647",
+            "questionLabel": "How would you rate the overall customer service experience during your visit?",
+            "score": "100",
+            "maxScore": "100",
+            "issue": "The reported score and summary seem to contradict each other.",
+            "description": "In the report overview, the shopper mentions a 'there is really bad and crowded farewell, not wishing me anything.', however, in the question about overall customer service experience, the score was 100 (highest possible)."
+        }
+    ]
+}
