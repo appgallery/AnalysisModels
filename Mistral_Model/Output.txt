@@ -724,3 +724,24 @@
         }
     ]
 }
+
+
+
+
+
+{
+    "success": true,
+    "model": "mistral:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 182712,
+            "questionId": "6334",
+            "questionLabel": "Is the front appearance of the store appealing? Is it clean and well-lit with easy and safe access? Is it inviting? Does it have fully-stocked bins or displays that have clearly visible price tickets?",
+            "score": 2,
+            "maxScore": 3,
+            "issue": "Some dirt on the window contradicts a high cleanliness score",
+            "description": "There was some diwwrt on the window, but otherwise, it appeared very tidy."
+        }
+    ]
+}
