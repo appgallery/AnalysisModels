@@ -678,3 +678,26 @@
         }
     ]
 }
+
+
+
+
+
+{
+    "success": true,
+    "model": "mistral:7b",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 795739,
+            "questionId": "20168",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "How did the staff member at the register farewell you?",
+            "score": "there is really bad and crowded farewell, not wishing me anything.",
+            "maxScore": 100,
+            "issue": "Inconsistent scoring for question: 'How did the staff member at the register farewell you?'. The score is contradictory to the positive experience described in the report overview summary.",
+            "description": "The score is 100 for questions about cleanliness and customer service, but a score of 'there is really bad' is given for the question about the staff member's farewell, which conflicts with the overall positive impression conveyed in the report overview summary."
+        }
+    ]
+}
