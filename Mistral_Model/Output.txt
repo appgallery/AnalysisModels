@@ -629,3 +629,29 @@
         }
     ]
 }
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "mistral:7b",
+    "issues": [
+        {
+            "severity": "LOW",
+            "reportDtlId": 795731,
+            "questionId": "31655",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "You asked about the location of a product. How did the Maven respond?",
+            "score": 70,
+            "maxScore": 100,
+            "issue": "The score does not match the response as the response indicates that the staff member provided additional information and assistance beyond just directing to the product's location.",
+            "description": "The staff member walked you directly to the product and explained other options. However, the score only reflects the location of the product being found."
+        }
+    ]
+}
