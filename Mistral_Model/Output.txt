@@ -745,3 +745,31 @@
         }
     ]
 }
+
+
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "mistral:7b",
+    "issues": [
+        {
+            "severity": "LOW",
+            "reportDtlId": 182712,
+            "questionId": "6334",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Is the front appearance of the store appealing? Is it clean and well-lit with easy and safe access? Is it inviting? Does it have fully-stocked bins or displays that have clearly visible price tickets?",
+            "score": 2,
+            "maxScore": 3,
+            "issue": "Contradictory response: The extwwerior appeared meeeostly clean. There was some dirt on the window, but otherwise, it appeared very tidy.",
+            "description": "Response mentions dirt but also appears tidy"
+        }
+    ]
+}
