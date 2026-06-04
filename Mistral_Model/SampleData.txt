@@ -2264,3 +2264,67 @@
     ]
   }
 }
+
+
+
+
+
+
+ "sampleData": {
+    "reportOverviewSummary": [
+      {
+        "reportOverviewId": 6761,
+        "title": "Exterior",
+        "value": "The exterior appeared meostly clean. There was some dirt on the window, but otherwise, it appeared very tidy. There were some displays in the window that looked well-stocked and tidy. The lighting was bright, and access to the entry was clear."
+      },
+      {
+        "reportOverviewId": 6762,
+        "title": "Interior",
+        "value": "The interior felt warm and welcoming. Everything was neatly stocked and labeled. The aisles were clear of any mess, and the signs were easy to read. The staff made it feel like a comfortable place where locals visit frequently. The store offered health checks. There was no evidence of the Make-A-Wish/ Gidget Foundation within the store."
+      },
+      {
+        "reportOverviewId": 6763,
+        "title": "Payment & Farewell",
+        "value": "I was served at gtrs44dgvdv the register by Michael, who was very friendly and efficient. He worked quickly whilst maintaining friendliness. He did not mention the loyalty rewards program; however, he did offer a bag and receipt for my items."
+      },
+      {
+        "reportOverviewId": 6764,
+        "title": "Service & Recommendations",
+        "value": "As I entered the store, I started to browse. After five minutes, I was not approached by a team member; however, the store was busy and seemed understaffed. I then lined up to speak to a team member. I spoke to Michael, who was very friendly and happy to listen to my questions, despite how busy the store was. I explained my partner had a cold and asked if there was anything I should pick up for him. Michael suggested he use Panadol and Nurofen. He also advised me that the Nasonex Allergy Spray that I had picked up was more for hay fever symptoms. All team members were wearing uniforms and name badges."
+      }
+    ],
+    "questions": [
+      {
+        "reportDtlId": 182712,
+        "questionId": 6334,
+        "questionLabel": "Is the front appearance of the store appealing? Is it clean and well-lit with easy and safe access? Is it inviting? Does it have fully-stocked bins or displays that have clearly visible price tickets?",
+        "qType": "R",
+        "value": "Clean and Clear",
+        "comment": "There was some dieert rgdsfgfrsf on the window, but otherwise, it appeared very tidy.",
+        "commentAllowed": true,
+        "score": 2,
+        "maxscore": 3
+      },
+      {
+        "reportDtlId": 182714,
+        "questionId": 1208,
+        "questionLabel": "As you walk into the store, do you find it inviting?",
+        "qType": "R",
+        "value": "Yes",
+        "commentAllowed": false,
+        "score": 2,
+        "maxscore": 2
+      },
+      {
+        "reportDtlId": 182715,
+        "questionId": 6986,
+        "questionLabel": "Looking around the store aisles, do you find this store easily accessible? Is it free from boxes and clutter?",
+        "qType": "R",
+        "value": "Yes",
+        "commentAllowed": false,
+        "score": 2,
+        "maxscore": 3
+      }
+    ]
+  }
+}
