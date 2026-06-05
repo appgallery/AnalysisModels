@@ -1,0 +1,35 @@
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 564163,
+            "questionId": "7511",
+            "issue": "Inconsistent promotion visibility across platforms.",
+            "description": "Although there was an advertisement on Instagram and Facebook for live music entertainment which matched the report overview summary mentioning a promotional event, no specifics were provided regarding whether these particular promotions related to 'Exact current post' or other activities mentioned in questions 7510 about venue promotion visibility."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 564175,
+            "questionId": "12683",
+            "issue": "Conflict between response and score for ashtray cleanliness.",
+            "description": "The comment about some unemptied ash trays does not align with the moderate 'Other' rating given. The report overview summary section indicates that there were empty glasses, coffee cups, but no mention of cigarette usage or disposal practices was noted in either arrival or departure."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 564188,
+            "questionId": "9458",
+            "issue": "Cleanliness of entry contradicts report summary.",
+            "description": "The comment about papers and rubbish on the floor is in direct conflict with the 'Other' score indicating that there were empty glasses. This inconsistency suggests a moderate issue as cleaning protocol was not followed appropriately."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 564191,
+            "questionId": "9305",
+            "issue": "Insufficient cutlery and container issues.",
+            "description": "The comment about having to ask for a spoon due to insufficient cutlery aligns with the 'Other' score. However, it is unclear whether this was an isolated incident or indicative of consistent shortages across meal times as suggested by no mention in arrival overview and not all containers being empty upon departure."
+        }
+    ]
+}
