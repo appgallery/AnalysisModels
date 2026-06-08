@@ -101,3 +101,50 @@
         }
     ]
 }
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 564163,
+            "questionId": "7511",
+            "issue": null,
+            "description": ""
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 564170,
+            "questionId": "11406",
+            "issue": "Incomplete or Unclear Statements - There was an empty toilet paper holder in one cubicle downstairs.",
+            "description": ""
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 564175,
+            "questionId": "12683",
+            "issue": null,
+            "description": ""
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": 564188,
+            "questionId": "9458",
+            "issue": null,
+            "description": ""
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 564191,
+            "questionId": "9305",
+            "issue": "Incomplete or Unclear Statements - There was insufficient cutlery, and I had to ask for a spoon. Some cutlery containers at the condiments table were empty.",
+            "description": ""
+        }
+    ]
+}
