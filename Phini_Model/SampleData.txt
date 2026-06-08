@@ -1,1 +1,86 @@
-\
+"sampleData": {
+  "reportOverviewSummary": [
+    {
+      "reportOverviewId": 24184,
+      "title": "BAR",
+      "value": "I was servded by Pdaris. Shde was friendly and smiling. She asked if I was a member and told me how to join to obtain the discount, which I did. I ordered a ginger ale and a coco mango cocktail."
+    },
+    {
+      "reportOverviewId": 24187,
+      "title": "GAMING",
+      "value": "There were 15 players on arrival and 10 players on departure in the gaming room. There were empty glasses, coffee cups and full ashtrays when I arrived, which were only partly cleaned by the time I was leaving."
+    },
+    {
+      "reportOverviewId": 24188,
+      "title": "RESTROOMS",
+      "value": "The female toilets near the gaming room had papers on top of the bin and in the cubicles upon arrival, yet had been cleaned upon departure."
+    },
+    {
+      "reportOverviewId": 24189,
+      "title": "SECURITY & MANAGEMENT",
+      "value": "I didn’t identify a manager at the hotel. There was no security when I arrived."
+    },
+    {
+      "reportOverviewId": 24190,
+      "title": "BISTRO",
+      "value": "Jeanet was friendly and welcoming and smiled when I approached the counter. The meals were ready in 10 minutes and were hot and tasty."
+    }
+  ],
+  "questions": [
+    {
+      "reportDtlId": 564163,
+      "questionId": 7511,
+      "questionLabel": "Please check Instagram and FB, are the venues promotions current and are any of the promotions in the venue reflected on Instagram and FB?",
+      "qType": "R",
+      "value": "All",
+      "comment": "Same current post on both platforms advertising live music entertainment on 30th August, with accompanying photo of the musicians.",
+      "commentAllowed": true,
+      "score": 100,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564170,
+      "questionId": 11406,
+      "questionLabel": "Were all supplies well stocked, including soap, hand towel and toilet paper?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There was an empty toilet paper holder in one cubicle downstairs.",
+      "commentAllowed": true,
+      "score": 50,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564175,
+      "questionId": 12683,
+      "questionLabel": "Were there more than 2 cigarette butts in ashtrays?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There were some ashtrays with contents. Some weren’t cleared by the time I left.",
+      "commentAllowed": true,
+      "score": 50,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564188,
+      "questionId": 9458,
+      "questionLabel": "Was the entry to the restaurant/bistro clean and clear of any food mess, coasters on the floor?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There were some papers and rubbish on the floor throughout the bistro area.",
+      "commentAllowed": true,
+      "score": 50,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564191,
+      "questionId": 9305,
+      "questionLabel": "Was the crockery, cutlery and glassware clean and in good order?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There was insufficient cutlery, and I had to ask for a spoon. Some cutlery containers at the condiments table were empty.",
+      "commentAllowed": true,
+      "score": 50,
+      "maxScore": 100
+    }
+  ]
+
