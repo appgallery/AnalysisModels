@@ -209,3 +209,21 @@
     "success": false,
     "message": "Ollama returned invalid JSON"
 }
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 564191,
+            "questionId": "9305",
+            "issue": "Insufficient cutlery and empty containers at the condiments table.",
+            "description": "Reported insufficient cutlery supplies and some containers of cutlery were found to be empty."
+        }
+    ]
+}
