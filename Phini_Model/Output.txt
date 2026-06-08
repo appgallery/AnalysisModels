@@ -33,3 +33,24 @@
         }
     ]
 }
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 564188,
+            "questionId": "9458",
+            "issue": "Response and Comment Mismatch - Crockery conditioned is not as expected given the score.",
+            "description": "The response indicates that there were issues with cutlery containers being empty; however, the crockery conditions are mentioned to be clean."
+        }
+    ]
+}
