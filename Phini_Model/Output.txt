@@ -148,3 +148,27 @@
         }
     ]
 }
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 564191,
+            "questionId": 9305,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Was the crockery, cutlery and glassware clean and in good order?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "Insufficient cutlery containers at condiments table were empty.",
+            "description": "Issue with the quantity of cutlery provided was noted."
+        }
+    ]
+}
