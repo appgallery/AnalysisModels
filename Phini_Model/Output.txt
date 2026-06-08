@@ -172,3 +172,31 @@
         }
     ]
 }
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 564188,
+            "questionId": null,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "issue": "Supplies were not well stocked in one cubicle downstairs",
+            "description": "The comment says 'There was an empty toilet paper holder in one cubicle.' which conflicts with the score of 50 given for all supplies being fully stocked. Given that this report is under a Rater-only question, there's no QLabel provided and thus it doesn’t have corresponding issues."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 564191,
+            "questionId": null,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "issue": "Insufficient cutlery and containers were empty for condiments.",
+            "description": "The comment says 'There was insufficient cutlery...' which contradicts the 50 score given assuming full supplies."
+        }
+    ]
+}
