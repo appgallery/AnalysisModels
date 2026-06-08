@@ -227,3 +227,48 @@
         }
     ]
 }
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 564175,
+            "questionId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": null,
+            "score": 50,
+            "maxScore": 100,
+            "issue": "Supplies not fully stocked in one cubicle downstairs",
+            "description": ""
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 564188,
+            "questionId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": null,
+            "score": 80,
+            "maxScore": 100,
+            "issue": "Not all ashtrays cleared by the time of departure",
+            "description": ""
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 564191,
+            "questionId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": null,
+            "score": 50,
+            "maxScore": 100,
+            "issue": "Insufficient cutlery provided",
+            "description": ""
+        }
+    ]
+}
