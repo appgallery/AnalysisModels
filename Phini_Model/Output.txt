@@ -272,3 +272,26 @@
         }
     ]
 }
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": null,
+            "questionId": "974",
+            "reportOverviewId": 24132,
+            "reportOverviewTitle": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+            "questionLabel": "Are the staff well presented and in correct uniform, red or black shirt in the gaming room, black pants?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "Question score mismatch with report overview summary.",
+            "description": ""
+        }
+    ]
+}
