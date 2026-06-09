@@ -330,3 +330,27 @@
         }
     ]
 }
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": null,
+            "questionId": "974",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Are the staff well presented and in correct uniform? Describe who welcomed/assisted you.",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "Garbage Text - Copy/Paste detection",
+            "description": null
+        }
+    ]
+}
