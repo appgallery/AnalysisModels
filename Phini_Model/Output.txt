@@ -295,3 +295,38 @@
         }
     ]
 }
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": null,
+            "questionId": 974,
+            "reportOverviewId": 24132,
+            "reportOverviewTitle": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+            "questionLabel": "Are the staff well presented and in correct uniform, red or black shirt in the gaming room, black pants?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": null,
+            "description": ""
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 554435,
+            "questionId": 974,
+            "reportOverviewId": 24132,
+            "reportOverviewTitle": null,
+            "questionLabel": "Are the staff well presented and in correct uniform, red or black shirt in the gaming room, black pants?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "Contradiction found. The report Overview states that GAM1 was wearing a 'correct uniform' but does not specify if it is red or black and black pants.",
+            "description": ""
+        }
+    ]
+}
