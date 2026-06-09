@@ -354,3 +354,22 @@
         }
     ]
 }
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": null,
+            "questionId": null,
+            "issue": "Inconsistency between report overview and question review regarding staff presentation.",
+            "description": "The summary in the 'EXTERIOR, ENTRY AND VENUE OVERVIEW' section of Report Overview Summary #24132 states that GAM1 was actively working by cleaning empty glasses. However, this contradicts Question 974 (Question ID: 974) which specifically praises the staff for their presentation and being approachable but does not mention them performing such tasks."
+        }
+    ]
+}
