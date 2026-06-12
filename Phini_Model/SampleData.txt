@@ -1,1 +1,911 @@
-\
+"sampleData": {
+  "reportOverviewSummary": [
+    {
+      "reportOverviewId": 24184,
+      "title": "BAR",
+      "value": "I was servded by Pdaris. Shde was friendly and smiling. She asked if I was a member and told me how to join to obtain the discount, which I did. I ordered a ginger ale and a coco mango cocktail."
+    },
+    {
+      "reportOverviewId": 24187,
+      "title": "GAMING",
+      "value": "There were 15 players on arrival and 10 players on departure in the gaming room. There were empty glasses, coffee cups and full ashtrays when I arrived, which were only partly cleaned by the time I was leaving."
+    },
+    {
+      "reportOverviewId": 24188,
+      "title": "RESTROOMS",
+      "value": "The female toilets near the gaming room had papers on top of the bin and in the cubicles upon arrival, yet had been cleaned upon departure."
+    },
+    {
+      "reportOverviewId": 24189,
+      "title": "SECURITY & MANAGEMENT",
+      "value": "I didn’t identify a manager at the hotel. There was no security when I arrived."
+    },
+    {
+      "reportOverviewId": 24190,
+      "title": "BISTRO",
+      "value": "Jeanet was friendly and welcoming and smiled when I approached the counter. The meals were ready in 10 minutes and were hot and tasty."
+    }
+  ],
+  "questions": [
+    {
+      "reportDtlId": 564163,
+      "questionId": 7511,
+      "questionLabel": "Please check Instagram and FB, are the venues promotions current and are any of the promotions in the venue reflected on Instagram and FB?",
+      "qType": "R",
+      "value": "All",
+      "comment": "Same current post on both platforms advertising live music entertainment on 30th August, with accompanying photo of the musicians.",
+      "commentAllowed": true,
+      "score": 100,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564170,
+      "questionId": 11406,
+      "questionLabel": "Were all supplies well stocked, including soap, hand towel and toilet paper?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There was an empty toilet paper holder in one cubicle downstairs.",
+      "commentAllowed": true,
+      "score": 50,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564175,
+      "questionId": 12683,
+      "questionLabel": "Were there more than 2 cigarette butts in ashtrays?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There were some ashtrays with contents. Some weren’t cleared by the time I left.",
+      "commentAllowed": true,
+      "score": 50,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564188,
+      "questionId": 9458,
+      "questionLabel": "Was the entry to the restaurant/bistro clean and clear of any food mess, coasters on the floor?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There were some papers and rubbish on the floor throughout the bistro area.",
+      "commentAllowed": true,
+      "score": 50,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564191,
+      "questionId": 9305,
+      "questionLabel": "Was the crockery, cutlery and glassware clean and in good order?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There was insufficient cutlery, and I had to ask for a spoon. Some cutlery containers at the condiments table were empty.",
+      "commentAllowed": true,
+      "score": 50,
+      "maxScore": 100
+    }
+  ]
+
+
+
+
+
+"sampleData": {
+  "reportOverviewSummary": [
+    {
+      "reportOverviewId": 24184,
+      "title": "BAR",
+      "value": "I was servded by fgwreq34 Pdaris. Shde was friendly and smiling. She asked if I was a member and told me how to join to obtain the discount, which I did. I ordered a ginger ale and a coco mango cocktail."
+    },
+    {
+      "reportOverviewId": 24187,
+      "title": "GAMING",
+      "value": "There were 15 players on arrival and 10 players on departure in the gaming room. There were empty glasses, coffee cups and full ashtrays when I arrived, which were only partly cleaned by the time I was leaving."
+    },
+    {
+      "reportOverviewId": 24188,
+      "title": "RESTROOMS",
+      "value": "The female toilets near the gaming room had papers on top of the bin and in the cubicles upon arrival, yet had been cleaned upon departure."
+    },
+    {
+      "reportOverviewId": 24189,
+      "title": "SECURITY & MANAGEMENT",
+      "value": "I didn’t identify a manager at the hotel. There was no security when I arrived."
+    },
+    {
+      "reportOverviewId": 24190,
+      "title": "BISTRO",
+      "value": "Jeanet was friendly and welcoming and smiled when I approached the counter. The meals were ready in 10 minutes and were hot and tasty."
+    }
+  ],
+  "questions": [
+    {
+      "reportDtlId": 564163,
+      "questionId": 7511,
+      "questionLabel": "Please check Instagram and FB, are the venues promotions current and are any of the promotions in the venue reflected on Instagram and FB?",
+      "qType": "R",
+      "value": "All",
+      "comment": "Same current post on both platforms advertising live music entertainment on 30th August, with accompanying photo of the musicians.",
+      "commentAllowed": true,
+      "score": 100,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564170,
+      "questionId": 11406,
+      "questionLabel": "Were all supplies well stocked, including soap, hand towel and toilet paper?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There was an empty fwfedf toilet paper holder in one cubicle downstairs.",
+      "commentAllowed": true,
+      "score": 50,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564175,
+      "questionId": 12683,
+      "questionLabel": "Were there more than 2 cigarette butts in ashtrays?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There were some ashtrays with contents. Some weren’t cleared by the time I left.",
+      "commentAllowed": true,
+      "score": 50,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564188,
+      "questionId": 9458,
+      "questionLabel": "Was the entry to the restaurant/bistro clean and clear of any food mess, coasters on the floor?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There were some papers and rubbish on the floor throughout the bistro area.",
+      "commentAllowed": true,
+      "score": 50,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564191,
+      "questionId": 9305,
+      "questionLabel": "Was the crockery, cutlery and glassware clean and in good order?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There was insufficient cutlery, and I had to ask for a spoon. Some cutlery containers at the condiments table were empty.",
+      "commentAllowed": true,
+      "score": 50,
+      "maxScore": 100
+    }
+  ]
+
+
+
+
+
+
+"sampleData": {
+  "reportOverviewSummary": [
+    {
+      "reportOverviewId": 24184,
+      "title": "BAR",
+      "value": "I was servded by fgwreq34 Pdaris. Shde was friendly and smiling. She asked if I was a member and told me how to join to obtain the discount, which I did. I ordered a ginger ale and a coco mango cocktail."
+    },
+    {
+      "reportOverviewId": 24187,
+      "title": "GAMING",
+      "value": "There were 15 players on arrival and 10 players on departure in the gaming room. There were empty glasses, coffee cups and full ashtrays when I arrived, which were only partly cleaned by the time I was leaving."
+    },
+    {
+      "reportOverviewId": 24188,
+      "title": "RESTROOMS",
+      "value": "The female toilets near the gaming room had papers on top of the bin and in the cubicles upon arrival, yet had been cleaned upon departure."
+    },
+    {
+      "reportOverviewId": 24189,
+      "title": "SECURITY & MANAGEMENT",
+      "value": "I didn’t identify a manager at the hotel. There was no security when I arrived."
+    },
+    {
+      "reportOverviewId": 24190,
+      "title": "BISTRO",
+      "value": "Jeanet was friendly and welcoming and smiled when I approached the counter. The meals were ready in 10 minutes and were hot and tasty."
+    }
+  ],
+  "questions": [
+    {
+      "reportDtlId": 564163,
+      "questionId": 7511,
+      "questionLabel": "Please check Instagram and FB, are the venues promotions current and are any of the promotions in the venue reflected on Instagram and FB?",
+      "qType": "R",
+      "value": "All",
+      "comment": "Same current post on both platforms advertising live music entertainment on 30th August, with accompanying photo of the musicians.",
+      "commentAllowed": true,
+      "score": 100,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564170,
+      "questionId": 11406,
+      "questionLabel": "Were all supplies well stocked, including soap, hand towel and toilet paper?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There was an empty toilet paper holder in one cubicle downstairs.",
+      "commentAllowed": true,
+      "score": 50,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564175,
+      "questionId": 12683,
+      "questionLabel": "Were there more than 2 cigarette butts in ashtrays?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There were some ashtrays with contents. Some weren’t cleared by the time I left.",
+      "commentAllowed": true,
+      "score": 50,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564188,
+      "questionId": 9458,
+      "questionLabel": "Was the entry to the restaurant/bistro clean and clear of any food mess, coasters on the floor?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There were some papers and rubbish on the floor throughout the bistro area.",
+      "commentAllowed": true,
+      "score": 50,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564191,
+      "questionId": 9305,
+      "questionLabel": "Was the crockery, cutlery and glassware clean and in good order?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There was insufficient cutlery, and I had to ask for a spoon. Some cutlery containers at the condiments table were empty.",
+      "commentAllowed": true,
+      "score": 100,
+      "maxScore": 100
+    }
+  ]
+
+
+
+
+
+"sampleData": {
+  "reportOverviewSummary": [
+    {
+      "reportOverviewId": 24184,
+      "title": "BAR",
+      "value": "I was servded by fgwreq34 Pdaris. Shde was friendly and smiling. She asked if I was a member and told me how to join to obtain the discount, which I did. I ordered a ginger ale and a coco mango cocktail."
+    },
+    {
+      "reportOverviewId": 24187,
+      "title": "GAMING",
+      "value": "There were 15 players on arrival and 10 players on departure in the gaming room. There were empty glasses, coffee cups and full ashtrays when I arrived, which were only partly cleaned by the time I was leaving."
+    },
+    {
+      "reportOverviewId": 24188,
+      "title": "RESTROOMS",
+      "value": "The female toilets near the gaming room had papers on top of the bin and in the cubicles upon arrival, yet had been cleaned upon departure."
+    },
+    {
+      "reportOverviewId": 24189,
+      "title": "SECURITY & MANAGEMENT",
+      "value": "I didn’t identify a manager at the hotel. There was no security when I arrived."
+    },
+    {
+      "reportOverviewId": 24190,
+      "title": "BISTRO",
+      "value": "Jeanet was friendly and welcoming and smiled when I approached the counter. The meals were ready in 10 minutes and were hot and tasty."
+    }
+  ],
+  "questions": [
+    {
+      "reportDtlId": 564163,
+      "questionId": 7511,
+      "questionLabel": "Please check Instagram and FB, are the venues promotions current and are any of the promotions in the venue reflected on Instagram and FB?",
+      "qType": "R",
+      "value": "All",
+      "comment": "Same current post on both platforms advertising live music entertainment on 30th August, with accompanying photo of the musicians.",
+      "commentAllowed": true,
+      "score": 100,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564170,
+      "questionId": 11406,
+      "questionLabel": "Were all supplies well stocked, including soap, hand towel and toilet paper?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There was an empty toilet paper holder in one cubicle downstairs.",
+      "commentAllowed": true,
+      "score": 50,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564175,
+      "questionId": 12683,
+      "questionLabel": "Were there more than 2 cigarette butts in ashtrays?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There were some ashtrays with contents. Some weren’t cleared by the time I left.",
+      "commentAllowed": true,
+      "score": 50,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564188,
+      "questionId": 9458,
+      "questionLabel": "Was the entry to the restaurant/bistro clean and clear of any food mess, coasters on the floor?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There were some papers and rubbish on the floor throughout the bistro area.",
+      "commentAllowed": true,
+      "score": 80,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564191,
+      "questionId": 9305,
+      "questionLabel": "Was the crockery, cutlery and glassware clean and in good order?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There was insufficient cutlery, and I had to ask for a spoon. Some cutlery containers at the condiments table were empty.",
+      "commentAllowed": true,
+      "score": 50,
+      "maxScore": 100
+    }
+  ]
+
+
+
+
+
+
+ 
+"sampleData": {
+  "reportOverviewSummary": [
+    {
+      "reportOverviewId": 24184,
+      "title": "BAR",
+      "value": "I was servded by Pdaris. She was not friendly and she was not connecting eye contect with me and not giving me smile. She did not asked if I was a member and told me how to join to obtain the discount, which I did. I ordered a ginger ale and a coco mango cocktail."
+    },
+    {
+      "reportOverviewId": 24187,
+      "title": "GAMING",
+      "value": "There were 15 players on arrival and 10 players on departure in the gaming room. There were empty glasses, coffee cups and full ashtrays when I arrived, which were only partly cleaned by the time I was leaving."
+    },
+    {
+      "reportOverviewId": 24188,
+      "title": "RESTROOMS",
+      "value": "The female toilets near the gaming room had papers on top of the bin and in the cubicles upon arrival, yet had been cleaned upon departure."
+    },
+    {
+      "reportOverviewId": 24189,
+      "title": "SECURITY & MANAGEMENT",
+      "value": "I didn’t identify a manager at the hotel. There was no security when I arrived."
+    },
+    {
+      "reportOverviewId": 24190,
+      "title": "BISTRO",
+      "value": "Jeanet was friendly and welcoming and smiled when I approached the counter. The meals were ready in 10 minutes and were hot and tasty."
+    }
+  ],
+  "questions": [
+    {
+      "reportDtlId": 564163,
+      "questionId": 7511,
+      "questionLabel": "Please check Instagram and FB, are the venues promotions current and are any of the promotions in the venue reflected on Instagram and FB?",
+      "qType": "R",
+      "value": "All",
+      "comment": "Same current post on both platforms advertising live music entertainment on 30th August, with accompanying photo of the musicians.",
+      "commentAllowed": true,
+      "score": 100,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564170,
+      "questionId": 11406,
+      "questionLabel": "Were all supplies well stocked, including soap, hand towel and toilet paper?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There was an toilet paper holder in one cubicle downstairs.",
+      "commentAllowed": true,
+      "score": 50,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564175,
+      "questionId": 12683,
+      "questionLabel": "Were there more than 2 cigarette butts in ashtrays?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There were some ashtrays with contents. Some weren’t cleared by the time I left.",
+      "commentAllowed": true,
+      "score": 50,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564188,
+      "questionId": 9458,
+      "questionLabel": "Was the entry to the restaurant/bistro clean and clear of any food mess, coasters on the floor?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There were no papers and no rubbish on the floor throughout the bistro area.",
+      "commentAllowed": true,
+      "score": 80,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564191,
+      "questionId": 9305,
+      "questionLabel": "Was the crockery, cutlery and glassware clean and in good order?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There was insufficient cutlery, and I had to ask for a spoon. Some cutlery containers at the condiments table were empty.",
+      "commentAllowed": true,
+      "score": 50,
+      "maxScore": 100
+    }
+  ]
+
+
+
+
+
+
+
+"sampleData": {
+  "reportOverviewSummary": [
+    {
+      "reportOverviewId": 24184,
+      "title": "BAR",
+      "value": "I was servded by Pdaris. She was not friendly and she was not connecting eye contect with me and not giving me smile. She did not asked if I was a member and told me how to join to obtain the discount, which I did. I ordered a ginger ale and a coco mango cocktail."
+    },
+    {
+      "reportOverviewId": 24187,
+      "title": "GAMING",
+      "value": "There were 15 players on arrival and 10 players on departure in the gaming room. There were empty glasses, coffee cups and full ashtrays when I arrived, which were only partly cleaned by the time I was leaving."
+    },
+    {
+      "reportOverviewId": 24188,
+      "title": "RESTROOMS",
+      "value": "The female toilets near the gaming room had papers on top of the bin and in the cubicles upon arrival, yet had been cleaned upon departure."
+    },
+    {
+      "reportOverviewId": 24189,
+      "title": "SECURITY & MANAGEMENT",
+      "value": "I didn’t identify a manager at the hotel. There was security when I arrived."
+    },
+    {
+      "reportOverviewId": 24190,
+      "title": "BISTRO",
+      "value": "Jeanet was friendly and welcoming and smiled when I approached the counter. The meals were ready in 10 minutes and were hot and tasty."
+    }
+  ],
+  "questions": [
+    {
+      "reportDtlId": 564163,
+      "questionId": 7511,
+      "questionLabel": "Please check Instagram and FB, are the venues promotions current and are any of the promotions in the venue reflected on Instagram and FB?",
+      "qType": "R",
+      "value": "All",
+      "comment": "Same current post on both platforms advertising live music entertainment on 30th August, with accompanying photo of the musicians.",
+      "commentAllowed": true,
+      "score": 100,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564170,
+      "questionId": 11406,
+      "questionLabel": "Were all supplies well stocked, including soap, hand towel and toilet paper?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There was an toilet paper holder in one cubicle downstairs.",
+      "commentAllowed": true,
+      "score": 50,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564175,
+      "questionId": 12683,
+      "questionLabel": "Were there more than 2 cigarette butts in ashtrays?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There were some ashtrays with contents. Some weren’t cleared by the time I left.",
+      "commentAllowed": true,
+      "score": 50,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564188,
+      "questionId": 9458,
+      "questionLabel": "Was the entry to the restaurant/bistro clean and clear of any food mess, coasters on the floor?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There were no papers and no rubbish on the floor throughout the bistro area.",
+      "commentAllowed": true,
+      "score": 80,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564191,
+      "questionId": 9305,
+      "questionLabel": "Was the crockery, cutlery and glassware clean and in good order?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There was insufficient cutlery, and I had to ask for a spoon. Some cutlery containers at the condiments table were empty.",
+      "commentAllowed": true,
+      "score": 50,
+      "maxScore": 100
+    }
+  ]
+
+  }
+}
+  
+
+
+
+
+
+"sampleData": {
+  "reportOverviewSummary": [
+    {
+      "reportOverviewId": 24184,
+      "title": "BAR",
+      "value": "I was servded by Pdaris. She was not friendly and she was not connecting eye contect with me and not giving me smile. She did not asked if I was a member and told me how to join to obtain the discount, which I did. I ordered a ginger ale and a coco mango cocktail."
+    },
+    {
+      "reportOverviewId": 24187,
+      "title": "GAMING",
+      "value": "There were 15 players on arrival and 10 players on departure in the gaming room. There were empty glasses, coffee cups and full ashtrays when I arrived, which were only partly cleaned by the time I was leaving."
+    },
+    {
+      "reportOverviewId": 24188,
+      "title": "RESTROOMS",
+      "value": "The female toilets near the gaming room had papers on top of the bin and in the cubicles upon arrival, yet had been cleaned upon departure."
+    },
+    {
+      "reportOverviewId": 24189,
+      "title": "SECURITY & MANAGEMENT",
+      "value": "I didn’t identify a manager at the hotel. There was security when I arrived."
+    },
+    {
+      "reportOverviewId": 24190,
+      "title": "BISTRO",
+      "value": "Jeanet was friendly and welcoming and smiled when I approached the counter. The meals were ready in 10 minutes and were hot and tasty."
+    }
+  ],
+  "questions": [
+    {
+      "reportDtlId": 564163,
+      "questionId": 7511,
+      "questionLabel": "Please check Instagram and FB, are the venues promotions current and are any of the promotions in the venue reflected on Instagram and FB?",
+      "qType": "R",
+      "value": "All",
+      "comment": "Same current post on both platforms advertising live music entertainment on 30th August, with accompanying photo of the musicians.",
+      "commentAllowed": true,
+      "score": 100,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564170,
+      "questionId": 11406,
+      "questionLabel": "Were all supplies well stocked, including soap, hand towel and toilet paper?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There was an toilet paper holder in one cubicle downstairs.",
+      "commentAllowed": true,
+      "score": 50,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564175,
+      "questionId": 12683,
+      "questionLabel": "Were there more than 2 cigarette butts in ashtrays?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There were some ashtrays with contents. Some weren’t cleared by the time I left.",
+      "commentAllowed": true,
+      "score": 50,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564188,
+      "questionId": 9458,
+      "questionLabel": "Was the entry to the restaurant/bistro clean and clear of any food mess, coasters on the floor?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There were no papers and no rubbish on the floor throughout the bistro area.",
+      "commentAllowed": true,
+      "score": 80,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564191,
+      "questionId": 9305,
+      "questionLabel": "Was the crockery, cutlery and glassware clean and in good order?",
+      "qType": "R",
+      "value": "Other",
+      "comment": "There was insufficient cutlery, and I had to ask for a spoon. Some cutlery containers at the condiments table were empty.",
+      "commentAllowed": true,
+      "score": 50,
+      "maxScore": 100
+    }
+  ]
+
+
+
+
+
+
+"sampleData": {
+
+    "reportOverviewSummary": [
+      {
+        "reportOverviewId": 24132,
+        "title": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+        "value": "The venuhge had street parking available which was only a short distance away from the venue. The walkways leading to the entrance of the premises was free of obstructions, hazards and litter. The venue signage was clear and visible. There were garden beds situated on the exterior of the venue which was maintained with healthy green foliage. I observed adequate liquor and gaming signage displayed throughout the venue. There were no bad odours throughout the location. There was an ATM machine at the location which was operational. There were no issues with patrons during my time at the venue. There was a security presence at the venue. I was greeted by GAM1 upon entering the gaming room."
+      },
+      {
+        "reportOverviewId": 24133,
+        "title": "GAMING",
+        "value": "I was greeted by GAM1 upon entering the gaming room. Upon entry, I observed 5 patrons playing machines. Immediately GAM1 offered me a complimentary beverage and I requested a cappuccino with two sugars and water. Within three minutes of my request, GAM1 delivered the beverages to me on a tray alongside complimentary snacks which consisted of lollies, chips and pretzels. The cappuccino was served in a takeaway cup and the water was served in a sealed bottle. I was offered hot food, being chicken bites. The hot food was served in a small paper cup with a wooden pick. Throughout my stay, I was re-offered additional complimentary beverages and snacks by GAM1. I observed snacks available at the gaming bar which consisted of pretzels, crisps and lollies. I observed GAM1 to be actively working in the gaming room by cleaning empty glasses, pushing unused chairs in and wiping down machines. The temperature in the gaming room was optimal, there were no bad odours and no litter on the floor. There was one machine out of order. I did not observe a machine reserved for an extended period. I played three different machines at the venue, all which were noted to be in working condition with no issues to note. The gaming room felt safe and the patrons were friendly. GAM1 provided fantastic customer service. There were 2 patrons playing machines upon departure."
+      },
+      {
+        "reportOverviewId": 24134,
+        "title": "MANAGEMENT",
+        "value": "I did not see a manager present during my time at the venue."
+      },
+      {
+        "reportOverviewId": 24135,
+        "title": "RESTROOMS",
+        "value": "I attended the female restrooms at the location. There was a sign on the door which stated that the lock was broken. The restroom was stocked with adequate toilet paper. There was no excess water or paper on the floor or around the basins. The soap dispensers were full, the restrooms were odour free and the mirrors were streak-free. The hand dryers were in working condition. Prior to leaving the venue, I re-checked the restrooms and it remained in the same exceptional condition."
+      },
+      {
+        "reportOverviewId": 24136,
+        "title": "SECURITY",
+        "value": "There was one security guard working during my time at the venue. When I attended the venue, the security guard was not present. I observed the security guard to conduct regular walk throughs of the gaming room. The presence of the security guards made the venue feel safe."
+      }
+    ],
+    "questions": [
+      {
+        "reportDtlId": 554435,
+        "questionId": 974,
+        "questionLabel": "Are the staff well presented and in correct uniform, red or black shirt in the gaming room, black pants?",
+        "qType": "T",
+        "value": "GAM1 was wearing the correct uniform in the gaming room.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 554436,
+        "questionId": 13805,
+        "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes? Describe who welcomed/assisted you.",
+        "qType": "R",
+        "value": "I was greeted upon entry into the gaming room and offered a drink at this time",
+        "comment": "I was greeted upon entry by GAM1 and at this time I was offered a complimentary beverage which I accepted.",
+        "commentAllowed": true,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 554437,
+        "questionId": 6666,
+        "questionLabel": "Is the staff member smiling and presenting themselves as being approachable and friendly? Describe the staff member.",
+        "qType": "T",
+        "value": "GAM1 was approachable, friendly, respectful and courteous.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      }
+    ]
+
+
+
+
+
+"sampleData": {
+
+    "reportOverviewSummary": [
+      {
+        "reportOverviewId": 24132,
+        "title": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+        "value": "The venuhge had street parking available which was only a short distance away from the venue. The venuhge had street parking available which was only a short distance away from the venue. The venuhge had street parking available which was only a short distance away from the venue. The walkways leading to the entrance of the premises was free of obstructions, hazards and litter. The venue signage was clear and visible. There were garden beds situated on the exterior of the venue which was maintained with healthy green foliage. I observed adequate liquor and gaming signage displayed throughout the venue. There were no bad odours throughout the location. There was an ATM machine at the location which was operational. There were no issues with patrons during my time at the venue. There was a security presence at the venue. I was greeted by GAM1 upon entering the gaming room."
+      },
+      {
+        "reportOverviewId": 24133,
+        "title": "GAMING",
+        "value": "I was greeted by GAM1 upon entering the gaming room. Upon entry, I observed 5 patrons playing machines. Immediately GAM1 offered me a complimentary beverage and I requested a cappuccino with two sugars and water. Within three minutes of my request, GAM1 delivered the beverages to me on a tray alongside complimentary snacks which consisted of lollies, chips and pretzels. The cappuccino was served in a takeaway cup and the water was served in a sealed bottle. I was offered hot food, being chicken bites. The hot food was served in a small paper cup with a wooden pick. Throughout my stay, I was re-offered additional complimentary beverages and snacks by GAM1. I observed snacks available at the gaming bar which consisted of pretzels, crisps and lollies. I observed GAM1 to be actively working in the gaming room by cleaning empty glasses, pushing unused chairs in and wiping down machines. The temperature in the gaming room was optimal, there were no bad odours and no litter on the floor. There was one machine out of order. I did not observe a machine reserved for an extended period. I played three different machines at the venue, all which were noted to be in working condition with no issues to note. The gaming room felt safe and the patrons were friendly. GAM1 provided fantastic customer service. There were 2 patrons playing machines upon departure."
+      },
+      {
+        "reportOverviewId": 24134,
+        "title": "MANAGEMENT",
+        "value": "I did not see a manager present during my time at the venue."
+      },
+      {
+        "reportOverviewId": 24135,
+        "title": "RESTROOMS",
+        "value": "I attended the female restrooms at the location. There was a sign on the door which stated that the lock was broken. The restroom was stocked with adequate toilet paper. There was no excess water or paper on the floor or around the basins. The soap dispensers were full, the restrooms were odour free and the mirrors were streak-free. The hand dryers were in working condition. Prior to leaving the venue, I re-checked the restrooms and it remained in the same exceptional condition."
+      },
+      {
+        "reportOverviewId": 24136,
+        "title": "SECURITY",
+        "value": "There was one security guard working during my time at the venue. When I attended the venue, the security guard was not present. I observed the security guard to conduct regular walk throughs of the gaming room. The presence of the security guards made the venue feel safe."
+      }
+    ],
+    "questions": [
+      {
+        "reportDtlId": 554435,
+        "questionId": 974,
+        "questionLabel": "Are the staff well presented and in correct uniform, red or black shirt in the gaming room, black pants?",
+        "qType": "T",
+        "value": "GAM1 was wearing the correct uniform in the gaming room.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 554436,
+        "questionId": 13805,
+        "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes? Describe who welcomed/assisted you.",
+        "qType": "R",
+        "value": "I was greeted upon entry into the gaming room and offered a drink at this time",
+        "comment": "I was greeted upon entry by GAM1 and at this time I was offered a complimentary beverage which I accepted.",
+        "commentAllowed": true,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 554437,
+        "questionId": 6666,
+        "questionLabel": "Is the staff member smiling and presenting themselves as being approachable and friendly? Describe the staff member.",
+        "qType": "T",
+        "value": "GAM1 was approachable, friendly, respectful and courteous.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      }
+    ]
+
+
+
+
+
+
+"sampleData": {
+
+    "reportOverviewSummary": [
+      {
+        "reportOverviewId": 24132,
+        "title": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+        "value": "The venuhge had street parking available which was only a short distance away from the venue. The venuhge had street parking available which was only a short distance away from the venue. The venuhge had street parking available which was only a short distance away from the venue. The walkways leading to the entrance of the premises was free of obstructions, hazards and litter. The venue signage was clear and visible. There were garden beds situated on the exterior of the venue which was maintained with healthy green foliage. I observed adequate liquor and gaming signage displayed throughout the venue. There were no bad odours throughout the location. There was an ATM machine at the location which was operational. There were no issues with patrons during my time at the venue. There was a security presence at the venue. I was greeted by GAM1 upon entering the gaming room."
+      },
+      {
+        "reportOverviewId": 24133,
+        "title": "GAMING",
+        "value": "I am greeted by GAM1 upon entering the gaming room. Upon entry, I observed 5 patrons playing machines. Immediately GAM1 offered me a complimentary beverage and I requested a cappuccino with two sugars and water. Within three minutes of my request, GAM1 delivered the beverages to me on a tray alongside complimentary snacks which consisted of lollies, chips and pretzels. The cappuccino was served in a takeaway cup and the water was served in a sealed bottle. I am offered hot food, being chicken bites. The hot food was served in a small paper cup with a wooden pick. Throughout my stay, I was re-offered additional complimentary beverages and snacks by GAM1. I were observed snacks available at the gaming bar which consisted of pretzels, crisps and lollies. I observed GAM1 to be actively working in the gaming room by cleaning empty glasses, pushing unused chairs in and wiping down machines. The temperature in the gaming room was optimal, there were no bad odours and no litter on the floor. There was one machine out of order. I did not observe a machine reserved for an extended period. I played three different machines at the venue, all which were noted to be in working condition with no issues to note. The gaming room felt safe and the patrons were friendly. GAM1 provided fantastic customer service. There were 2 patrons playing machines upon departure."
+      },
+      {
+        "reportOverviewId": 24134,
+        "title": "MANAGEMENT",
+        "value": "I did not see a manager present during my time at the venue."
+      },
+      {
+        "reportOverviewId": 24135,
+        "title": "RESTROOMS",
+        "value": "I attended the female restrooms at the location. There was a sign on the door which stated that the lock was broken. The restroom was stocked with adequate toilet paper. There was no excess water or paper on the floor or around the basins. The soap dispensers were full, the restrooms were odour free and the mirrors were streak-free. The hand dryers were in working condition. Prior to leaving the venue, I re-checked the restrooms and it remained in the same exceptional condition."
+      },
+      {
+        "reportOverviewId": 24136,
+        "title": "SECURITY",
+        "value": "There was one security guard working during my time at the venue. When I attended the venue, the security guard was not present. I observed the security guard to conduct regular walk throughs of the gaming room. The presence of the security guards made the venue feel safe."
+      }
+    ],
+    "questions": [
+      {
+        "reportDtlId": 554435,
+        "questionId": 974,
+        "questionLabel": "Are the staff well presented and in correct uniform, red or black shirt in the gaming room, black pants?",
+        "qType": "T",
+        "value": "GAM1 was wearing the correct uniform in the gaming room.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 554436,
+        "questionId": 13805,
+        "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes? Describe who welcomed/assisted you.",
+        "qType": "R",
+        "value": "I was greeted upon entry into the gaming room and offered a drink at this time",
+        "comment": "I was greeted upon entry by GAM1 and at this time I was offered a complimentary beverage which I accepted.",
+        "commentAllowed": true,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 554437,
+        "questionId": 6666,
+        "questionLabel": "Is the staff member smiling and presenting themselves as being approachable and friendly? Describe the staff member.",
+        "qType": "T",
+        "value": "GAM1 was approachable, friendly, respectful and courteous.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      }
+    ]
+
+
+
+
+
+
+
+"sampleData": {
+
+    "reportOverviewSummary": [
+      {
+        "reportOverviewId": 24132,
+        "title": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+        "value": "The venuhge had street de2d3ewf1dc parking available which was only a short distance away from the venue. The walkways leading to the entrance of the premises was free of obstructions, hazards and litter. The venue signage was clear and visible. There were garden beds situated on the exterior of the venue which was maintained with healthy green foliage. I observed adequate liquor and gaming signage displayed throughout the venue. There were no bad odours throughout the location. There was an ATM machine at the location which was operational. There were no issues with patrons during my time at the venue. There was a security presence at the venue. I was greeted by GAM1 upon entering the gaming room."
+      },
+      {
+        "reportOverviewId": 24133,
+        "title": "GAMING",
+        "value": "I am greeted by GAM1 upon entering the gaming room. Upon entry, I observed 5 patrons playing machines. Immediately GAM1 offered me a complimentary beverage and I requested a cappuccino with two sugars and water. Within three minutes of my request, GAM1 delivered the beverages to me on a tray alongside complimentary snacks which consisted of lollies, chips and pretzels. The cappuccino was served in a takeaway cup and the water was served in a sealed bottle. I am offered hot food, being chicken bites. The hot food was served in a small paper cup with a wooden pick. Throughout my stay, I was re-offered additional complimentary beverages and snacks by GAM1. I were observed snacks available at the gaming bar which consisted of pretzels, crisps and lollies. I observed GAM1 to be actively working in the gaming room by cleaning empty glasses, pushing unused chairs in and wiping down machines. The temperature in the gaming room was optimal, there were no bad odours and no litter on the floor. There was one machine out of order. I did not observe a machine reserved for an extended period. I played three different machines at the venue, all which were noted to be in working condition with no issues to note. The gaming room felt safe and the patrons were friendly. GAM1 provided fantastic customer service. There were 2 patrons playing machines upon departure."
+      },
+      {
+        "reportOverviewId": 24134,
+        "title": "MANAGEMENT",
+        "value": "I did not see a manager present during my time at the venue."
+      },
+      {
+        "reportOverviewId": 24135,
+        "title": "RESTROOMS",
+        "value": "I attended the female restrooms at the location. There was a sign on the door which stated that the lock was broken. The restroom was stocked with adequate toilet paper. There was no excess water or paper on the floor or around the basins. The soap dispensers were full, the restrooms were odour free and the mirrors were streak-free. The hand dryers were in working condition. Prior to leaving the venue, I re-checked the restrooms and it remained in the same exceptional condition."
+      },
+      {
+        "reportOverviewId": 24136,
+        "title": "SECURITY",
+        "value": "There was one security guard working during my time at the venue. When I attended the venue, the security guard was not present. I observed the security guard to conduct regular walk throughs of the gaming room. The presence of the security guards made the venue feel safe."
+      }
+    ],
+    "questions": [
+      {
+        "reportDtlId": 554435,
+        "questionId": 974,
+        "questionLabel": "Are the staff well presented and in correct uniform, red or black shirt in the gaming room, black pants?",
+        "qType": "T",
+        "value": "GAM1 is wearing the correct uniform in the gaming room.",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 554436,
+        "questionId": 13805,
+        "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes? Describe who welcomed/assisted you.",
+        "qType": "R",
+        "value": "I was greeted upon entry into the gaming room and offered a drink at this time",
+        "comment": "I was greeted upon entry by GAM1 and at this time I was offered a complimentary beverage which I accepted.",
+        "commentAllowed": true,
+        "score": 20,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 554437,
+        "questionId": 6666,
+        "questionLabel": "Is the staff member smiling and presenting themselves as being approachable and friendly? Describe the staff member.",
+        "qType": "T",
+        "value": "GAM1 was approachable, friendly, respectful and courteous.",
+        "commentAllowed": false,
+        "score": 70,
+        "maxScore": 100
+      }
+    ]
+  }
+}
+  
+
+
