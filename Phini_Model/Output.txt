@@ -373,3 +373,42 @@
         }
     ]
 }
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": null,
+            "questionId": "974",
+            "score": "100",
+            "maxScore": "100",
+            "issue": "Text inconsistency: Question expects staff to be in black uniform but report Overview indicates a red shirt was worn.",
+            "description": ""
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": "13805",
+            "score": "20",
+            "maxScore": "100",
+            "issue": "Text inconsistency: Question expects greeting and assistance within first 5 minutes but report Overview indicates arrival time was not specified.",
+            "description": ""
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": "6666",
+            "score": "70",
+            "maxScore": "100",
+            "issue": "",
+            "description": ""
+        }
+    ]
+}
