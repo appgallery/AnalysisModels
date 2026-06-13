@@ -161,3 +161,64 @@
         "summaryIssues": []
     }
 }
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "overallReportScore": 7.5,
+        "clientValueScore": 7,
+        "evidenceQualityScore": 7,
+        "photoAlignmentScore": 8,
+        "strengths": [
+            "Clear description of service interaction including escalation to pharmacist",
+            "Good detail on product recommendation (Gastro Stop and Hydralyte)",
+            "Loyalty interaction documented with partial compliance noted",
+            "Exterior photos support claims of clean, branded, and informative storefront",
+            "Receipt image provided as proof of purchase",
+            "Staff presentation and badge compliance issues identified"
+        ],
+        "weaknesses": [
+            "Some comments are generic (e.g. \"clean and tidy\", \"inviting\") without specific supporting detail",
+            "No strong time-based detail beyond \"within 3 minutes\" for service flow",
+            "Interior observations lack depth and are not supported by photos",
+            "Statement \"store was very busy\" is not evidenced or elaborated",
+            "Greeting comment contradicts itself (delay vs immediate acknowledgment)",
+            "Limited linkage between some scores and detailed justification"
+        ],
+        "contradictions": [
+            "Greeting described as \"waited a few minutes\" but also \"acknowledged immediately\"",
+            "Question 1480 marked \"Yes\" for receipt but scored 0 despite receipt image provided"
+        ],
+        "recommendedAction": "APPROVE_WITH_MINOR_AMENDMENTS",
+        "explanation": "The report is generally clear, structured, and supported by relevant evidence (including photos and receipt). However, there are minor inconsistencies in scoring and wording, particularly around greeting timing and the receipt question. Some comments are also too generic to provide strong client insight. These issues can be corrected without returning to the shopper.",
+        "questionIssues": [
+            {
+                "reportDtlId": 182870,
+                "questionId": 13127,
+                "questionLabel": "Were you greeted upon arrival into the store? <br> a.  Yes – How long did it take? Name/describe who greeted you. Please comment. <br> b.  No – Did you walk past team members? Name/Describe. Please comment",
+                "issue": "Contradictory comment",
+                "description": "States both a delay and immediate acknowledgment, creating inconsistency."
+            },
+            {
+                "reportDtlId": 182882,
+                "questionId": 1480,
+                "questionLabel": "At the register, were you given a receipt?",
+                "issue": "Score does not match answer",
+                "description": "Marked \"Yes\" but scored 0 despite receipt evidence provided."
+            }
+        ],
+        "summaryIssues": [
+            {
+                "reportOverviewId": 6777,
+                "title": "Exterior",
+                "issue": "Unsubstantiated claim",
+                "description": "States the store was \"very busy\" without supporting detail or evidence."
+            }
+        ]
+    }
+}
