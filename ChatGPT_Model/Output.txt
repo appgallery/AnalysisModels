@@ -327,3 +327,56 @@
         "summaryIssues": []
     }
 }
+
+
+
+
+
+
+{"success":true,"data":"
+<div class=\"qc-review\">
+    <p>Summary QC review — Food Bar & Gaming (Blooms the Chemist)</p>
+    <p>Quick scores (out of 10)</p>
+    <ul>
+        <li>Overall report quality: 7/10</li>
+        <li>Client value: 7/10</li>
+        <li>Evidence quality: 6/10</li>
+        <li>Photo alignment: 7/10</li>
+    </ul>
+    <h3>Strengths</h3>
+    <ul>
+        <li>Receipt image is clear and timestamped; it directly supports the purchase, transaction time and items (BTC diarrhoea product + Hydralyte). This substantiates the pharmacist recommendation and the companion‑product score.</li>
+        <li>External/storefront photos clearly show health‑check signage and attractive window displays — supports the statements in the Exterior/Interior overview and questions about health checks and front appearance.</li>
+        <li>Shopper provided a clear, actionable description of the service interaction: who approached (TM1), pharmacist involvement, specific questions asked (age) and the exact advice/recommendation given (Gastro Stop and Hydralyte).</li>
+        <li>Scores are generally consistent with the written comments (clean/inviting exterior, staff helpful, product in stock, companion product offered).</li>
+    </ul>
+    <h3>Weaknesses / Issues to address</h3>
+    <ul>
+        <li>Missing photo evidence for staff presentation elements: there are no images of team members, name badges or the pharmacist. Questions about badges and pharmacist white coat (both scored negative) are unsupported by staff photos.</li>
+        <li>Interior claims (aisles accessible, interior displays, “lots of cold and flu items on display at end of aisles”) are not supported by interior aisle photos — available photos are mainly exterior/window shots and one storefront interior view through the window. Evidence for aisle accessibility and in‑store displays is weak.</li>
+        <li>Some comments are generic (e.g., \"clean and tidy\") without supporting detail or photo evidence of the areas referenced.</li>
+        <li>Minor inconsistency in greeting wording between overview and question comment (overview: \"waited for a few minutes before TM1 approached\"; question: \"As soon as staff were free, I was acknowledged immediately\") — not critical but worth clarifying.</li>
+    </ul>
+    <h3>Contradictions / Required corrections</h3>
+    <ul>
+        <li>QuestionId 1480 (At the register, were you given a receipt?) — value = \"Yes\" but score = 0/1. The receipt photo proves a receipt was issued and the answer should be scored 1/1. This is a clear scoring/data entry contradiction that needs correction.</li>
+        <li>No photo evidence provided for \"no badges\" or \"pharmacist not wearing white coat\" statements. Not a scoring contradiction but lack of evidence for negative compliance items may need verification or supporting photos/comments.</li>
+    </ul>
+    <h3>Recommended action</h3>
+    <ul>
+        <li>APPROVE WITH MINOR AMENDMENTS</li>
+    </ul>
+    <p>Required minor amendments (clear next steps for the shopper/editor)</p>
+    <p>1. Correct the score for QuestionId 1480 (receipt) to 1/1 to match the \"Yes\" value and supplied receipt photo.</p>
+    <p>2. Add a short clarifying comment where needed:</p>
+    <ul>
+        <li>For the badge/pharmacist coat items, either (a) attach a staff photo showing the absence/presence of name badges and the pharmacist coat or (b) add a sentence explaining why a photo could not be taken (privacy / store policy) and confirm how the observation was made (e.g., looked at counter/name badge position). This will reduce risk of a challenge from the client.</li>
+        <li>Clarify the greeting timing in one sentence so overview + question comments match (e.g., \"I waited ~2–3 minutes; TM1 then approached and acknowledged me immediately when free\").</li>
+    </ul>
+    <p>3. If possible, add one interior photo showing an aisle (to support \"aisles accessible\" and \"end-of-aisle displays\") or a photo of the display the shopper mentioned (cold & flu items), otherwise state explicitly that no interior photos were taken and why.</p>
+    <p>Short explanation for action selection</p>
+    <ul>
+        <li>The report is well-documented in key areas (transaction, product recommendation, exterior signage) and provides useful client insight. The only critical data error is the receipt score mismatch and there is missing photographic evidence for staff badge/white coat and aisle claims. Those are rectifiable by a small data correction and either adding a couple of photos or clarifying comments — not a full return to shopper. Once those minor amendments are made the report is client‑ready.</li>
+    </ul>
+    <p>If you want, I can propose exact wording for the clarifying sentences or draft the corrected score line for Q1480 to paste into the system.</p>
+</div>"}
