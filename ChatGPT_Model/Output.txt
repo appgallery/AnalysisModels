@@ -63,3 +63,55 @@
         ]
     }
 }
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "overallReportScore": 7.5,
+        "clientValueScore": 7,
+        "evidenceQualityScore": 6.5,
+        "photoAlignmentScore": 7.5,
+        "strengths": [
+            "Clear service journey described with specific interaction details between TM1 and pharmacist",
+            "Good example of clinical questioning and appropriate recommendation (Gastro Stop and Hydralyte)",
+            "Balanced feedback including both positive (service, cleanliness) and negative (badges, loyalty explanation)",
+            "Photos support a clean, well-presented and branded exterior",
+            "Loyalty interaction accurately captured including missed opportunity to explain benefits"
+        ],
+        "weaknesses": [
+            "Some summary comments are generic and not strongly evidence-based (e.g. 'inviting', 'well thought out')",
+            "Exterior summary references products (cough/cold mixtures, wheat bags) not visible in provided photos",
+            "Limited observational detail about staff appearance and environment beyond general statements",
+            "No strong time-based detail beyond 'within 3 minutes'",
+            "Lack of depth in payment interaction (no detail on farewell wording or engagement)"
+        ],
+        "contradictions": [
+            "Receipt question marked 'Yes' but scored 0, which contradicts the response"
+        ],
+        "recommendedAction": "APPROVE_WITH_MINOR_AMENDMENTS",
+        "explanation": "The report is generally clear, structured, and provides useful service insights, particularly around the pharmacist interaction. However, there is a scoring inconsistency regarding the receipt, and some comments are generic or not fully supported by photo evidence. Minor corrections are required before client submission.",
+        "questionIssues": [
+            {
+                "reportDtlId": 182882,
+                "questionId": 1480,
+                "questionLabel": "At the register, were you given a receipt?",
+                "issue": "Score does not match response",
+                "description": "Question marked 'Yes' but scored 0, which is inconsistent."
+            }
+        ],
+        "summaryIssues": [
+            {
+                "reportOverviewId": 6777,
+                "title": "Exterior",
+                "issue": "Unsupported detail",
+                "description": "Mentions specific products on display that are not visible in supporting photos."
+            }
+        ]
+    }
+}
