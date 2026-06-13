@@ -222,3 +222,63 @@
         ]
     }
 }
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "overallReportScore": 7.5,
+        "clientValueScore": 7,
+        "evidenceQualityScore": 7,
+        "photoAlignmentScore": 8,
+        "strengths": [
+            "Clear description of service interaction including escalation to pharmacist",
+            "Good detail on product recommendation (Gastro Stop and Hydralyte)",
+            "Loyalty program interaction captured with partial compliance noted",
+            "Exterior photos support clean, branded, and well-maintained appearance",
+            "Balanced scoring with some missed standards (badges, pharmacist coat, loyalty explanation) identified"
+        ],
+        "weaknesses": [
+            "Some summary content is generic and not strongly evidence-based (e.g. “inviting”, “tempting”)",
+            "Exterior summary mentions specific products (cough/cold, wheat bags) not visible in provided photos",
+            "Greeting comment contains conflicting wording about timing and immediacy",
+            "Lack of detail in some responses (e.g. politeness, listening) reduces client insight",
+            "No photographic evidence tied to specific questions"
+        ],
+        "contradictions": [
+            "Receipt question marked 'Yes' but scored 0/1",
+            "Greeting described as 'within 3 mins' but also 'acknowledged immediately'"
+        ],
+        "recommendedAction": "APPROVE_WITH_MINOR_AMENDMENTS",
+        "explanation": "The report is generally solid with clear service interaction and supporting photos for exterior presentation. However, there are minor inconsistencies (notably scoring vs answer for receipt and greeting timing) and some vague or unsupported summary statements. These require light editorial correction but do not undermine overall usability.",
+        "questionIssues": [
+            {
+                "reportDtlId": 182882,
+                "questionId": 1480,
+                "questionLabel": "At the register, were you given a receipt?",
+                "issue": "Score does not match response",
+                "description": "Question marked 'Yes' but scored 0/1."
+            },
+            {
+                "reportDtlId": 182870,
+                "questionId": 13127,
+                "questionLabel": "Were you greeted upon arrival into the store?",
+                "issue": "Inconsistent comment",
+                "description": "States 'within 3 mins' and 'immediately', which conflict."
+            }
+        ],
+        "summaryIssues": [
+            {
+                "reportOverviewId": 6777,
+                "title": "Exterior",
+                "issue": "Unsupported detail",
+                "description": "Mentions specific product displays not visible in provided images."
+            }
+        ]
+    }
+}
