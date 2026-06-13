@@ -1,0 +1,330 @@
+reviewPayload {
+  reportOverviewSummary: [
+    {
+      reportOverviewId: 6777,
+      title: 'Exterior',
+      value: 'The store looked very inviting with cough and cold mixtures and animal wheat bags on display. The windows were clean and tidy, and the decals looked fresh and were informative. There was clear access to the store, which was very busy.'
+    },
+    {
+      reportOverviewId: 6778,
+      title: 'Interior',
+      value: 'The interior was clean and tidy, and all aisles were very accessible. There were a lot of cold and flu items on display at the end of the aisles. I did not notice Make-A-Wish or Gidget Foundation on any of the counters. It was clear from the display on the windows that the store offered health checks. The displays looked inviting and tempting, and were well set out.'
+    },
+    {
+      reportOverviewId: 6779,
+      title: 'Payment & Farewell',
+      value: `TM2, who served me at the register, had a badge to say she was in training. She asked me if I was a Bloom's member. I stated that I wasn't, and she asked me if I would like to join. I was not told of any benefits. TM2 was polite and asked me if I would like a bag. I could not see her name as it was under the "I'm in training" badge.`
+    },
+    {
+      reportOverviewId: 6780,
+      title: 'Service & Recommendations',
+      value: 'I entered the store and waited for a few minutes before TM1 approached me and asked if I needed support. The team member was wearing a uniform, but no badge was noted. TM1 asked me what I would like. I informed the team member that my son had diarrhea. She asked how old he was, and I explained that he was 36 and had autism. TM1 approached the pharmacist, who advised us to take two Gastro Stop ASAP and suggested purchasing Hydralyte to prevent dehydration. The pharmacist was also not displaying a badge.'
+    }
+  ],
+  questions: [
+    {
+      reportDtlId: 182852,
+      questionId: 6334,
+      questionLabel: 'Is the front appearance of the store appealing? Is it clean and well-lit with easy and safe access? Is it inviting? Does it have fully-stocked bins or displays that have clearly visible price tickets?',
+      qType: 'R',
+      value: 'Clean and Clear',
+      comment: 'The front of the store was very appealing and the display was well thought out.',
+      commentAllowed: true,
+      score: 3,
+      maxScore: 3,
+      images: []
+    },
+    {
+      reportDtlId: 182854,
+      questionId: 1208,
+      questionLabel: 'As you walk into the store, do you find it inviting?',
+      qType: 'R',
+      value: 'Yes',
+      commentAllowed: false,
+      score: 2,
+      maxScore: 2,
+      images: []
+    },
+    {
+      reportDtlId: 182855,
+      questionId: 6986,
+      questionLabel: 'Looking around the store aisles, do you find this store easily accessible? Is it free from  boxes and clutter?',
+      qType: 'R',
+      value: 'Yes',
+      commentAllowed: false,
+      score: 3,
+      maxScore: 3,
+      images: []
+    },
+    {
+      reportDtlId: 182856,
+      questionId: 10060,
+      questionLabel: 'Was the pricing/ticketing clear and easy to read on shelf labels and shelf talkers?',
+      qType: 'R',
+      value: 'Yes',
+      commentAllowed: false,
+      score: 3,
+      maxScore: 3,
+      images: []
+    },
+    {
+      reportDtlId: 182857,
+      questionId: 820,
+      questionLabel: 'Are the displays on the end of each aisle full and are they easy to shop?',
+      qType: 'R',
+      value: 'High – no gaps',
+      commentAllowed: false,
+      score: 3,
+      maxScore: 3,
+      images: []
+    },
+    {
+      reportDtlId: 182859,
+      questionId: 1606,
+      questionLabel: 'Can you see that the pharmacy offers health checks?',
+      qType: 'R',
+      value: 'Yes',
+      commentAllowed: false,
+      score: 3,
+      maxScore: 3,
+      images: []
+    },
+    {
+      reportDtlId: 182861,
+      questionId: 10373,
+      questionLabel: 'Was the store easy to navigate to be able to find the product you were looking for today?',
+      qType: 'R',
+      value: 'Yes',
+      comment: 'The store was divided into individual sections making it very easy to find various products. ',
+      commentAllowed: true,
+      score: 1,
+      maxScore: 1,
+      images: []
+    },
+    {
+      reportDtlId: 182862,
+      questionId: 14225,
+      questionLabel: "What was the store's stock level like? Did the store feel full?",
+      qType: 'R',
+      value: 'High – no gaps',
+      commentAllowed: false,
+      score: 2,
+      maxScore: 2,
+      images: []
+    },
+    {
+      reportDtlId: 182863,
+      questionId: 10066,
+      questionLabel: 'Was the product you were looking for today in-stock and available for you to purchase? If No, did a team member or the Pharmacist find a solution for an alternative product?',
+      qType: 'R',
+      value: 'Yes',
+      commentAllowed: false,
+      score: 2,
+      maxScore: 2,
+      images: []
+    },
+    {
+      reportDtlId: 182864,
+      questionId: 3440,
+      questionLabel: 'Did you feel you had variety of choice of product/s available to you?',
+      qType: 'R',
+      value: 'Yes',
+      comment: 'I was offered the pharmacy brand but there were various other brands available to purchase. ',
+      commentAllowed: true,
+      score: 1,
+      maxScore: 1,
+      images: []
+    },
+    {
+      reportDtlId: 182865,
+      questionId: 13462,
+      questionLabel: 'Were you offered any companion products to complement your choice of product in store? This could also include a better value/increased size of product.',
+      qType: 'R',
+      value: 'Yes',
+      comment: 'The pharmacist recommended Hydralyte to prevent dehydration. ',
+      commentAllowed: true,
+      score: 4,
+      maxScore: 4,
+      images: []
+    },
+    {
+      reportDtlId: 182866,
+      questionId: 4185,
+      questionLabel: 'Do you feel you received value for money when shopping in our store today?',
+      qType: 'R',
+      value: 'Valued',
+      commentAllowed: false,
+      score: 2,
+      maxScore: 2,
+      images: []
+    },
+    {
+      reportDtlId: 182867,
+      questionId: 12906,
+      questionLabel: 'Were you asked if you are a My Health Rewards loyalty customer whilst in the store? <br>  a.   Yes, Name/describe the team member who asked. Please comment. <br>  b.  No, Were you advised of the benefits of the My Health Rewards program, and invited to sign up? Name/describe the team member. Please comment.',
+      qType: 'R',
+      value: 'Yes I was offered',
+      comment: 'I was asked and stated no, I was not a member. I was offered a membership, but no benefits were explained to me. I politely declined the membership. ',
+      commentAllowed: true,
+      score: 1.5,
+      maxScore: 3,
+      images: []
+    },
+    {
+      reportDtlId: 182870,
+      questionId: 13127,
+      questionLabel: 'Were you greeted upon arrival into the store? <br> a.  Yes – How long did it take? Name/describe who greeted you. Please comment. <br> b.  No – Did you walk past team members? Name/Describe. Please comment',
+      qType: 'R',
+      value: 'Acknowledged within 3 mins',
+      comment: 'As soon as the staff were free, I was acknowledged immediately. ',
+      commentAllowed: true,
+      score: 2,
+      maxScore: 2,
+      images: []
+    },
+    {
+      reportDtlId: 182871,
+      questionId: 1053,
+      questionLabel: 'Are the team members well-presented and well groomed?',
+      qType: 'R',
+      value: 'Yes',
+      commentAllowed: false,
+      score: 1,
+      maxScore: 1,
+      images: []
+    },
+    {
+      reportDtlId: 182872,
+      questionId: 11452,
+      questionLabel: 'Were all team members wearing uniforms AND name badges?',
+      qType: 'R',
+      value: 'No',
+      comment: 'Not all staff were wearing badges eg TM1.',
+      commentAllowed: true,
+      score: 0,
+      maxScore: 1,
+      images: []
+    },
+    {
+      reportDtlId: 182873,
+      questionId: 6477,
+      questionLabel: 'Is the pharmacist wearing a white coat?',
+      qType: 'R',
+      value: 'No',
+      commentAllowed: false,
+      score: 0,
+      maxScore: 1,
+      images: []
+    },
+    {
+      reportDtlId: 182874,
+      questionId: 1198,
+      questionLabel: 'As you browsed the store were you approached by a team member to assist you with your shopping needs?',
+      qType: 'R',
+      value: 'Yes',
+      comment: 'I was approached TM1 within three minutes ',
+      commentAllowed: true,
+      score: 2,
+      maxScore: 2,
+      images: []
+    },
+    {
+      reportDtlId: 182875,
+      questionId: 11447,
+      questionLabel: 'Were all team members polite and friendly whilst you were in the store? Yes/No. Please comment, listing team member names/descriptions if possible.',
+      qType: 'R',
+      value: 'Yes',
+      comment: 'TM1 and PHARM1 were very supportive and knowledgeable. ',
+      commentAllowed: true,
+      score: 2,
+      maxScore: 2,
+      images: []
+    },
+    {
+      reportDtlId: 182876,
+      questionId: 3008,
+      questionLabel: 'Did the team member ask appropriate questions to understand what you were looking for today?',
+      qType: 'R',
+      value: 'Yes',
+      comment: 'TM1 asked how old my son was before suggesting the medication. She then clarified with the pharmacist that the medication was suitable.',
+      commentAllowed: true,
+      score: 2,
+      maxScore: 2,
+      images: []
+    },
+    {
+      reportDtlId: 182877,
+      questionId: 4365,
+      questionLabel: 'During the conversation did you feel listened to?',
+      qType: 'R',
+      value: 'Yes',
+      commentAllowed: false,
+      score: 2,
+      maxScore: 2,
+      images: []
+    },
+    {
+      reportDtlId: 182878,
+      questionId: 3093,
+      questionLabel: 'Did the team member give you information and advice about the products you were being offered today?',
+      qType: 'R',
+      value: 'Yes',
+      commentAllowed: false,
+      score: 2,
+      maxScore: 2,
+      images: []
+    },
+    {
+      reportDtlId: 182879,
+      questionId: 3126,
+      questionLabel: 'Did the team member offer services or advice that could be of help to your original enquiry?',
+      qType: 'R',
+      value: 'Yes I was offered advice',
+      comment: 'The pharmacist advised on how the medication should be administered',
+      commentAllowed: true,
+      score: 2,
+      maxScore: 2,
+      images: []
+    },
+    {
+      reportDtlId: 182881,
+      questionId: 1477,
+      questionLabel: 'At the register, was your transaction processed accurately and efficiently?',
+      qType: 'R',
+      value: 'Yes',
+      commentAllowed: false,
+      score: 1,
+      maxScore: 1,
+      images: []
+    },
+    {
+      reportDtlId: 182882,
+      questionId: 1480,
+      questionLabel: 'At the register, were you given a receipt?',
+      qType: 'R',
+      value: 'Yes',
+      commentAllowed: false,
+      score: 0,
+      maxScore: 1,
+      images: []
+    },
+    {
+      reportDtlId: 182883,
+      questionId: 13672,
+      questionLabel: 'Were you provided with a warm and friendly farewell by the team member on the register?',
+      qType: 'R',
+      value: 'Yes',
+      commentAllowed: false,
+      score: 2,
+      maxScore: 2,
+      images: []
+    }
+  ],
+  reportImages: [
+    'https://mmfiles-production.s3.ap-southeast-2.amazonaws.com/BloomsMM/pics/IMG_0147-2025-08-10_07-08-48-PM.jpeg',
+    'https://mmfiles-production.s3.ap-southeast-2.amazonaws.com/BloomsMM/pics/IMG_0146-2025-08-10_07-08-50-PM.jpeg',
+    'https://mmfiles-production.s3.ap-southeast-2.amazonaws.com/BloomsMM/pics/IMG_0145-2025-08-10_07-08-52-PM.jpeg',
+    'https://mmfiles-production.s3.ap-southeast-2.amazonaws.com/BloomsMM/pics/IMG_0149-2025-08-10_07-08-55-PM.jpeg',
+    'https://mmfiles-production.s3.ap-southeast-2.amazonaws.com/BloomsMM/pics/Image-11-8-2025-at-10-57-am-2025-08-11_10-59-08-AM.jpeg'
+  ]
+}
