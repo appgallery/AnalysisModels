@@ -1,0 +1,65 @@
+{
+    "success": true,
+    "data": {
+        "overallReportScore": 7,
+        "clientValueScore": 7,
+        "evidenceQualityScore": 7,
+        "photoAlignmentScore": 8,
+        "strengths": [
+            "Comprehensive photo set covering exterior, entrance, gaming room, machines and restrooms.",
+            "Most question-level answers include clear, direct responses and appropriate scores.",
+            "Service details (beverage type, delivery method, CRT payout) are recorded and supported with photos (drink image, CRT area).",
+            "Uniform and staff presentation are recorded with matching statement and photos (staff in red shirt visible)."
+        ],
+        "weaknesses": [
+            "ReportOverview (GAMING) contains statements that contradict multiple question-level answers (cleanliness).",
+            "Inconsistent statements about greeting/timing between overview, question text and comment (confusing timeline).",
+            "Some restroom observations in the overview/questions are inconsistent with the restroom photos (paper on floor, ceiling stains).",
+            "Several high scores are given alongside summary statements that say the area was 'not clean' — this reduces reliability of the summary."
+        ],
+        "contradictions": [
+            "Overview states 'The gaming room was not clean, tidy, and not well-maintained' while question-level answers state machines, coin trays and the room were clean and free of rubbish.",
+            "Overview states shopper was 'warmly greeted within five minutes' but the response to the arrival/greet question says 'I was not greeted upon entry' (comment also says approached within 5 minutes).",
+            "Overview/restroom section says restrooms were 'well stocked... clean and tidy' but restroom questions and photos show minor paper on the floor, a not-fresh smell and ceiling/wall staining."
+        ],
+        "recommendedAction": "RETURN_TO_SHOPPER",
+        "explanation": "The report contains useful evidence and good photo coverage, but there are several clear contradictions between the overview text and question-level answers (notably the GAMING cleanliness statement and the arrival/greeting description). Restroom photos also show issues not consistently described. These inconsistencies must be clarified or corrected before the report is client-ready.",
+        "questionIssues": [
+            {
+                "reportDtlId": 794069,
+                "questionId": 13805,
+                "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes? Describe who welcomed/assisted you.",
+                "issue": "Inconsistent response vs comment/overview",
+                "description": "Value text says 'I was not greeted upon entry' while the comment and overview state GAM1 approached within 5 minutes; the timeline and 'greeted' wording are contradictory."
+            },
+            {
+                "reportDtlId": 794097,
+                "questionId": 6123,
+                "questionLabel": "Is the bathroom clean of rubbish or paper on the floor?",
+                "issue": "Claim not fully supported by photos",
+                "description": "Shopper states minor paper on the floor was removed during the visit, but restroom photos show paper on the floor and ceiling/wall staining; evidence does not clearly support the 'removed' claim."
+            },
+            {
+                "reportDtlId": 794073,
+                "questionId": 11730,
+                "questionLabel": "Were staff on the floor and engaging customers the majority of the time and available for assistance? Describe the staff member/s.",
+                "issue": "Partial timeline mismatch",
+                "description": "Question is scored 100 (staff proactive), but other answers state the shopper was not greeted on entry; the shopper should clarify staff presence timeline relative to arrival."
+            }
+        ],
+        "summaryIssues": [
+            {
+                "reportOverviewId": 53533,
+                "title": "GAMING",
+                "issue": "Contradiction between overview and question responses",
+                "description": "Overview states the gaming room 'was not clean, tidy, and not well-maintained' but multiple question-level answers (machines clean, coin trays clean, room free of rubbish) are positive; reconcile or correct the overview."
+            },
+            {
+                "reportOverviewId": 53531,
+                "title": "RESTROOMS",
+                "issue": "Overview vs photo/answers inconsistency",
+                "description": "Overview describes restrooms as 'well stocked... clean and tidy' but restroom question(s) and photos show paper on the floor, a not-fresh smell and visible ceiling/wall stains; summary should reflect these issues or clarify timing."
+            }
+        ]
+    }
+}
