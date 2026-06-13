@@ -380,3 +380,93 @@
     </ul>
     <p>If you want, I can propose exact wording for the clarifying sentences or draft the corrected score line for Q1480 to paste into the system.</p>
 </div>"}
+
+
+
+
+
+
+
+
+{"success":true,"data":"<div class=\"qc-review\">
+    <p>Summary judgement</p>
+    <ul>
+        <li>Recommended action: APPROVE WITH MINOR AMENDMENTS</li>
+        <li>Short reason: Report is generally complete, client-useful and supported by exterior and receipt photos, but
+            there is one clear scoring inconsistency (receipt question) and a few service/presentation items are
+            asserted without photographic evidence. Request the shopper to correct the scoring error and, if possible,
+            attach or reference staff images (or confirm none were taken) for badge/coat observations.</li>
+    </ul>
+    <p>Numeric QC scores</p>
+    <ul>
+        <li>Overall report quality: 8 / 10</li>
+        <li>Client value: 7 / 10</li>
+        <li>Evidence quality: 7 / 10</li>
+        <li>Photo alignment: 7 / 10</li>
+    </ul>
+    <h3>Strengths</h3>
+    <ul>
+        <li>The report includes useful, actionable detail about the customer interaction (age asked, pharmacist
+            involvement, recommended items: Gastro Stop + Hydralyte).</li>
+        <li>Receipt photo clearly supports the purchase and timestamp (BTC DIARRHOEA and HYDRALYTE on receipt) —
+            validates product recommendation and transaction/time.</li>
+        <li>Multiple exterior images clearly support comments about the front appearance, clean windows, health-check
+            signage and easy access.</li>
+        <li>Greeting/approach and pharmacist consultation are described clearly (who asked, what was asked, outcome).
+        </li>
+    </ul>
+    <h3>Weaknesses / Areas to improve</h3>
+    <ul>
+        <li>Staff presentation badges / pharmacist coat: the shopper reports missing badges and no white coat for
+            pharmacist but did not supply a staff photo to support the claim. This weakens the evidence for those scored
+            items.</li>
+        <li>Internal store claims (e.g., “a lot of cold and flu items on display at the end of the aisles”, “displays
+            looked inviting”) are not supported by interior aisle/endcap photos — only exterior/shopfront photos were
+            provided.</li>
+        <li>Some comments remain a bit generic (e.g., “interior was clean and tidy” with no close-up photos or specific
+            examples of cleanliness/highlight issues).</li>
+        <li>Slight inconsistency in the overview wording vs question-level detail (overview says “waited a few minutes
+            before TM1 approached”, Q13127 says “Acknowledged within 3 mins” — this is acceptable but could be tighter).
+        </li>
+    </ul>
+    <h3>Contradictions / Errors to flag</h3>
+    <ul>
+        <li>Question 1480 (At the register, were you given a receipt?): Answer = \"Yes\" but score = 0/1. This is a
+            clear scoring error. The attached receipt image confirms the answer should have scored positively. Please
+            correct the score to 1/1 or explain why 0 was awarded.</li>
+        <li>No staff images: Several scored items relate to staff appearance/badges/coat (Q11452, Q6477). The report
+            states non-compliance but offers no photographic evidence. Not a contradiction, but highlight as unsupported
+            assertion.</li>
+        <li>Photo omission: Report refers to aisle-end product displays and in-store presentation; no interior photos of
+            aisles or endcaps were uploaded to support those statements. Again not contradictory but lacking evidence.
+        </li>
+    </ul>
+    <p>Photo alignment notes</p>
+    <ul>
+        <li>Good alignment: exterior photos strongly support the “Exterior” and “Health Checks visible” comments.</li>
+        <li>Very good alignment: receipt image supports transaction details and the items purchased (pharmacist
+            recommendation).</li>
+        <li>Weak/missing alignment: no interior or staff images to support badge/coat/aisle display statements.</li>
+    </ul>
+    <h3>Recommended corrections / actions for shopper</h3>
+    <p>1. Correct the scoring error for Q1480 (receipt). The answer is Yes and a receipt is attached — score should be
+        1/1.</p>
+    <p>2. If possible, add or attach photos showing either:</p>
+    <ul>
+        <li>Team member badges / lack thereof (for Q11452),</li>
+        <li>Pharmacist clothing (white coat) or note explicitly that no staff photos were taken.</li>
+    </ul>
+    <p>If photos are not available, add a short note in the comment clarifying why (e.g., “no staff photo taken due to
+        privacy / policy”).</p>
+    <p>3. If feasible, add one or two interior/aisle photos (endcap with cold & flu items) to substantiate the
+        display/stock claims. If not possible now, add a short clarification in the report noting that no aisle photos
+        were taken.</p>
+    <p>Final comment for client</p>
+    <ul>
+        <li>The report gives a clear picture of the shopper experience: welcoming exterior and visible health services,
+            timely approach by staff, appropriate clinical questioning and pharmacist intervention, an
+            upsell/recommendation (Hydralyte) and an offer of membership without benefits explanation. The single
+            scoring error and lack of staff/aisle photographic evidence are easily remedied; otherwise the submission is
+            actionable and client-ready after the minor amendments above.</li>
+    </ul>
+</div>"}
