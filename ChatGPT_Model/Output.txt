@@ -470,3 +470,100 @@
             actionable and client-ready after the minor amendments above.</li>
     </ul>
 </div>"}
+
+
+
+
+
+
+
+
+{"success":true,"data":"<div class=\"qc-review\">
+    <p>Summary QC of mystery shopping report — Food Bar & Gaming (pharmacy)</p>
+    <p>Overall scores (out of 10)</p>
+    <ul>
+        <li>Overall report quality: 7/10</li>
+        <li>Client value: 7/10</li>
+        <li>Evidence quality: 6/10</li>
+        <li>Photo alignment: 5/10</li>
+    </ul>
+    <h3>Strengths</h3>
+    <ul>
+        <li>Shopper documents a clear, relevant service interaction (TM1 → pharmacist), including the product
+            recommendation (Gastro Stop; Hydralyte) and age clarification for dosing — useful for the client.</li>
+        <li>Receipt image included with store name, date/time (10/8/2025 11:10:09 AM) and purchased items (DIARRHOEA and
+            HYDRALYTE). This supports the transaction and product recommendations.</li>
+        <li>Multiple exterior photos show the storefront, window decals and “in-store health checks” signage — these
+            support the overview comments about health-check promotion, clean/clear front, and accessibility.</li>
+        <li>Greeting and acknowledgment timings are reported (acknowledged within 3 minutes) and specific team member
+            descriptors (TM1, TM2, PHARM1) are provided.</li>
+    </ul>
+    <h3>Weaknesses / Issues to correct or improve</h3>
+    <ul>
+        <li>Missing interior evidence: no images of aisle-end displays, stock on shelves, the pharmacist, or team member
+            name badges. The report makes claims about internal displays, badges and pharmacist clothing that are not
+            supported by photos.</li>
+        <li>Contradiction in scores: Question 1480 (“At the register, were you given a receipt?”) is answered Yes but
+            scored 0/1. The receipt image proves a receipt was provided — the score is incorrect or needs justification.
+        </li>
+        <li>Badge / uniform evidence lacking: report states TM2 had an “I’m in training” badge but TM1 and PHARM1 had no
+            visible badges and the pharmacist was not wearing a white coat. There are no photos of staff to confirm
+            badge/coat details.</li>
+        <li>Some comments are generic (e.g., “interior was clean and tidy”) without descriptive examples or supporting
+            photos; where the report claims the store was “very busy” there is no interior image showing
+            traffic/queueing.</li>
+        <li>Loyalty sign-up detail: shopper notes they were offered membership but not told benefits — the exact
+            language used by staff or whether a leaflet/visual prompt was shown is not recorded.</li>
+    </ul>
+    <h3>Contradictions / Mandatory edits to raise</h3>
+    <ul>
+        <li>Receipt contradiction: answer = Yes, score = 0, but receipt photo included. Either change the score to 1 or
+            add a comment explaining why it was scored 0 despite a receipt being issued (for example if the receipt did
+            not meet a specific requirement).</li>
+        <li>Badge / white coat observations: these are scored (badges = No; pharmacist white coat = No). Because there
+            are no photos of staff, the shopper should either add a photo showing the lack of badges/coat or add a
+            sentence explaining why photos were not taken (privacy, store refused photos etc.) to justify these scores.
+        </li>
+        <li>Photo coverage vs. commentary: the shopper reports end-of-aisle displays, “fully stocked bins,” in-store
+            merchandise and staff interactions but provided only exterior images + receipt. Either supply interior
+            photos or revise comments to reflect the absence of photo evidence.</li>
+    </ul>
+    <h3>Recommended action</h3>
+    <ul>
+        <li>APPROVE WITH MINOR AMENDMENTS</li>
+    </ul>
+    <p>Reason</p>
+    <ul>
+        <li>The report is overall useful and actionable: it documents a correct product recommendation and purchase
+            (receipt backs this up) and captures client-relevant observations (store appearance, health-check signage,
+            staff assistance). However there are a small number of correctable issues (notably the receipt score
+            contradiction and missing photo-evidence for badge/coat/display claims) and some comments that need slight
+            expansion for clarity and client actioning. These are minor and fixable without returning the assignment to
+            the shopper for a full re-do.</li>
+    </ul>
+    <p>Required amendments for approval</p>
+    <p>1. Fix the receipt question (Q1480) score: change from 0 to 1 OR add a clear justification in comments for the 0
+        score despite providing a receipt photo.</p>
+    <p>2. Add a short note clarifying why there are no interior photos of staff or aisle displays (if the shopper was
+        not permitted to photograph staff or interiors) or upload 1–2 interior images that show:</p>
+    <ul>
+        <li>the pharmacist (or register area) to confirm badge/white coat observations,</li>
+        <li>an aisle-end display or shelf area referenced in the comments (to support “high — no gaps” and “well set
+            out”).</li>
+    </ul>
+    <p>3. Expand the loyalty interaction comment (Q12906) to include the exact phrasing used/offered and whether
+        paperwork/leaflet or a sign was shown; this helps the client coach staff on how to explain benefits.</p>
+    <p>4. Where comments are generic (e.g., “interior clean and tidy”, “very busy”), add brief specifics
+        (locations/areas observed, evidence of busyness such as number of customers or queue length) or remove the claim
+        if it cannot be evidenced.</p>
+    <p>Optional suggestions to improve future reports</p>
+    <ul>
+        <li>Capture at least one photo of the team member who served (front-facing badge visible) where privacy policies
+            allow. If the shopper cannot photograph staff, explicitly state this.</li>
+        <li>For clinical interactions, include short verbatim phrases the team member or pharmacist used when
+            recommending products (this helps with coaching).</li>
+        <li>If claiming stock levels/merchandising quality, photograph an aisle/endcap to support the score.</li>
+    </ul>
+    <p>If you want, I can draft the exact wording to add to the report for the receipt correction and the badge/white
+        coat clarification so the shopper can paste it into the report.</p>
+</div>"}
