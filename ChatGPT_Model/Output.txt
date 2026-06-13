@@ -115,3 +115,49 @@
         ]
     }
 }
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "overallReportScore": 8.5,
+        "clientValueScore": 8,
+        "evidenceQualityScore": 7.5,
+        "photoAlignmentScore": 9,
+        "strengths": [
+            "Clear, detailed service interaction including consultation with pharmacist",
+            "Good explanation of product recommendation and companion sale (Hydralyte)",
+            "Summaries provide useful operational insights (badges missing, loyalty explanation gap)",
+            "Exterior photos support claims of clean, well-presented storefront and strong branding",
+            "Balanced feedback highlighting both positives and compliance gaps"
+        ],
+        "weaknesses": [
+            "Some comments are slightly generic (e.g. \"clean and tidy\", \"inviting\") without specific examples",
+            "Limited observational detail about in-store environment beyond displays",
+            "No photo evidence of interior or service interaction to support key service claims",
+            "Greeting timing description slightly inconsistent (\"within 3 mins\" vs \"immediately\")",
+            "Loyalty interaction lacks team member description"
+        ],
+        "contradictions": [
+            "Receipt question marked 'Yes' but scored 0, which contradicts the response"
+        ],
+        "recommendedAction": "RETURN_TO_EDITOR",
+        "explanation": "The report is generally strong, clear, and supported by exterior photo evidence. However, there is a scoring contradiction on the receipt question and minor clarity inconsistencies that require correction before client submission.",
+        "questionIssues": [
+            {
+                "reportDtlId": 182882,
+                "questionId": 1480,
+                "questionLabel": "At the register, were you given a receipt?",
+                "issue": "Score does not match answer",
+                "description": "Question marked 'Yes' but scored 0, which is inconsistent."
+            }
+        ],
+        "summaryIssues": []
+    }
+}
