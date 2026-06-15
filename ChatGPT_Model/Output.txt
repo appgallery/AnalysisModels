@@ -567,3 +567,98 @@
     <p>If you want, I can draft the exact wording to add to the report for the receipt correction and the badge/white
         coat clarification so the shopper can paste it into the report.</p>
 </div>"}
+
+
+
+
+
+
+
+
+{"success":true,"data":"<div class=\"qc-review\">
+    <p>Overall assessment</p>
+    <ul>
+        <li>Overall report quality score: 7/10</li>
+        <li>Client value score: 7/10</li>
+        <li>Evidence quality score: 8/10</li>
+        <li>Photo alignment score: 8/10</li>
+    </ul>
+    <p>Summary</p>
+    <p>The shopper provided a clear narrative of the visit, including service interaction with a team member and
+        escalation to the pharmacist, product recommendations, and the transaction. Exterior photos (5) strongly support
+        the exterior/interior-overview comments about clean windows, clear access and health-check signage. The receipt
+        image validates the items purchased (Gastro Stop / Hydralyte), time and operator details and supports the
+        shopper’s advice/purchase comments. The report is largely consistent and actionable, but there are a small
+        number of scoring inconsistencies and missing staff evidence that require correction or clarification before
+        client delivery.</p>
+    <h3>Strengths</h3>
+    <ul>
+        <li>Interaction detail: The shopper documents the sequence (approached by TM1, pharmacist consulted, specific
+            questions asked about age/autism) which is useful to the client.</li>
+        <li>Evidence: Multiple exterior photos clearly show signage/promotions and health-check messaging; the receipt
+            photo confirms the recommended companion product (Hydralyte) was sold and the timestamp/operator.</li>
+        <li>Actionable findings: Notes about staff not wearing visible name badges and the loyalty offer being made
+            without explaining benefits are useful items the client can act on.</li>
+        <li>Score alignment: Most scores align with comments (cleanliness, accessibility, stock levels, product variety,
+            service quality).</li>
+    </ul>
+    <h3>Weaknesses</h3>
+    <ul>
+        <li>Missing staff evidence: No photos of team members, name badges, or pharmacist were supplied. The shopper
+            claims badges were missing for TM1 and pharmacist — this cannot be visually verified with the current
+            images.</li>
+        <li>Scoring inconsistency: Question on “Were you given a receipt?” was answered Yes and a receipt image is
+            attached, yet the score recorded is 0/1. This is a clear contradiction that needs correction.</li>
+        <li>Limited timing detail: The “waited a few minutes” comment is vague; elsewhere the shopper answered
+            “Acknowledged within 3 mins” — unify wording and, if possible, give exact wait time.</li>
+        <li>Internal merchandising/service evidence: The shopper mentions cold/flu items and in-store displays; only
+            exterior/window display photos were provided. If internal merchandising scoring contributed to stock/display
+            scores, interior aisle photos would strengthen the evidence.</li>
+    </ul>
+    <h3>Contradictions / Items to fix</h3>
+    <p>1. Receipt contradiction:</p>
+    <ul>
+        <li>Q1480 (\"At the register, were you given a receipt?\") — Value = Yes, receipt photo attached, but Score =
+            0/1. This should be corrected (score should be 1/1) or the shopper should explain why 0 was chosen despite
+            providing the receipt.</li>
+    </ul>
+    <p>2. Badge verification:</p>
+    <ul>
+        <li>Shopper states TM1 and the pharmacist were not wearing name badges but provided no staff photos. If
+            GDPR/privacy or store policy prevented photos, the shopper should explicitly state that staff photos were
+            not taken (and why), and provide a more detailed description of badges worn/missing (e.g., “TM2 wore an ‘I’m
+            in training’ badge; TM1 had no visible badge on left chest”).</li>
+    </ul>
+    <p>3. Minor wording consistency:</p>
+    <ul>
+        <li>The overview says “I waited for a few minutes” vs. question answer “Acknowledged within 3 mins.” Use
+            consistent phrasing and precise timing where possible.</li>
+    </ul>
+    <h3>Recommended action</h3>
+    <ul>
+        <li>APPROVE WITH MINOR AMENDMENTS</li>
+    </ul>
+    <p>Required amendments before final approval</p>
+    <p>1. Correct the receipt question score to reflect the evidence (change Q1480 score to 1/1) OR provide explanation
+        justifying the 0 score despite the receipt image.</p>
+    <p>2. Add a short clarification about why no staff/badge photos were taken (if applicable). If the shopper had
+        opportunity to photograph staff but didn’t, ask them to add a brief descriptive note of how badges were not
+        worn/visible (location on uniform, wording on TM2’s “in training” badge).</p>
+    <p>3. If available, add at least one interior/aisle photo showing the cold & flu displays and any companion product
+        placement (to support the “companion product offered” and “end-of-aisle displays full” scores). If not possible,
+        add a sentence explaining why internal photos weren’t captured (privacy, store policy, etc.).</p>
+    <p>4. Minor edit for consistency: change the phrasing about waiting time so it matches the “Acknowledged within 3
+        mins” response.</p>
+    <p>Other suggestions (optional)</p>
+    <ul>
+        <li>Capture a short descriptor of TM1/TM2 (gender, approximate age, uniform color, position in store) to help
+            the client identify training/coaching targets while respecting privacy rules.</li>
+        <li>If the loyalty membership was offered, the shopper could add exact wording used by the team member when
+            offering the program — this helps the client coach on “explain benefits” behavior.</li>
+    </ul>
+    <p>Conclusion</p>
+    <p>This is a useful, evidence-backed report with relevant photos (exterior and receipt) and a clear service
+        narrative. It is client-ready after minor amendments to correct the receipt scoring inconsistency and to
+        clarify/strengthen evidence around missing name badges (or add an explanation why staff photos weren’t taken).
+        Once those small fixes are made the report can be approved for client delivery.</p>
+</div>"}
