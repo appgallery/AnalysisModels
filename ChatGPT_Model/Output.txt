@@ -662,3 +662,83 @@
         clarify/strengthen evidence around missing name badges (or add an explanation why staff photos weren’t taken).
         Once those small fixes are made the report can be approved for client delivery.</p>
 </div>"}
+
+
+
+
+
+
+
+{"success":true,"data":"<div class=\"qc-review\">
+    <p>QC Summary — Food Bar & Gaming (Blooms the Chemist) mystery shop</p>
+    <h3>Scores (out of 10)</h3>
+    <ul>
+        <li>Overall report quality: 7/10</li>
+        <li>Client value: 7/10</li>
+        <li>Evidence quality: 6/10</li>
+        <li>Photo alignment: 8/10</li>
+    </ul>
+    <h3>Strengths</h3>
+    <ul>
+        <li>Good exterior photographic evidence: window signage clearly supports the \"health checks\" callout and
+            attractive front appearance.</li>
+        <li>Receipt image supplied and legible — supports purchase of the diarrhoea product and Hydralyte (corroborates
+            the pharmacist recommendation and transaction time).</li>
+        <li>Shopper recorded useful interaction detail: how/when they were approached (acknowledged within ~3 minutes),
+            questions asked by team member (age), pharmacist advice, training badge observed on register staff.</li>
+        <li>Stock and display observations are consistent across overview and question answers (high/no gaps; product
+            offered).</li>
+    </ul>
+    <h3>Weaknesses</h3>
+    <ul>
+        <li>Scoring error: Question \"At the register, were you given a receipt?\" is answered Yes, but scored 0/1 —
+            contradicted by the attached receipt image.</li>
+        <li>Limited in-store / staff photos: no images of team members, name badges, pharmacist, or till area to
+            visually confirm badge/white coat issues or the \"no Make‑A‑Wish/Gidget Foundation on counters\"
+            observation.</li>
+        <li>Some comments are generic (e.g., \"interior was clean and tidy\") and would benefit from specific examples
+            or a photo (e.g., specify areas cleaned, any trip hazards, or a close shot of an aisle).</li>
+        <li>Membership offer detail: shopper notes they were asked about membership but \"no benefits were explained\" —
+            this is actionable but could be stronger with the exact wording used by the team member or whether any
+            sign-up material was offered.</li>
+    </ul>
+    <h3>Contradictions / Mandatory Fixes</h3>
+    <ul>
+        <li>Receipt contradiction: Q1480 \"At the register, were you given a receipt?\" — Value = Yes, Score = 0/1. The
+            attached receipt image proves a receipt was provided. This must be corrected (score should be 1) or the
+            shopper must explain why score was 0 despite answering Yes and attaching the receipt.</li>
+    </ul>
+    <p>Photo alignment notes</p>
+    <ul>
+        <li>Photos strongly support exterior & signage-related answers (health checks signage, attractive windows, clear
+            access).</li>
+        <li>Receipt photo aligns with purchase and companion product claim (Hydralyte).</li>
+        <li>Photos do NOT show staff/badges or pharmacist attire — so the observations about missing name badges and the
+            pharmacist not wearing a white coat are unsupported by imagery. If client requires photographic proof for
+            these points, additional images are needed.</li>
+    </ul>
+    <p>Client value (what the client can act on)</p>
+    <ul>
+        <li>Clear, actionable items: ensure all staff display name badges (training badge should not obscure name),
+            ensure pharmacist/professional dress expectations are met (white coat if required), and reinforce training
+            to explain benefits when offering My Health Rewards (the shopper was asked but benefits not explained).</li>
+        <li>The receipt / purchase evidence is good proof the transactional flow is working and the pharmacist
+            recommended an appropriate companion product — good commercial evidence to reinforce best practice.</li>
+    </ul>
+    <h3>Recommended action</h3>
+    <ul>
+        <li>APPROVE WITH MINOR AMENDMENTS</li>
+    </ul>
+    <p>Short explanation and required next steps</p>
+    <ul>
+        <li>Approve the report overall: it gives useful, actionable feedback and strong exterior/transaction evidence.
+            However, there is one clear correction required (receipt question score). Please update Q1480 to reflect
+            that a receipt was provided (adjust score to 1) OR provide justification for why it was scored 0 despite the
+            image. Also request the shopper to add (if possible) one close photo of the till area or staff
+            badges/attire, or a short clarifying comment describing why they could not photograph staff (if that was the
+            case). Finally, ask the shopper to expand one or two generic comments (interior cleanliness / displays) with
+            a single specific example or photo to strengthen evidence quality.</li>
+    </ul>
+    <p>If you want, I can draft the exact text to send back to the shopper asking for the scoring correction and the
+        additional clarifications/photos.</p>
+</div>"}
