@@ -742,3 +742,55 @@
     <p>If you want, I can draft the exact text to send back to the shopper asking for the scoring correction and the
         additional clarifications/photos.</p>
 </div>"}
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "overallReportScore": 8,
+        "clientValueScore": 8,
+        "evidenceQualityScore": 7,
+        "photoAlignmentScore": 8,
+        "strengths": [
+            "Clear service interaction described including consultation with pharmacist and specific product recommendations",
+            "Good detail on staff behavior, including questioning technique and escalation to pharmacist",
+            "Balanced feedback highlighting both positives (cleanliness, service) and negatives (missing badges, no loyalty explanation)",
+            "Photos support exterior cleanliness, branding, and promotional signage",
+            "Receipt image provided as strong transactional evidence"
+        ],
+        "weaknesses": [
+            "Some comments are slightly generic (e.g. 'clean and tidy', 'inviting') without detailed supporting observations",
+            "Inconsistency in greeting timing description reduces clarity",
+            "Limited use of observational detail in some scored areas (e.g. pricing clarity, displays)",
+            "No interior photos to support internal cleanliness and merchandising claims"
+        ],
+        "contradictions": [
+            "Receipt was marked as 'Yes' but scored 0, despite receipt image being provided",
+            "Greeting described as 'within 3 mins' but also 'acknowledged immediately', which is inconsistent"
+        ],
+        "recommendedAction": "APPROVE_WITH_MINOR_AMENDMENTS",
+        "explanation": "The report is generally strong, clear, and provides good client value with solid service detail and supporting evidence. However, minor scoring and wording inconsistencies (notably the receipt score and greeting timing) should be corrected before final approval.",
+        "questionIssues": [
+            {
+                "reportDtlId": 182882,
+                "questionId": 1480,
+                "questionLabel": "At the register, were you given a receipt?",
+                "issue": "Score does not match response",
+                "description": "Marked 'Yes' but scored 0 despite receipt image provided."
+            },
+            {
+                "reportDtlId": 182870,
+                "questionId": 13127,
+                "questionLabel": "Were you greeted upon arrival into the store?",
+                "issue": "Inconsistent description",
+                "description": "States 'acknowledged within 3 mins' and also 'acknowledged immediately', which conflicts."
+            }
+        ],
+        "summaryIssues": []
+    }
+}
