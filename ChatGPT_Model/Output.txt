@@ -1102,3 +1102,69 @@
         "summaryIssues": []
     }
 }
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "overallReportScore": 6.5,
+        "clientValueScore": 7,
+        "evidenceQualityScore": 6,
+        "photoAlignmentScore": 7,
+        "strengths": [
+            "Clear description of service interaction with named staff member (Michael)",
+            "Good detail on product recommendation and suitability (Nasonex vs cold symptoms)",
+            "Balanced feedback noting both friendliness and service gaps (no approach, no greeting)",
+            "Receipt and product photos support purchase and pricing evidence",
+            "Exterior and interior summaries provide useful overall context"
+        ],
+        "weaknesses": [
+            "Contradictory statements regarding pricing clarity across responses",
+            "Presence of typographical/gibberish text reduces professionalism",
+            "Some comments are generic and lack specific examples (e.g. welcoming, tidy)",
+            "Limited detail on staff behaviours beyond one interaction",
+            "No strong linkage between some scores and supporting explanations"
+        ],
+        "contradictions": [
+            "Pricing described as unclear in Q10373 but later stated as clearly displayed in Q3440",
+            "Loyalty program marked as not mentioned, but comment states Michael mentioned the rewards program"
+        ],
+        "recommendedAction": "RETURN_TO_EDITOR",
+        "explanation": "The report contains useful observations and is mostly complete, but contradictions (pricing clarity and loyalty program) and a clear text error reduce reliability. These require editorial correction before being client-ready.",
+        "questionIssues": [
+            {
+                "reportDtlId": 182721,
+                "questionId": 10373,
+                "questionLabel": "Was the store easy to navigate to be able to find the product you were looking for today?",
+                "issue": "Contradictory comment",
+                "description": "States pricing was not clearly labeled, conflicting with other responses indicating clear pricing."
+            },
+            {
+                "reportDtlId": 182724,
+                "questionId": 3440,
+                "questionLabel": "Did you feel you had variety of choice of product/s available to you?",
+                "issue": "Contradiction",
+                "description": "Comment says prices clearly displayed, conflicting with earlier statement about unclear pricing."
+            },
+            {
+                "reportDtlId": 182725,
+                "questionId": 13462,
+                "questionLabel": "Were you offered any companion products to complement your choice of product in store?",
+                "issue": "Unclear/invalid comment",
+                "description": "Comment contains nonsensical text ('er4ewf3rqwdf43') reducing clarity and professionalism."
+            },
+            {
+                "reportDtlId": 182727,
+                "questionId": 12906,
+                "questionLabel": "Were you asked if you are a My Health Rewards loyalty customer whilst in the store?",
+                "issue": "Contradiction",
+                "description": "Answer states not asked, but comment indicates the team member mentioned the rewards program."
+            }
+        ],
+        "summaryIssues": []
+    }
+}
