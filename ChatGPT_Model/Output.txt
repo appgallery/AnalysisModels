@@ -902,3 +902,65 @@
         "summaryIssues": []
     }
 }
+
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "overallReportScore": 7.5,
+        "clientValueScore": 7,
+        "evidenceQualityScore": 7,
+        "photoAlignmentScore": 8,
+        "strengths": [
+            "Clear identification of team member (Michael) with specific service details",
+            "Good description of service interaction including product advice",
+            "Balanced feedback noting both positive service and missed opportunities (loyalty, upselling, greeting)",
+            "Photos support claims of good stock levels, clear pricing (in images), and tidy presentation",
+            "Summary sections are generally detailed and structured"
+        ],
+        "weaknesses": [
+            "Contradictory commentary regarding pricing clarity and product labelling",
+            "Some comments are slightly generic (e.g. 'warm and welcoming', 'friendly') without deeper detail",
+            "Limited evidence or elaboration for some scored responses (e.g. value for money, friendliness beyond one staff member)",
+            "No strong linkage between photos and specific issues mentioned (e.g. dirty window not clearly visible)"
+        ],
+        "contradictions": [
+            "Pricing/ticketing marked as clear and easy to read, but later comment states items weren't clearly labeled with prices",
+            "Navigation question scored positively, but comment indicates difficulty due to unclear pricing and lack of options",
+            "Summary states items were clearly labeled, conflicting with later negative comment about pricing clarity"
+        ],
+        "recommendedAction": "APPROVE_WITH_MINOR_AMENDMENTS",
+        "explanation": "The report is generally strong, detailed, and useful for the client, with good service insights and supporting photos. However, there are clear contradictions around pricing and labelling that need clarification to ensure accuracy and credibility.",
+        "questionIssues": [
+            {
+                "reportDtlId": 182721,
+                "questionId": 10373,
+                "questionLabel": "Was the store easy to navigate to be able to find the product you were looking for today?",
+                "issue": "Contradictory comment",
+                "description": "The response is सकारात्मक but the comment indicates unclear pricing and limited options, which conflicts with the score."
+            },
+            {
+                "reportDtlId": 182716,
+                "questionId": 10060,
+                "questionLabel": "Was the pricing/ticketing clear and easy to read on shelf labels and shelf talkers?",
+                "issue": "Inconsistent with other responses",
+                "description": "This is marked as clear, but another response states pricing was not clearly labeled."
+            }
+        ],
+        "summaryIssues": [
+            {
+                "reportOverviewId": 6762,
+                "title": "Interior",
+                "issue": "Contradiction",
+                "description": "States items were clearly labeled, which conflicts with later comments about unclear pricing."
+            }
+        ]
+    }
+}
