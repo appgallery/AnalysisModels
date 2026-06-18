@@ -1229,3 +1229,63 @@
         ]
     }
 }
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "overallReportScore": 7.5,
+        "clientValueScore": 7.5,
+        "evidenceQualityScore": 7,
+        "photoAlignmentScore": 7,
+        "strengths": [
+            "Clear service journey with specific interaction details between TM1 and pharmacist",
+            "Good explanation of product recommendation and companion selling (Hydralyte)",
+            "Loyalty program interaction documented with outcome and gap (no benefits explained)",
+            "Summaries provide a generally coherent overview of store condition and service",
+            "Photos support clean, branded, and well-presented exterior"
+        ],
+        "weaknesses": [
+            "Some comments are slightly generic and lack depth (e.g. ‘inviting’, ‘well set out’)",
+            "Minor inconsistencies in timing description of greeting",
+            "Exterior summary mentions specific products (cough/cold, wheat bags) not evidenced in photos",
+            "Limited observational detail on interior beyond cleanliness and displays",
+            "No strong evidence or elaboration for some scored elements"
+        ],
+        "contradictions": [
+            "Receipt marked as 'Yes' but scored 0",
+            "Greeting described as ‘within 3 mins’ but also ‘acknowledged immediately’"
+        ],
+        "recommendedAction": "APPROVE_WITH_MINOR_AMENDMENTS",
+        "explanation": "The report is generally clear, usable, and aligned with the client’s needs, with solid service detail and supporting photos. However, there are minor scoring inconsistencies (notably the receipt question) and slight contradictions in timing that should be corrected before final submission.",
+        "questionIssues": [
+            {
+                "reportDtlId": 182882,
+                "questionId": 1480,
+                "questionLabel": "At the register, were you given a receipt?",
+                "issue": "Score does not match answer",
+                "description": "Question marked 'Yes' but scored 0, which is inconsistent."
+            },
+            {
+                "reportDtlId": 182870,
+                "questionId": 13127,
+                "questionLabel": "Were you greeted upon arrival into the store?",
+                "issue": "Inconsistent comment",
+                "description": "Comment states both ‘within 3 mins’ and ‘immediately’, creating a timing inconsistency."
+            }
+        ],
+        "summaryIssues": [
+            {
+                "reportOverviewId": 6777,
+                "title": "Exterior",
+                "issue": "Not fully supported by evidence",
+                "description": "Mentions specific product displays (cough/cold, wheat bags) not visible in provided photos."
+            }
+        ]
+    }
+}
