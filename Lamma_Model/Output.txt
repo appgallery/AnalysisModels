@@ -20,3 +20,26 @@
             "issue": "",
             "description": ""
         }
+
+
+
+
+
+{
+    "success": true,
+    "model": "llama3.2:3b",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 12345,
+            "questionId": "GAMING.questionId",
+            "reportOverviewId": 1003,
+            "reportOverviewTitle": "GAMING",
+            "questionLabel": "The gaming room was moderately busy during the visit.",
+            "score": "4",
+            "maxScore": "5",
+            "issue": "Clear conflict between score and response: 'moderately busy' is not a possible score for this question.",
+            "description": "Expected high scores to indicate a very busy gaming room, but 'moderate' does not align with expected responses."
+        }
+    ]
+}
