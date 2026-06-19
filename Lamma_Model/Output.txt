@@ -43,3 +43,27 @@
         }
     ]
 }
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "llama3.2:3b",
+    "issues": [
+        {
+            "severity": "LOW",
+            "reportDtlId": 1001,
+            "questionId": "",
+            "reportOverviewId": 1001,
+            "reportOverviewTitle": "BAR",
+            "questionLabel": "",
+            "score": "5",
+            "maxScore": "5",
+            "issue": "Score validation issue - Positive response should match high score.",
+            "description": "Response value was positive, but the score is 5 (high score). This may indicate an inconsistent scoring."
+        }
+    ]
+}
