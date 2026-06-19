@@ -1,0 +1,1291 @@
+{
+    "success": true,
+    "data": {
+        "overallReportScore": 7,
+        "clientValueScore": 7,
+        "evidenceQualityScore": 7,
+        "photoAlignmentScore": 8,
+        "strengths": [
+            "Comprehensive photo set covering exterior, entrance, gaming room, machines and restrooms.",
+            "Most question-level answers include clear, direct responses and appropriate scores.",
+            "Service details (beverage type, delivery method, CRT payout) are recorded and supported with photos (drink image, CRT area).",
+            "Uniform and staff presentation are recorded with matching statement and photos (staff in red shirt visible)."
+        ],
+        "weaknesses": [
+            "ReportOverview (GAMING) contains statements that contradict multiple question-level answers (cleanliness).",
+            "Inconsistent statements about greeting/timing between overview, question text and comment (confusing timeline).",
+            "Some restroom observations in the overview/questions are inconsistent with the restroom photos (paper on floor, ceiling stains).",
+            "Several high scores are given alongside summary statements that say the area was 'not clean' — this reduces reliability of the summary."
+        ],
+        "contradictions": [
+            "Overview states 'The gaming room was not clean, tidy, and not well-maintained' while question-level answers state machines, coin trays and the room were clean and free of rubbish.",
+            "Overview states shopper was 'warmly greeted within five minutes' but the response to the arrival/greet question says 'I was not greeted upon entry' (comment also says approached within 5 minutes).",
+            "Overview/restroom section says restrooms were 'well stocked... clean and tidy' but restroom questions and photos show minor paper on the floor, a not-fresh smell and ceiling/wall staining."
+        ],
+        "recommendedAction": "RETURN_TO_SHOPPER",
+        "explanation": "The report contains useful evidence and good photo coverage, but there are several clear contradictions between the overview text and question-level answers (notably the GAMING cleanliness statement and the arrival/greeting description). Restroom photos also show issues not consistently described. These inconsistencies must be clarified or corrected before the report is client-ready.",
+        "questionIssues": [
+            {
+                "reportDtlId": 794069,
+                "questionId": 13805,
+                "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes? Describe who welcomed/assisted you.",
+                "issue": "Inconsistent response vs comment/overview",
+                "description": "Value text says 'I was not greeted upon entry' while the comment and overview state GAM1 approached within 5 minutes; the timeline and 'greeted' wording are contradictory."
+            },
+            {
+                "reportDtlId": 794097,
+                "questionId": 6123,
+                "questionLabel": "Is the bathroom clean of rubbish or paper on the floor?",
+                "issue": "Claim not fully supported by photos",
+                "description": "Shopper states minor paper on the floor was removed during the visit, but restroom photos show paper on the floor and ceiling/wall staining; evidence does not clearly support the 'removed' claim."
+            },
+            {
+                "reportDtlId": 794073,
+                "questionId": 11730,
+                "questionLabel": "Were staff on the floor and engaging customers the majority of the time and available for assistance? Describe the staff member/s.",
+                "issue": "Partial timeline mismatch",
+                "description": "Question is scored 100 (staff proactive), but other answers state the shopper was not greeted on entry; the shopper should clarify staff presence timeline relative to arrival."
+            }
+        ],
+        "summaryIssues": [
+            {
+                "reportOverviewId": 53533,
+                "title": "GAMING",
+                "issue": "Contradiction between overview and question responses",
+                "description": "Overview states the gaming room 'was not clean, tidy, and not well-maintained' but multiple question-level answers (machines clean, coin trays clean, room free of rubbish) are positive; reconcile or correct the overview."
+            },
+            {
+                "reportOverviewId": 53531,
+                "title": "RESTROOMS",
+                "issue": "Overview vs photo/answers inconsistency",
+                "description": "Overview describes restrooms as 'well stocked... clean and tidy' but restroom question(s) and photos show paper on the floor, a not-fresh smell and visible ceiling/wall stains; summary should reflect these issues or clarify timing."
+            }
+        ]
+    }
+}
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "overallReportScore": 7.5,
+        "clientValueScore": 7,
+        "evidenceQualityScore": 6.5,
+        "photoAlignmentScore": 7.5,
+        "strengths": [
+            "Clear service journey described with specific interaction details between TM1 and pharmacist",
+            "Good example of clinical questioning and appropriate recommendation (Gastro Stop and Hydralyte)",
+            "Balanced feedback including both positive (service, cleanliness) and negative (badges, loyalty explanation)",
+            "Photos support a clean, well-presented and branded exterior",
+            "Loyalty interaction accurately captured including missed opportunity to explain benefits"
+        ],
+        "weaknesses": [
+            "Some summary comments are generic and not strongly evidence-based (e.g. 'inviting', 'well thought out')",
+            "Exterior summary references products (cough/cold mixtures, wheat bags) not visible in provided photos",
+            "Limited observational detail about staff appearance and environment beyond general statements",
+            "No strong time-based detail beyond 'within 3 minutes'",
+            "Lack of depth in payment interaction (no detail on farewell wording or engagement)"
+        ],
+        "contradictions": [
+            "Receipt question marked 'Yes' but scored 0, which contradicts the response"
+        ],
+        "recommendedAction": "APPROVE_WITH_MINOR_AMENDMENTS",
+        "explanation": "The report is generally clear, structured, and provides useful service insights, particularly around the pharmacist interaction. However, there is a scoring inconsistency regarding the receipt, and some comments are generic or not fully supported by photo evidence. Minor corrections are required before client submission.",
+        "questionIssues": [
+            {
+                "reportDtlId": 182882,
+                "questionId": 1480,
+                "questionLabel": "At the register, were you given a receipt?",
+                "issue": "Score does not match response",
+                "description": "Question marked 'Yes' but scored 0, which is inconsistent."
+            }
+        ],
+        "summaryIssues": [
+            {
+                "reportOverviewId": 6777,
+                "title": "Exterior",
+                "issue": "Unsupported detail",
+                "description": "Mentions specific products on display that are not visible in supporting photos."
+            }
+        ]
+    }
+}
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "overallReportScore": 8.5,
+        "clientValueScore": 8,
+        "evidenceQualityScore": 7.5,
+        "photoAlignmentScore": 9,
+        "strengths": [
+            "Clear, detailed service interaction including consultation with pharmacist",
+            "Good explanation of product recommendation and companion sale (Hydralyte)",
+            "Summaries provide useful operational insights (badges missing, loyalty explanation gap)",
+            "Exterior photos support claims of clean, well-presented storefront and strong branding",
+            "Balanced feedback highlighting both positives and compliance gaps"
+        ],
+        "weaknesses": [
+            "Some comments are slightly generic (e.g. \"clean and tidy\", \"inviting\") without specific examples",
+            "Limited observational detail about in-store environment beyond displays",
+            "No photo evidence of interior or service interaction to support key service claims",
+            "Greeting timing description slightly inconsistent (\"within 3 mins\" vs \"immediately\")",
+            "Loyalty interaction lacks team member description"
+        ],
+        "contradictions": [
+            "Receipt question marked 'Yes' but scored 0, which contradicts the response"
+        ],
+        "recommendedAction": "RETURN_TO_EDITOR",
+        "explanation": "The report is generally strong, clear, and supported by exterior photo evidence. However, there is a scoring contradiction on the receipt question and minor clarity inconsistencies that require correction before client submission.",
+        "questionIssues": [
+            {
+                "reportDtlId": 182882,
+                "questionId": 1480,
+                "questionLabel": "At the register, were you given a receipt?",
+                "issue": "Score does not match answer",
+                "description": "Question marked 'Yes' but scored 0, which is inconsistent."
+            }
+        ],
+        "summaryIssues": []
+    }
+}
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "overallReportScore": 7.5,
+        "clientValueScore": 7,
+        "evidenceQualityScore": 7,
+        "photoAlignmentScore": 8,
+        "strengths": [
+            "Clear description of service interaction including escalation to pharmacist",
+            "Good detail on product recommendation (Gastro Stop and Hydralyte)",
+            "Loyalty interaction documented with partial compliance noted",
+            "Exterior photos support claims of clean, branded, and informative storefront",
+            "Receipt image provided as proof of purchase",
+            "Staff presentation and badge compliance issues identified"
+        ],
+        "weaknesses": [
+            "Some comments are generic (e.g. \"clean and tidy\", \"inviting\") without specific supporting detail",
+            "No strong time-based detail beyond \"within 3 minutes\" for service flow",
+            "Interior observations lack depth and are not supported by photos",
+            "Statement \"store was very busy\" is not evidenced or elaborated",
+            "Greeting comment contradicts itself (delay vs immediate acknowledgment)",
+            "Limited linkage between some scores and detailed justification"
+        ],
+        "contradictions": [
+            "Greeting described as \"waited a few minutes\" but also \"acknowledged immediately\"",
+            "Question 1480 marked \"Yes\" for receipt but scored 0 despite receipt image provided"
+        ],
+        "recommendedAction": "APPROVE_WITH_MINOR_AMENDMENTS",
+        "explanation": "The report is generally clear, structured, and supported by relevant evidence (including photos and receipt). However, there are minor inconsistencies in scoring and wording, particularly around greeting timing and the receipt question. Some comments are also too generic to provide strong client insight. These issues can be corrected without returning to the shopper.",
+        "questionIssues": [
+            {
+                "reportDtlId": 182870,
+                "questionId": 13127,
+                "questionLabel": "Were you greeted upon arrival into the store? <br> a.  Yes – How long did it take? Name/describe who greeted you. Please comment. <br> b.  No – Did you walk past team members? Name/Describe. Please comment",
+                "issue": "Contradictory comment",
+                "description": "States both a delay and immediate acknowledgment, creating inconsistency."
+            },
+            {
+                "reportDtlId": 182882,
+                "questionId": 1480,
+                "questionLabel": "At the register, were you given a receipt?",
+                "issue": "Score does not match answer",
+                "description": "Marked \"Yes\" but scored 0 despite receipt evidence provided."
+            }
+        ],
+        "summaryIssues": [
+            {
+                "reportOverviewId": 6777,
+                "title": "Exterior",
+                "issue": "Unsubstantiated claim",
+                "description": "States the store was \"very busy\" without supporting detail or evidence."
+            }
+        ]
+    }
+}
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "overallReportScore": 7.5,
+        "clientValueScore": 7,
+        "evidenceQualityScore": 7,
+        "photoAlignmentScore": 8,
+        "strengths": [
+            "Clear description of service interaction including escalation to pharmacist",
+            "Good detail on product recommendation (Gastro Stop and Hydralyte)",
+            "Loyalty program interaction captured with partial compliance noted",
+            "Exterior photos support clean, branded, and well-maintained appearance",
+            "Balanced scoring with some missed standards (badges, pharmacist coat, loyalty explanation) identified"
+        ],
+        "weaknesses": [
+            "Some summary content is generic and not strongly evidence-based (e.g. “inviting”, “tempting”)",
+            "Exterior summary mentions specific products (cough/cold, wheat bags) not visible in provided photos",
+            "Greeting comment contains conflicting wording about timing and immediacy",
+            "Lack of detail in some responses (e.g. politeness, listening) reduces client insight",
+            "No photographic evidence tied to specific questions"
+        ],
+        "contradictions": [
+            "Receipt question marked 'Yes' but scored 0/1",
+            "Greeting described as 'within 3 mins' but also 'acknowledged immediately'"
+        ],
+        "recommendedAction": "APPROVE_WITH_MINOR_AMENDMENTS",
+        "explanation": "The report is generally solid with clear service interaction and supporting photos for exterior presentation. However, there are minor inconsistencies (notably scoring vs answer for receipt and greeting timing) and some vague or unsupported summary statements. These require light editorial correction but do not undermine overall usability.",
+        "questionIssues": [
+            {
+                "reportDtlId": 182882,
+                "questionId": 1480,
+                "questionLabel": "At the register, were you given a receipt?",
+                "issue": "Score does not match response",
+                "description": "Question marked 'Yes' but scored 0/1."
+            },
+            {
+                "reportDtlId": 182870,
+                "questionId": 13127,
+                "questionLabel": "Were you greeted upon arrival into the store?",
+                "issue": "Inconsistent comment",
+                "description": "States 'within 3 mins' and 'immediately', which conflict."
+            }
+        ],
+        "summaryIssues": [
+            {
+                "reportOverviewId": 6777,
+                "title": "Exterior",
+                "issue": "Unsupported detail",
+                "description": "Mentions specific product displays not visible in provided images."
+            }
+        ]
+    }
+}
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "overallReportScore": 8.2,
+        "clientValueScore": 8,
+        "evidenceQualityScore": 7.5,
+        "photoAlignmentScore": 8.5,
+        "strengths": [
+            "Clear description of service interaction including escalation to pharmacist",
+            "Good detail on product recommendation and companion selling (Hydralyte)",
+            "Consistent scoring aligned with most comments",
+            "Exterior observations supported by clear photo evidence",
+            "Captures compliance issues such as missing badges and pharmacist not wearing coat",
+            "Loyalty interaction clearly explained including missed benefit explanation"
+        ],
+        "weaknesses": [
+            "Some summary language is generic (e.g. 'clean and tidy', 'inviting') without specific examples",
+            "Limited detail on interior beyond general cleanliness and displays",
+            "No time-based detail beyond approximate wait",
+            "Lack of detailed description of staff appearance beyond uniform/badge",
+            "No photos linked to specific questions, reducing traceability of evidence"
+        ],
+        "contradictions": [
+            "Receipt marked as 'Yes' but scored 0, which conflicts with response"
+        ],
+        "recommendedAction": "APPROVE_WITH_MINOR_AMENDMENTS",
+        "explanation": "The report is largely clear, consistent, and supported by adequate detail and photos. Minor issues exist with one scoring contradiction (receipt) and some generic phrasing, but these do not significantly impact overall client value.",
+        "questionIssues": [
+            {
+                "reportDtlId": 182882,
+                "questionId": 1480,
+                "questionLabel": "At the register, were you given a receipt?",
+                "issue": "Score does not match answer",
+                "description": "Question marked 'Yes' but scored 0, creating a clear inconsistency."
+            }
+        ],
+        "summaryIssues": []
+    }
+}
+
+
+
+
+
+
+{"success":true,"data":"
+<div class=\"qc-review\">
+    <p>Summary QC review — Food Bar & Gaming (Blooms the Chemist)</p>
+    <p>Quick scores (out of 10)</p>
+    <ul>
+        <li>Overall report quality: 7/10</li>
+        <li>Client value: 7/10</li>
+        <li>Evidence quality: 6/10</li>
+        <li>Photo alignment: 7/10</li>
+    </ul>
+    <h3>Strengths</h3>
+    <ul>
+        <li>Receipt image is clear and timestamped; it directly supports the purchase, transaction time and items (BTC diarrhoea product + Hydralyte). This substantiates the pharmacist recommendation and the companion‑product score.</li>
+        <li>External/storefront photos clearly show health‑check signage and attractive window displays — supports the statements in the Exterior/Interior overview and questions about health checks and front appearance.</li>
+        <li>Shopper provided a clear, actionable description of the service interaction: who approached (TM1), pharmacist involvement, specific questions asked (age) and the exact advice/recommendation given (Gastro Stop and Hydralyte).</li>
+        <li>Scores are generally consistent with the written comments (clean/inviting exterior, staff helpful, product in stock, companion product offered).</li>
+    </ul>
+    <h3>Weaknesses / Issues to address</h3>
+    <ul>
+        <li>Missing photo evidence for staff presentation elements: there are no images of team members, name badges or the pharmacist. Questions about badges and pharmacist white coat (both scored negative) are unsupported by staff photos.</li>
+        <li>Interior claims (aisles accessible, interior displays, “lots of cold and flu items on display at end of aisles”) are not supported by interior aisle photos — available photos are mainly exterior/window shots and one storefront interior view through the window. Evidence for aisle accessibility and in‑store displays is weak.</li>
+        <li>Some comments are generic (e.g., \"clean and tidy\") without supporting detail or photo evidence of the areas referenced.</li>
+        <li>Minor inconsistency in greeting wording between overview and question comment (overview: \"waited for a few minutes before TM1 approached\"; question: \"As soon as staff were free, I was acknowledged immediately\") — not critical but worth clarifying.</li>
+    </ul>
+    <h3>Contradictions / Required corrections</h3>
+    <ul>
+        <li>QuestionId 1480 (At the register, were you given a receipt?) — value = \"Yes\" but score = 0/1. The receipt photo proves a receipt was issued and the answer should be scored 1/1. This is a clear scoring/data entry contradiction that needs correction.</li>
+        <li>No photo evidence provided for \"no badges\" or \"pharmacist not wearing white coat\" statements. Not a scoring contradiction but lack of evidence for negative compliance items may need verification or supporting photos/comments.</li>
+    </ul>
+    <h3>Recommended action</h3>
+    <ul>
+        <li>APPROVE WITH MINOR AMENDMENTS</li>
+    </ul>
+    <p>Required minor amendments (clear next steps for the shopper/editor)</p>
+    <p>1. Correct the score for QuestionId 1480 (receipt) to 1/1 to match the \"Yes\" value and supplied receipt photo.</p>
+    <p>2. Add a short clarifying comment where needed:</p>
+    <ul>
+        <li>For the badge/pharmacist coat items, either (a) attach a staff photo showing the absence/presence of name badges and the pharmacist coat or (b) add a sentence explaining why a photo could not be taken (privacy / store policy) and confirm how the observation was made (e.g., looked at counter/name badge position). This will reduce risk of a challenge from the client.</li>
+        <li>Clarify the greeting timing in one sentence so overview + question comments match (e.g., \"I waited ~2–3 minutes; TM1 then approached and acknowledged me immediately when free\").</li>
+    </ul>
+    <p>3. If possible, add one interior photo showing an aisle (to support \"aisles accessible\" and \"end-of-aisle displays\") or a photo of the display the shopper mentioned (cold & flu items), otherwise state explicitly that no interior photos were taken and why.</p>
+    <p>Short explanation for action selection</p>
+    <ul>
+        <li>The report is well-documented in key areas (transaction, product recommendation, exterior signage) and provides useful client insight. The only critical data error is the receipt score mismatch and there is missing photographic evidence for staff badge/white coat and aisle claims. Those are rectifiable by a small data correction and either adding a couple of photos or clarifying comments — not a full return to shopper. Once those minor amendments are made the report is client‑ready.</li>
+    </ul>
+    <p>If you want, I can propose exact wording for the clarifying sentences or draft the corrected score line for Q1480 to paste into the system.</p>
+</div>"}
+
+
+
+
+
+
+
+
+{"success":true,"data":"<div class=\"qc-review\">
+    <p>Summary judgement</p>
+    <ul>
+        <li>Recommended action: APPROVE WITH MINOR AMENDMENTS</li>
+        <li>Short reason: Report is generally complete, client-useful and supported by exterior and receipt photos, but
+            there is one clear scoring inconsistency (receipt question) and a few service/presentation items are
+            asserted without photographic evidence. Request the shopper to correct the scoring error and, if possible,
+            attach or reference staff images (or confirm none were taken) for badge/coat observations.</li>
+    </ul>
+    <p>Numeric QC scores</p>
+    <ul>
+        <li>Overall report quality: 8 / 10</li>
+        <li>Client value: 7 / 10</li>
+        <li>Evidence quality: 7 / 10</li>
+        <li>Photo alignment: 7 / 10</li>
+    </ul>
+    <h3>Strengths</h3>
+    <ul>
+        <li>The report includes useful, actionable detail about the customer interaction (age asked, pharmacist
+            involvement, recommended items: Gastro Stop + Hydralyte).</li>
+        <li>Receipt photo clearly supports the purchase and timestamp (BTC DIARRHOEA and HYDRALYTE on receipt) —
+            validates product recommendation and transaction/time.</li>
+        <li>Multiple exterior images clearly support comments about the front appearance, clean windows, health-check
+            signage and easy access.</li>
+        <li>Greeting/approach and pharmacist consultation are described clearly (who asked, what was asked, outcome).
+        </li>
+    </ul>
+    <h3>Weaknesses / Areas to improve</h3>
+    <ul>
+        <li>Staff presentation badges / pharmacist coat: the shopper reports missing badges and no white coat for
+            pharmacist but did not supply a staff photo to support the claim. This weakens the evidence for those scored
+            items.</li>
+        <li>Internal store claims (e.g., “a lot of cold and flu items on display at the end of the aisles”, “displays
+            looked inviting”) are not supported by interior aisle/endcap photos — only exterior/shopfront photos were
+            provided.</li>
+        <li>Some comments remain a bit generic (e.g., “interior was clean and tidy” with no close-up photos or specific
+            examples of cleanliness/highlight issues).</li>
+        <li>Slight inconsistency in the overview wording vs question-level detail (overview says “waited a few minutes
+            before TM1 approached”, Q13127 says “Acknowledged within 3 mins” — this is acceptable but could be tighter).
+        </li>
+    </ul>
+    <h3>Contradictions / Errors to flag</h3>
+    <ul>
+        <li>Question 1480 (At the register, were you given a receipt?): Answer = \"Yes\" but score = 0/1. This is a
+            clear scoring error. The attached receipt image confirms the answer should have scored positively. Please
+            correct the score to 1/1 or explain why 0 was awarded.</li>
+        <li>No staff images: Several scored items relate to staff appearance/badges/coat (Q11452, Q6477). The report
+            states non-compliance but offers no photographic evidence. Not a contradiction, but highlight as unsupported
+            assertion.</li>
+        <li>Photo omission: Report refers to aisle-end product displays and in-store presentation; no interior photos of
+            aisles or endcaps were uploaded to support those statements. Again not contradictory but lacking evidence.
+        </li>
+    </ul>
+    <p>Photo alignment notes</p>
+    <ul>
+        <li>Good alignment: exterior photos strongly support the “Exterior” and “Health Checks visible” comments.</li>
+        <li>Very good alignment: receipt image supports transaction details and the items purchased (pharmacist
+            recommendation).</li>
+        <li>Weak/missing alignment: no interior or staff images to support badge/coat/aisle display statements.</li>
+    </ul>
+    <h3>Recommended corrections / actions for shopper</h3>
+    <p>1. Correct the scoring error for Q1480 (receipt). The answer is Yes and a receipt is attached — score should be
+        1/1.</p>
+    <p>2. If possible, add or attach photos showing either:</p>
+    <ul>
+        <li>Team member badges / lack thereof (for Q11452),</li>
+        <li>Pharmacist clothing (white coat) or note explicitly that no staff photos were taken.</li>
+    </ul>
+    <p>If photos are not available, add a short note in the comment clarifying why (e.g., “no staff photo taken due to
+        privacy / policy”).</p>
+    <p>3. If feasible, add one or two interior/aisle photos (endcap with cold & flu items) to substantiate the
+        display/stock claims. If not possible now, add a short clarification in the report noting that no aisle photos
+        were taken.</p>
+    <p>Final comment for client</p>
+    <ul>
+        <li>The report gives a clear picture of the shopper experience: welcoming exterior and visible health services,
+            timely approach by staff, appropriate clinical questioning and pharmacist intervention, an
+            upsell/recommendation (Hydralyte) and an offer of membership without benefits explanation. The single
+            scoring error and lack of staff/aisle photographic evidence are easily remedied; otherwise the submission is
+            actionable and client-ready after the minor amendments above.</li>
+    </ul>
+</div>"}
+
+
+
+
+
+
+
+
+{"success":true,"data":"<div class=\"qc-review\">
+    <p>Summary QC of mystery shopping report — Food Bar & Gaming (pharmacy)</p>
+    <p>Overall scores (out of 10)</p>
+    <ul>
+        <li>Overall report quality: 7/10</li>
+        <li>Client value: 7/10</li>
+        <li>Evidence quality: 6/10</li>
+        <li>Photo alignment: 5/10</li>
+    </ul>
+    <h3>Strengths</h3>
+    <ul>
+        <li>Shopper documents a clear, relevant service interaction (TM1 → pharmacist), including the product
+            recommendation (Gastro Stop; Hydralyte) and age clarification for dosing — useful for the client.</li>
+        <li>Receipt image included with store name, date/time (10/8/2025 11:10:09 AM) and purchased items (DIARRHOEA and
+            HYDRALYTE). This supports the transaction and product recommendations.</li>
+        <li>Multiple exterior photos show the storefront, window decals and “in-store health checks” signage — these
+            support the overview comments about health-check promotion, clean/clear front, and accessibility.</li>
+        <li>Greeting and acknowledgment timings are reported (acknowledged within 3 minutes) and specific team member
+            descriptors (TM1, TM2, PHARM1) are provided.</li>
+    </ul>
+    <h3>Weaknesses / Issues to correct or improve</h3>
+    <ul>
+        <li>Missing interior evidence: no images of aisle-end displays, stock on shelves, the pharmacist, or team member
+            name badges. The report makes claims about internal displays, badges and pharmacist clothing that are not
+            supported by photos.</li>
+        <li>Contradiction in scores: Question 1480 (“At the register, were you given a receipt?”) is answered Yes but
+            scored 0/1. The receipt image proves a receipt was provided — the score is incorrect or needs justification.
+        </li>
+        <li>Badge / uniform evidence lacking: report states TM2 had an “I’m in training” badge but TM1 and PHARM1 had no
+            visible badges and the pharmacist was not wearing a white coat. There are no photos of staff to confirm
+            badge/coat details.</li>
+        <li>Some comments are generic (e.g., “interior was clean and tidy”) without descriptive examples or supporting
+            photos; where the report claims the store was “very busy” there is no interior image showing
+            traffic/queueing.</li>
+        <li>Loyalty sign-up detail: shopper notes they were offered membership but not told benefits — the exact
+            language used by staff or whether a leaflet/visual prompt was shown is not recorded.</li>
+    </ul>
+    <h3>Contradictions / Mandatory edits to raise</h3>
+    <ul>
+        <li>Receipt contradiction: answer = Yes, score = 0, but receipt photo included. Either change the score to 1 or
+            add a comment explaining why it was scored 0 despite a receipt being issued (for example if the receipt did
+            not meet a specific requirement).</li>
+        <li>Badge / white coat observations: these are scored (badges = No; pharmacist white coat = No). Because there
+            are no photos of staff, the shopper should either add a photo showing the lack of badges/coat or add a
+            sentence explaining why photos were not taken (privacy, store refused photos etc.) to justify these scores.
+        </li>
+        <li>Photo coverage vs. commentary: the shopper reports end-of-aisle displays, “fully stocked bins,” in-store
+            merchandise and staff interactions but provided only exterior images + receipt. Either supply interior
+            photos or revise comments to reflect the absence of photo evidence.</li>
+    </ul>
+    <h3>Recommended action</h3>
+    <ul>
+        <li>APPROVE WITH MINOR AMENDMENTS</li>
+    </ul>
+    <p>Reason</p>
+    <ul>
+        <li>The report is overall useful and actionable: it documents a correct product recommendation and purchase
+            (receipt backs this up) and captures client-relevant observations (store appearance, health-check signage,
+            staff assistance). However there are a small number of correctable issues (notably the receipt score
+            contradiction and missing photo-evidence for badge/coat/display claims) and some comments that need slight
+            expansion for clarity and client actioning. These are minor and fixable without returning the assignment to
+            the shopper for a full re-do.</li>
+    </ul>
+    <p>Required amendments for approval</p>
+    <p>1. Fix the receipt question (Q1480) score: change from 0 to 1 OR add a clear justification in comments for the 0
+        score despite providing a receipt photo.</p>
+    <p>2. Add a short note clarifying why there are no interior photos of staff or aisle displays (if the shopper was
+        not permitted to photograph staff or interiors) or upload 1–2 interior images that show:</p>
+    <ul>
+        <li>the pharmacist (or register area) to confirm badge/white coat observations,</li>
+        <li>an aisle-end display or shelf area referenced in the comments (to support “high — no gaps” and “well set
+            out”).</li>
+    </ul>
+    <p>3. Expand the loyalty interaction comment (Q12906) to include the exact phrasing used/offered and whether
+        paperwork/leaflet or a sign was shown; this helps the client coach staff on how to explain benefits.</p>
+    <p>4. Where comments are generic (e.g., “interior clean and tidy”, “very busy”), add brief specifics
+        (locations/areas observed, evidence of busyness such as number of customers or queue length) or remove the claim
+        if it cannot be evidenced.</p>
+    <p>Optional suggestions to improve future reports</p>
+    <ul>
+        <li>Capture at least one photo of the team member who served (front-facing badge visible) where privacy policies
+            allow. If the shopper cannot photograph staff, explicitly state this.</li>
+        <li>For clinical interactions, include short verbatim phrases the team member or pharmacist used when
+            recommending products (this helps with coaching).</li>
+        <li>If claiming stock levels/merchandising quality, photograph an aisle/endcap to support the score.</li>
+    </ul>
+    <p>If you want, I can draft the exact wording to add to the report for the receipt correction and the badge/white
+        coat clarification so the shopper can paste it into the report.</p>
+</div>"}
+
+
+
+
+
+
+
+
+{"success":true,"data":"<div class=\"qc-review\">
+    <p>Overall assessment</p>
+    <ul>
+        <li>Overall report quality score: 7/10</li>
+        <li>Client value score: 7/10</li>
+        <li>Evidence quality score: 8/10</li>
+        <li>Photo alignment score: 8/10</li>
+    </ul>
+    <p>Summary</p>
+    <p>The shopper provided a clear narrative of the visit, including service interaction with a team member and
+        escalation to the pharmacist, product recommendations, and the transaction. Exterior photos (5) strongly support
+        the exterior/interior-overview comments about clean windows, clear access and health-check signage. The receipt
+        image validates the items purchased (Gastro Stop / Hydralyte), time and operator details and supports the
+        shopper’s advice/purchase comments. The report is largely consistent and actionable, but there are a small
+        number of scoring inconsistencies and missing staff evidence that require correction or clarification before
+        client delivery.</p>
+    <h3>Strengths</h3>
+    <ul>
+        <li>Interaction detail: The shopper documents the sequence (approached by TM1, pharmacist consulted, specific
+            questions asked about age/autism) which is useful to the client.</li>
+        <li>Evidence: Multiple exterior photos clearly show signage/promotions and health-check messaging; the receipt
+            photo confirms the recommended companion product (Hydralyte) was sold and the timestamp/operator.</li>
+        <li>Actionable findings: Notes about staff not wearing visible name badges and the loyalty offer being made
+            without explaining benefits are useful items the client can act on.</li>
+        <li>Score alignment: Most scores align with comments (cleanliness, accessibility, stock levels, product variety,
+            service quality).</li>
+    </ul>
+    <h3>Weaknesses</h3>
+    <ul>
+        <li>Missing staff evidence: No photos of team members, name badges, or pharmacist were supplied. The shopper
+            claims badges were missing for TM1 and pharmacist — this cannot be visually verified with the current
+            images.</li>
+        <li>Scoring inconsistency: Question on “Were you given a receipt?” was answered Yes and a receipt image is
+            attached, yet the score recorded is 0/1. This is a clear contradiction that needs correction.</li>
+        <li>Limited timing detail: The “waited a few minutes” comment is vague; elsewhere the shopper answered
+            “Acknowledged within 3 mins” — unify wording and, if possible, give exact wait time.</li>
+        <li>Internal merchandising/service evidence: The shopper mentions cold/flu items and in-store displays; only
+            exterior/window display photos were provided. If internal merchandising scoring contributed to stock/display
+            scores, interior aisle photos would strengthen the evidence.</li>
+    </ul>
+    <h3>Contradictions / Items to fix</h3>
+    <p>1. Receipt contradiction:</p>
+    <ul>
+        <li>Q1480 (\"At the register, were you given a receipt?\") — Value = Yes, receipt photo attached, but Score =
+            0/1. This should be corrected (score should be 1/1) or the shopper should explain why 0 was chosen despite
+            providing the receipt.</li>
+    </ul>
+    <p>2. Badge verification:</p>
+    <ul>
+        <li>Shopper states TM1 and the pharmacist were not wearing name badges but provided no staff photos. If
+            GDPR/privacy or store policy prevented photos, the shopper should explicitly state that staff photos were
+            not taken (and why), and provide a more detailed description of badges worn/missing (e.g., “TM2 wore an ‘I’m
+            in training’ badge; TM1 had no visible badge on left chest”).</li>
+    </ul>
+    <p>3. Minor wording consistency:</p>
+    <ul>
+        <li>The overview says “I waited for a few minutes” vs. question answer “Acknowledged within 3 mins.” Use
+            consistent phrasing and precise timing where possible.</li>
+    </ul>
+    <h3>Recommended action</h3>
+    <ul>
+        <li>APPROVE WITH MINOR AMENDMENTS</li>
+    </ul>
+    <p>Required amendments before final approval</p>
+    <p>1. Correct the receipt question score to reflect the evidence (change Q1480 score to 1/1) OR provide explanation
+        justifying the 0 score despite the receipt image.</p>
+    <p>2. Add a short clarification about why no staff/badge photos were taken (if applicable). If the shopper had
+        opportunity to photograph staff but didn’t, ask them to add a brief descriptive note of how badges were not
+        worn/visible (location on uniform, wording on TM2’s “in training” badge).</p>
+    <p>3. If available, add at least one interior/aisle photo showing the cold & flu displays and any companion product
+        placement (to support the “companion product offered” and “end-of-aisle displays full” scores). If not possible,
+        add a sentence explaining why internal photos weren’t captured (privacy, store policy, etc.).</p>
+    <p>4. Minor edit for consistency: change the phrasing about waiting time so it matches the “Acknowledged within 3
+        mins” response.</p>
+    <p>Other suggestions (optional)</p>
+    <ul>
+        <li>Capture a short descriptor of TM1/TM2 (gender, approximate age, uniform color, position in store) to help
+            the client identify training/coaching targets while respecting privacy rules.</li>
+        <li>If the loyalty membership was offered, the shopper could add exact wording used by the team member when
+            offering the program — this helps the client coach on “explain benefits” behavior.</li>
+    </ul>
+    <p>Conclusion</p>
+    <p>This is a useful, evidence-backed report with relevant photos (exterior and receipt) and a clear service
+        narrative. It is client-ready after minor amendments to correct the receipt scoring inconsistency and to
+        clarify/strengthen evidence around missing name badges (or add an explanation why staff photos weren’t taken).
+        Once those small fixes are made the report can be approved for client delivery.</p>
+</div>"}
+
+
+
+
+
+
+
+{"success":true,"data":"<div class=\"qc-review\">
+    <p>QC Summary — Food Bar & Gaming (Blooms the Chemist) mystery shop</p>
+    <h3>Scores (out of 10)</h3>
+    <ul>
+        <li>Overall report quality: 7/10</li>
+        <li>Client value: 7/10</li>
+        <li>Evidence quality: 6/10</li>
+        <li>Photo alignment: 8/10</li>
+    </ul>
+    <h3>Strengths</h3>
+    <ul>
+        <li>Good exterior photographic evidence: window signage clearly supports the \"health checks\" callout and
+            attractive front appearance.</li>
+        <li>Receipt image supplied and legible — supports purchase of the diarrhoea product and Hydralyte (corroborates
+            the pharmacist recommendation and transaction time).</li>
+        <li>Shopper recorded useful interaction detail: how/when they were approached (acknowledged within ~3 minutes),
+            questions asked by team member (age), pharmacist advice, training badge observed on register staff.</li>
+        <li>Stock and display observations are consistent across overview and question answers (high/no gaps; product
+            offered).</li>
+    </ul>
+    <h3>Weaknesses</h3>
+    <ul>
+        <li>Scoring error: Question \"At the register, were you given a receipt?\" is answered Yes, but scored 0/1 —
+            contradicted by the attached receipt image.</li>
+        <li>Limited in-store / staff photos: no images of team members, name badges, pharmacist, or till area to
+            visually confirm badge/white coat issues or the \"no Make‑A‑Wish/Gidget Foundation on counters\"
+            observation.</li>
+        <li>Some comments are generic (e.g., \"interior was clean and tidy\") and would benefit from specific examples
+            or a photo (e.g., specify areas cleaned, any trip hazards, or a close shot of an aisle).</li>
+        <li>Membership offer detail: shopper notes they were asked about membership but \"no benefits were explained\" —
+            this is actionable but could be stronger with the exact wording used by the team member or whether any
+            sign-up material was offered.</li>
+    </ul>
+    <h3>Contradictions / Mandatory Fixes</h3>
+    <ul>
+        <li>Receipt contradiction: Q1480 \"At the register, were you given a receipt?\" — Value = Yes, Score = 0/1. The
+            attached receipt image proves a receipt was provided. This must be corrected (score should be 1) or the
+            shopper must explain why score was 0 despite answering Yes and attaching the receipt.</li>
+    </ul>
+    <p>Photo alignment notes</p>
+    <ul>
+        <li>Photos strongly support exterior & signage-related answers (health checks signage, attractive windows, clear
+            access).</li>
+        <li>Receipt photo aligns with purchase and companion product claim (Hydralyte).</li>
+        <li>Photos do NOT show staff/badges or pharmacist attire — so the observations about missing name badges and the
+            pharmacist not wearing a white coat are unsupported by imagery. If client requires photographic proof for
+            these points, additional images are needed.</li>
+    </ul>
+    <p>Client value (what the client can act on)</p>
+    <ul>
+        <li>Clear, actionable items: ensure all staff display name badges (training badge should not obscure name),
+            ensure pharmacist/professional dress expectations are met (white coat if required), and reinforce training
+            to explain benefits when offering My Health Rewards (the shopper was asked but benefits not explained).</li>
+        <li>The receipt / purchase evidence is good proof the transactional flow is working and the pharmacist
+            recommended an appropriate companion product — good commercial evidence to reinforce best practice.</li>
+    </ul>
+    <h3>Recommended action</h3>
+    <ul>
+        <li>APPROVE WITH MINOR AMENDMENTS</li>
+    </ul>
+    <p>Short explanation and required next steps</p>
+    <ul>
+        <li>Approve the report overall: it gives useful, actionable feedback and strong exterior/transaction evidence.
+            However, there is one clear correction required (receipt question score). Please update Q1480 to reflect
+            that a receipt was provided (adjust score to 1) OR provide justification for why it was scored 0 despite the
+            image. Also request the shopper to add (if possible) one close photo of the till area or staff
+            badges/attire, or a short clarifying comment describing why they could not photograph staff (if that was the
+            case). Finally, ask the shopper to expand one or two generic comments (interior cleanliness / displays) with
+            a single specific example or photo to strengthen evidence quality.</li>
+    </ul>
+    <p>If you want, I can draft the exact text to send back to the shopper asking for the scoring correction and the
+        additional clarifications/photos.</p>
+</div>"}
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "overallReportScore": 8,
+        "clientValueScore": 8,
+        "evidenceQualityScore": 7,
+        "photoAlignmentScore": 8,
+        "strengths": [
+            "Clear service interaction described including consultation with pharmacist and specific product recommendations",
+            "Good detail on staff behavior, including questioning technique and escalation to pharmacist",
+            "Balanced feedback highlighting both positives (cleanliness, service) and negatives (missing badges, no loyalty explanation)",
+            "Photos support exterior cleanliness, branding, and promotional signage",
+            "Receipt image provided as strong transactional evidence"
+        ],
+        "weaknesses": [
+            "Some comments are slightly generic (e.g. 'clean and tidy', 'inviting') without detailed supporting observations",
+            "Inconsistency in greeting timing description reduces clarity",
+            "Limited use of observational detail in some scored areas (e.g. pricing clarity, displays)",
+            "No interior photos to support internal cleanliness and merchandising claims"
+        ],
+        "contradictions": [
+            "Receipt was marked as 'Yes' but scored 0, despite receipt image being provided",
+            "Greeting described as 'within 3 mins' but also 'acknowledged immediately', which is inconsistent"
+        ],
+        "recommendedAction": "APPROVE_WITH_MINOR_AMENDMENTS",
+        "explanation": "The report is generally strong, clear, and provides good client value with solid service detail and supporting evidence. However, minor scoring and wording inconsistencies (notably the receipt score and greeting timing) should be corrected before final approval.",
+        "questionIssues": [
+            {
+                "reportDtlId": 182882,
+                "questionId": 1480,
+                "questionLabel": "At the register, were you given a receipt?",
+                "issue": "Score does not match response",
+                "description": "Marked 'Yes' but scored 0 despite receipt image provided."
+            },
+            {
+                "reportDtlId": 182870,
+                "questionId": 13127,
+                "questionLabel": "Were you greeted upon arrival into the store?",
+                "issue": "Inconsistent description",
+                "description": "States 'acknowledged within 3 mins' and also 'acknowledged immediately', which conflicts."
+            }
+        ],
+        "summaryIssues": []
+    }
+}
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "overallReportScore": 7.5,
+        "clientValueScore": 7.5,
+        "evidenceQualityScore": 7,
+        "photoAlignmentScore": 8,
+        "strengths": [
+            "Clear description of service interaction including consultation with pharmacist",
+            "Good detail on product recommendation and companion selling (Hydralyte)",
+            "Consistent scoring across most operational and service questions",
+            "Exterior photos support claims of clean, well-presented storefront and visible health check signage",
+            "Payment interaction includes useful detail about loyalty offer gap"
+        ],
+        "weaknesses": [
+            "Some comments are generic and lack specific observational detail (e.g. cleanliness, friendliness)",
+            "Contradictory wording in greeting comment reduces clarity",
+            "Missing detail on staff identification (no strong descriptions beyond TM labels)",
+            "No photo evidence linked to specific questions, limiting validation at question level",
+            "Interior observations not supported by images"
+        ],
+        "contradictions": [
+            "Greeting timing: states 'waited a few minutes' but also 'acknowledged immediately'",
+            "Receipt question scored 0 despite selecting 'Yes' and receipt image provided"
+        ],
+        "recommendedAction": "RETURN_TO_EDITOR",
+        "explanation": "The report is generally solid and provides useful client insights, but contains a scoring error (receipt question) and a contradiction in the greeting description. These require editorial correction before being client-ready.",
+        "questionIssues": [
+            {
+                "reportDtlId": 182870,
+                "questionId": 13127,
+                "questionLabel": "Were you greeted upon arrival into the store?",
+                "issue": "Contradictory comment",
+                "description": "States both a delay and immediate acknowledgement, creating inconsistency."
+            },
+            {
+                "reportDtlId": 182882,
+                "questionId": 1480,
+                "questionLabel": "At the register, were you given a receipt?",
+                "issue": "Score does not match answer",
+                "description": "Answer is 'Yes' but score is 0 and receipt image is provided."
+            }
+        ],
+        "summaryIssues": []
+    }
+}
+
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "overallReportScore": 8.2,
+        "clientValueScore": 8.5,
+        "evidenceQualityScore": 7.5,
+        "photoAlignmentScore": 8.5,
+        "strengths": [
+            "Clear, detailed service interaction including pharmacist recommendation and questioning",
+            "Good capture of compliance issues (missing name badges, pharmacist not in white coat)",
+            "Balanced feedback including both positives and missed opportunities (loyalty benefits not explained)",
+            "Summaries are generally specific and aligned with the visit",
+            "Receipt image provided as supporting evidence"
+        ],
+        "weaknesses": [
+            "Some comments are slightly generic (e.g. ‘clean and tidy’, ‘inviting’) without detailed examples",
+            "Minor inconsistency in greeting timing description",
+            "Limited observational detail in some scored ‘Yes’ answers without supporting commentary",
+            "No explicit mention of exterior cleanliness issues visible in photos (e.g. pavement condition)"
+        ],
+        "contradictions": [
+            "Receipt marked as ‘Yes’ but scored 0",
+            "Greeting described as ‘within 3 mins’ but also ‘immediately’"
+        ],
+        "recommendedAction": "APPROVE_WITH_MINOR_AMENDMENTS",
+        "explanation": "The report is strong, detailed, and provides good client insight, particularly around service and compliance. Minor scoring inconsistency (receipt) and a small contradiction in greeting timing should be corrected before final submission.",
+        "questionIssues": [
+            {
+                "reportDtlId": 182882,
+                "questionId": 1480,
+                "questionLabel": "At the register, were you given a receipt?",
+                "issue": "Score does not match answer",
+                "description": "Question marked ‘Yes’ but scored 0, which is inconsistent."
+            },
+            {
+                "reportDtlId": 182870,
+                "questionId": 13127,
+                "questionLabel": "Were you greeted upon arrival into the store?",
+                "issue": "Inconsistent comment",
+                "description": "States ‘acknowledged within 3 mins’ but also says ‘immediately’, creating ambiguity."
+            }
+        ],
+        "summaryIssues": []
+    }
+}
+
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "overallReportScore": 7.5,
+        "clientValueScore": 7,
+        "evidenceQualityScore": 7,
+        "photoAlignmentScore": 8,
+        "strengths": [
+            "Clear identification of team member (Michael) with specific service details",
+            "Good description of service interaction including product advice",
+            "Balanced feedback noting both positive service and missed opportunities (loyalty, upselling, greeting)",
+            "Photos support claims of good stock levels, clear pricing (in images), and tidy presentation",
+            "Summary sections are generally detailed and structured"
+        ],
+        "weaknesses": [
+            "Contradictory commentary regarding pricing clarity and product labelling",
+            "Some comments are slightly generic (e.g. 'warm and welcoming', 'friendly') without deeper detail",
+            "Limited evidence or elaboration for some scored responses (e.g. value for money, friendliness beyond one staff member)",
+            "No strong linkage between photos and specific issues mentioned (e.g. dirty window not clearly visible)"
+        ],
+        "contradictions": [
+            "Pricing/ticketing marked as clear and easy to read, but later comment states items weren't clearly labeled with prices",
+            "Navigation question scored positively, but comment indicates difficulty due to unclear pricing and lack of options",
+            "Summary states items were clearly labeled, conflicting with later negative comment about pricing clarity"
+        ],
+        "recommendedAction": "APPROVE_WITH_MINOR_AMENDMENTS",
+        "explanation": "The report is generally strong, detailed, and useful for the client, with good service insights and supporting photos. However, there are clear contradictions around pricing and labelling that need clarification to ensure accuracy and credibility.",
+        "questionIssues": [
+            {
+                "reportDtlId": 182721,
+                "questionId": 10373,
+                "questionLabel": "Was the store easy to navigate to be able to find the product you were looking for today?",
+                "issue": "Contradictory comment",
+                "description": "The response is सकारात्मक but the comment indicates unclear pricing and limited options, which conflicts with the score."
+            },
+            {
+                "reportDtlId": 182716,
+                "questionId": 10060,
+                "questionLabel": "Was the pricing/ticketing clear and easy to read on shelf labels and shelf talkers?",
+                "issue": "Inconsistent with other responses",
+                "description": "This is marked as clear, but another response states pricing was not clearly labeled."
+            }
+        ],
+        "summaryIssues": [
+            {
+                "reportOverviewId": 6762,
+                "title": "Interior",
+                "issue": "Contradiction",
+                "description": "States items were clearly labeled, which conflicts with later comments about unclear pricing."
+            }
+        ]
+    }
+}
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "overallReportScore": 6.5,
+        "clientValueScore": 6.5,
+        "evidenceQualityScore": 6,
+        "photoAlignmentScore": 7,
+        "strengths": [
+            "Clear identification of staff member (Michael) and description of interaction",
+            "Balanced feedback noting both positive service and missed opportunities",
+            "Good detail around service interaction and product recommendation",
+            "Exterior and interior summaries provide generally clear observations",
+            "Receipt and product photos support visit authenticity"
+        ],
+        "weaknesses": [
+            "Contradictory comments regarding pricing clarity and product labelling",
+            "Presence of typographical/gibberish text reduces professionalism",
+            "Limited depth in some responses (e.g. friendliness and environment lack specific examples)",
+            "No strong evidence or detail supporting some scored answers",
+            "Missed opportunity to better explain lack of proactive service beyond 'busy store'"
+        ],
+        "contradictions": [
+            "Pricing described as 'clear and easy to read' but later stated items were not clearly labelled with prices",
+            "Loyalty program marked as 'not mentioned' in summary but question comment states Michael mentioned it"
+        ],
+        "recommendedAction": "RETURN_TO_EDITOR",
+        "explanation": "The report contains useful detail but has clear contradictions (pricing and loyalty program) and a visible text error. These reduce reliability and professionalism, requiring editorial correction before client submission.",
+        "questionIssues": [
+            {
+                "reportDtlId": 182721,
+                "questionId": 10373,
+                "questionLabel": "Was the store easy to navigate to be able to find the product you were looking for today?",
+                "issue": "Contradictory comment",
+                "description": "States navigation was easy but also says items were not clearly labelled with prices."
+            },
+            {
+                "reportDtlId": 182725,
+                "questionId": 13462,
+                "questionLabel": "Were you offered any companion products to complement your choice of product in store? This could also include a better value/increased size of product.",
+                "issue": "Unclear/invalid comment",
+                "description": "Comment contains nonsensical text ('er4ewf3rqwdf43') reducing clarity."
+            },
+            {
+                "reportDtlId": 182727,
+                "questionId": 12906,
+                "questionLabel": "Were you asked if you are a My Health Rewards loyalty customer whilst in the store?",
+                "issue": "Contradictory response",
+                "description": "Marked as not asked, but comment states the team member mentioned the rewards program."
+            }
+        ],
+        "summaryIssues": [
+            {
+                "reportOverviewId": 6762,
+                "title": "Interior",
+                "issue": "Inconsistency with detailed responses",
+                "description": "States pricing and labelling were clear, conflicting with later comment indicating unclear pricing."
+            }
+        ]
+    }
+}
+
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "overallReportScore": 6.5,
+        "clientValueScore": 7,
+        "evidenceQualityScore": 6,
+        "photoAlignmentScore": 7.5,
+        "strengths": [
+            "Clear identification of staff member (Michael) and description of interaction",
+            "Balanced feedback highlighting both positive service (friendly, efficient) and gaps (no greeting, no upsell)",
+            "Specific product recommendation interaction described in detail",
+            "Receipt image supports transaction accuracy and staff name",
+            "Exterior and product photos generally align with cleanliness and stock comments"
+        ],
+        "weaknesses": [
+            "Contradictory statements regarding pricing clarity and product labelling",
+            "Presence of typographical/gibberish text reduces professionalism",
+            "Loyalty program response conflicts with narrative summary",
+            "Limited depth in some comments (e.g. friendliness not supported with detailed examples beyond general statement)",
+            "No strong evidence provided for some scored elements (e.g. lack of approach not time-stamped beyond estimate)"
+        ],
+        "contradictions": [
+            "Pricing described as unclear in Q10373 but later stated as clearly displayed in Q3440",
+            "Loyalty program marked as not mentioned, but comment states Michael mentioned the rewards program",
+            "Companion product question states no recommendation, yet Panadol and Nurofen were suggested (may qualify as linked products depending on interpretation)"
+        ],
+        "recommendedAction": "RETURN_TO_EDITOR",
+        "explanation": "The report contains useful detail and is mostly aligned with the visit; however, contradictions, a clear typo/gibberish entry, and inconsistent statements around pricing and loyalty program reduce reliability. These require editorial correction before client delivery.",
+        "questionIssues": [
+            {
+                "reportDtlId": 182721,
+                "questionId": 10373,
+                "questionLabel": "Was the store easy to navigate to be able to find the product you were looking for today?",
+                "issue": "Contradictory comment",
+                "description": "States navigation was easy but comment says pricing was unclear and options limited."
+            },
+            {
+                "reportDtlId": 182724,
+                "questionId": 3440,
+                "questionLabel": "Did you feel you had variety of choice of product/s available to you?",
+                "issue": "Contradictory comment",
+                "description": "Mentions prices clearly displayed, conflicting with earlier statement about unclear pricing."
+            },
+            {
+                "reportDtlId": 182725,
+                "questionId": 13462,
+                "questionLabel": "Were you offered any companion products to complement your choice of product in store?",
+                "issue": "Unclear/invalid comment",
+                "description": "Contains nonsensical text ('er4ewf3rqwdf43') reducing clarity and professionalism."
+            },
+            {
+                "reportDtlId": 182727,
+                "questionId": 12906,
+                "questionLabel": "Were you asked if you are a My Health Rewards loyalty customer whilst in the store?",
+                "issue": "Contradictory response",
+                "description": "Marked as not asked, but comment states team member mentioned the rewards program."
+            }
+        ],
+        "summaryIssues": []
+    }
+}
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "overallReportScore": 6.5,
+        "clientValueScore": 7,
+        "evidenceQualityScore": 6,
+        "photoAlignmentScore": 7,
+        "strengths": [
+            "Clear description of service interaction with named staff member (Michael)",
+            "Good detail on product recommendation and suitability (Nasonex vs cold symptoms)",
+            "Balanced feedback noting both friendliness and service gaps (no approach, no greeting)",
+            "Receipt and product photos support purchase and pricing evidence",
+            "Exterior and interior summaries provide useful overall context"
+        ],
+        "weaknesses": [
+            "Contradictory statements regarding pricing clarity across responses",
+            "Presence of typographical/gibberish text reduces professionalism",
+            "Some comments are generic and lack specific examples (e.g. welcoming, tidy)",
+            "Limited detail on staff behaviours beyond one interaction",
+            "No strong linkage between some scores and supporting explanations"
+        ],
+        "contradictions": [
+            "Pricing described as unclear in Q10373 but later stated as clearly displayed in Q3440",
+            "Loyalty program marked as not mentioned, but comment states Michael mentioned the rewards program"
+        ],
+        "recommendedAction": "RETURN_TO_EDITOR",
+        "explanation": "The report contains useful observations and is mostly complete, but contradictions (pricing clarity and loyalty program) and a clear text error reduce reliability. These require editorial correction before being client-ready.",
+        "questionIssues": [
+            {
+                "reportDtlId": 182721,
+                "questionId": 10373,
+                "questionLabel": "Was the store easy to navigate to be able to find the product you were looking for today?",
+                "issue": "Contradictory comment",
+                "description": "States pricing was not clearly labeled, conflicting with other responses indicating clear pricing."
+            },
+            {
+                "reportDtlId": 182724,
+                "questionId": 3440,
+                "questionLabel": "Did you feel you had variety of choice of product/s available to you?",
+                "issue": "Contradiction",
+                "description": "Comment says prices clearly displayed, conflicting with earlier statement about unclear pricing."
+            },
+            {
+                "reportDtlId": 182725,
+                "questionId": 13462,
+                "questionLabel": "Were you offered any companion products to complement your choice of product in store?",
+                "issue": "Unclear/invalid comment",
+                "description": "Comment contains nonsensical text ('er4ewf3rqwdf43') reducing clarity and professionalism."
+            },
+            {
+                "reportDtlId": 182727,
+                "questionId": 12906,
+                "questionLabel": "Were you asked if you are a My Health Rewards loyalty customer whilst in the store?",
+                "issue": "Contradiction",
+                "description": "Answer states not asked, but comment indicates the team member mentioned the rewards program."
+            }
+        ],
+        "summaryIssues": []
+    }
+}
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "overallReportScore": 7.5,
+        "clientValueScore": 7,
+        "evidenceQualityScore": 6.5,
+        "photoAlignmentScore": 7,
+        "strengths": [
+            "Clear service journey described including consultation and pharmacist involvement",
+            "Good detail on product recommendation and companion selling (Hydralyte)",
+            "Identifies compliance gaps (no badges, pharmacist no white coat, loyalty benefits not explained)",
+            "Exterior photos support cleanliness, branding, and visibility of health services",
+            "Receipt image provided as proof of purchase"
+        ],
+        "weaknesses": [
+            "Some comments are generic and lack specific observable detail (e.g. “clean and tidy”, “inviting”)",
+            "Limited linkage between photos and specific scored questions",
+            "Minor inconsistencies in timing description of greeting",
+            "Exterior summary includes details (product displays) not evidenced in photos",
+            "Some answers lack supporting commentary where insight would benefit the client"
+        ],
+        "contradictions": [
+            "Receipt marked as 'Yes' but scored 0",
+            "Greeting described as 'within 3 mins' but also 'immediately'"
+        ],
+        "recommendedAction": "APPROVE_WITH_MINOR_AMENDMENTS",
+        "explanation": "The report is generally strong and provides useful client insight, particularly around service and compliance gaps. However, there are minor scoring inconsistencies (receipt question), slight contradictions in timing, and some vague commentary. These require small corrections before being fully client-ready.",
+        "questionIssues": [
+            {
+                "reportDtlId": 182882,
+                "questionId": 1480,
+                "questionLabel": "At the register, were you given a receipt?",
+                "issue": "Score does not match answer",
+                "description": "Marked 'Yes' but scored 0 which is inconsistent."
+            },
+            {
+                "reportDtlId": 182870,
+                "questionId": 13127,
+                "questionLabel": "Were you greeted upon arrival into the store?",
+                "issue": "Inconsistent comment",
+                "description": "Comment states both 'within 3 mins' and 'immediately', creating ambiguity."
+            }
+        ],
+        "summaryIssues": [
+            {
+                "reportOverviewId": 6777,
+                "title": "Exterior",
+                "issue": "Unsupported detail",
+                "description": "Mentions specific product displays not evidenced in provided photos."
+            }
+        ]
+    }
+}
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "overallReportScore": 7.5,
+        "clientValueScore": 7.5,
+        "evidenceQualityScore": 7,
+        "photoAlignmentScore": 7,
+        "strengths": [
+            "Clear service journey with specific interaction details between TM1 and pharmacist",
+            "Good explanation of product recommendation and companion selling (Hydralyte)",
+            "Loyalty program interaction documented with outcome and gap (no benefits explained)",
+            "Summaries provide a generally coherent overview of store condition and service",
+            "Photos support clean, branded, and well-presented exterior"
+        ],
+        "weaknesses": [
+            "Some comments are slightly generic and lack depth (e.g. ‘inviting’, ‘well set out’)",
+            "Minor inconsistencies in timing description of greeting",
+            "Exterior summary mentions specific products (cough/cold, wheat bags) not evidenced in photos",
+            "Limited observational detail on interior beyond cleanliness and displays",
+            "No strong evidence or elaboration for some scored elements"
+        ],
+        "contradictions": [
+            "Receipt marked as 'Yes' but scored 0",
+            "Greeting described as ‘within 3 mins’ but also ‘acknowledged immediately’"
+        ],
+        "recommendedAction": "APPROVE_WITH_MINOR_AMENDMENTS",
+        "explanation": "The report is generally clear, usable, and aligned with the client’s needs, with solid service detail and supporting photos. However, there are minor scoring inconsistencies (notably the receipt question) and slight contradictions in timing that should be corrected before final submission.",
+        "questionIssues": [
+            {
+                "reportDtlId": 182882,
+                "questionId": 1480,
+                "questionLabel": "At the register, were you given a receipt?",
+                "issue": "Score does not match answer",
+                "description": "Question marked 'Yes' but scored 0, which is inconsistent."
+            },
+            {
+                "reportDtlId": 182870,
+                "questionId": 13127,
+                "questionLabel": "Were you greeted upon arrival into the store?",
+                "issue": "Inconsistent comment",
+                "description": "Comment states both ‘within 3 mins’ and ‘immediately’, creating a timing inconsistency."
+            }
+        ],
+        "summaryIssues": [
+            {
+                "reportOverviewId": 6777,
+                "title": "Exterior",
+                "issue": "Not fully supported by evidence",
+                "description": "Mentions specific product displays (cough/cold, wheat bags) not visible in provided photos."
+            }
+        ]
+    }
+}
