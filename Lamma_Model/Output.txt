@@ -1,0 +1,22 @@
+ {
+            "severity": "LOW",
+            "reportDtlId": 1004,
+            "questionId": null,
+            "reportOverviewId": 1004,
+            "reportOverviewTitle": "RESTROOMS",
+            "score": "5",
+            "maxScore": "5",
+            "issue": "",
+            "description": ""
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": 1005,
+            "questionId": null,
+            "reportOverviewId": 1005,
+            "reportOverviewTitle": "SECURITY & MANAGEMENT",
+            "score": "5",
+            "maxScore": "5",
+            "issue": "",
+            "description": ""
+        }
