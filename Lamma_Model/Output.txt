@@ -182,3 +182,55 @@
         }
     ]
 }
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": "Exact match questionId from questions array not provided in the payload.",
+            "reportOverviewId": "1001",
+            "reportOverviewTitle": "BAR",
+            "questionLabel": "Question label missing in JSON data for evaluation - expected to review comments alignment with scores if allowed, etc. Not available in given structure."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": "Exact match questionId from questions array not provided in the payload.",
+            "reportOverviewId": "1002",
+            "reportOverviewTitle": "DINING",
+            "questionLabel": "Question label missing in JSON data for evaluation - expected to review comments alignment with scores if allowed, etc. Not available in given structure."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": "Exact match questionId from questions array not provided in the payload.",
+            "reportOverviewId": "1003",
+            "reportOverviewTitle": "GAMING",
+            "questionLabel": "Question label missing in JSON data for evaluation - expected to review comments alignment with scores if allowed, etc. Not available in given structure."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": "Exact match questionId from questions array not provided in the payload.",
+            "reportOverviewId": "1004",
+            "reportOverviewTitle": "RESTROOMS",
+            "questionLabel": "Question label missing in JSON data for evaluation - expected to review comments alignment with scores if allowed, etc. Not available in given structure."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": "Exact match questionId from questions array not provided in the payload.",
+            "reportOverviewId": "1005",
+            "reportOverviewTitle": "SECURITY & MANAGEMENT",
+            "questionLabel": "Question label missing in JSON data for evaluation - expected to review comments alignment with scores if allowed, etc. Not available in given structure."
+        }
+    ]
+}
