@@ -327,3 +327,36 @@
         }
     ]
 }
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 554436,
+            "questionId": "13805",
+            "issue": "Comment contains irrelevant details not related to the question's context.",
+            "description": "The comment should only discuss whether you were greeted and offered assistance."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 554460,
+            "questionId": "6590",
+            "issue": "The score does not match the response when considering context.",
+            "description": "While a 'Yes' was given for no visible rubbish or empty glasses, there is mention of an unrelated observation about cleanliness in other areas which might suggest inconsistency."
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 554464,
+            "questionId": "8065",
+            "issue": "Comment contradicts the response.",
+            "description": "The comment mentions 'fresh smelling' which is not a valid score descriptor as it expresses an opinion rather than factual reporting of freshness."
+        }
+    ]
+}
