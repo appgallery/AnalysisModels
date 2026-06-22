@@ -393,3 +393,14 @@
         }
     ]
 }
+
+
+
+
+
+
+
+{
+    "success": false,
+    "message": "Ollama returned invalid JSON"
+}
