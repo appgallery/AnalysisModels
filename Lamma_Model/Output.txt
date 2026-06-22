@@ -427,3 +427,29 @@
         }
     ]
 }
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "LOW",
+            "reportDtlId": 554436,
+            "questionId": 13805,
+            "issue": "Comment contains spelling errors and unrelated to score: 'GAM1' instead of the staff member or establishment name.",
+            "description": "The comment has a typographical error that contradicts its positive scoring label."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": 554460,
+            "questionId": 6590,
+            "issue": "Comment contains spelling errors: 'werr' instead of the staff member or establishment name.",
+            "description": "The comment has a typographical error that contradicts its positive scoring label."
+        }
+    ]
+}
