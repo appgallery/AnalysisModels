@@ -67,3 +67,70 @@
         }
     ]
 }
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 1001,
+            "questionId": "The bar area were clean wdf3eww and well maintained.",
+            "reportOverviewTitle": null,
+            "questionLabel": "Cleanliness of the bar area",
+            "score": "5",
+            "maxScore": "6",
+            "issue": "Mistaken tense used in description. Correct response should be 'The bar areas were clean and well maintained.' as it's plural.",
+            "description": "Incorrect usage of past simple, contradicting the implied positive experience."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 1002,
+            "questionId": "The menu was explained clearly and food arrived within the expected timeframe. The meal was served hot and matched the description on the menu.",
+            "reportOverviewTitle": null,
+            "questionLabel": "Food presentation",
+            "score": "4",
+            "maxScore": "5",
+            "issue": "Lack of specific details about food's taste or quality as per 'matched the description.' This impacts score given without a clear standard.",
+            "description": "Response does not sufficiently detail if meal met expectations beyond temperature and timing."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": 1003,
+            "questionId": "The gaming room was moderately busy during the visit. Staff were visible and attentive.",
+            "reportOverviewTitle": null,
+            "questionLabel": "Staff visibility and engagement",
+            "score": "4",
+            "maxScore": "5",
+            "issue": "Usage of 'moderately' is vague; scores for service level should be quantifiable to ensure objectivity.",
+            "description": "Response lacks specificity in staff interaction levels."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": 1004,
+            "questionId": "The restrooms were clean and adequately stocked with soap, paper towels and toilet paper. No maintenance issues were observed during the visit.",
+            "reportOverviewTitle": null,
+            "questionLabel": "Maintenance of facilities",
+            "score": "5",
+            "maxScore": "6",
+            "issue": "Response could be interpreted as 'no visible problems' rather than explicitly clean. Implies better score justified by positive experience.",
+            "description": "While accurate, the description might suggest higher standards and fewer issues."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": 1005,
+            "questionId": "A manager was visible on the floor and interacted positively with guests. Security staff were present and monitoring the venue professionally.",
+            "reportOverviewTitle": null,
+            "questionLabel": "Security & Management Presence",
+            "score": "4",
+            "maxScore": "5",
+            "issue": "Response lacks quantifiable data for security observations; 'positively interacted' could be subjective without specifics.",
+            "description": "While the presence of staff is noted, response doesn’t detail engagement levels or observable management actions."
+        }
+    ]
+}
