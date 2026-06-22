@@ -134,3 +134,51 @@
         }
     ]
 }
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": null,
+            "questionId": "Exact match questionId not provided in the input data.",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "The bar area were clean wdf3eww and well maintained",
+            "score": "Incorrect score due to inconsistent tense usage ('are' should be 'was') and spelling errors (misspellings such as 'wdf3eww').",
+            "maxScore": null,
+            "issue": "Spelling mistakes in the description.",
+            "description": "The response contains misspelled words."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": null,
+            "questionId": "Exact match questionId not provided in the input data.",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "",
+            "score": null,
+            "maxScore": null,
+            "issue": "Missing 'question label' and other required fields for a specific question in the review process.",
+            "description": "The JSON object lacks crucial information to match with questions."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": "",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "",
+            "score": null,
+            "maxScore": null,
+            "issue": "No issues found.",
+            "description": ""
+        }
+    ]
+}
