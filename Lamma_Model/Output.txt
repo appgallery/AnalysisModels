@@ -305,3 +305,25 @@
         }
     ]
 }
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 1002,
+            "questionId": "Exact match questionId from questions array not provided in data",
+            "questionLabel": "Not specified but inferred as 'The dining area was tidy and welcoming'",
+            "score": "High based on value description suggesting positive experience",
+            "maxScore": "4.5 or similar if using a standardized rating scale",
+            "issue": "Contradiction - Reported no warmth, friendliness in the introduction contradicts score implying high satisfaction",
+            "description": "The summary states that guests were welcomed and staff was attentive which directly conflicts with reported dining experience being not friendly and uninviting."
+        }
+    ]
+}
