@@ -404,3 +404,26 @@
     "success": false,
     "message": "Ollama returned invalid JSON"
 }
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "LOW",
+            "reportDtlId": 554448,
+            "questionId": "7138",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "During your visit was there complimentary hot or cold food brought around to your seat?",
+            "score": 2,
+            "maxScore": 100,
+            "issue": "Numerical inconsistency in scoring.",
+            "description": "The score of '2' significantly undervalues the reported positive experience with complimentary food."
+        }
+    ]
+}
