@@ -260,3 +260,93 @@
       "score": 0,
       "maxScore": 100
     }
+
+
+
+
+
+
+ "sampleData": [
+    {
+      "reportOverviewId": 1001,
+      "title": "BAR",
+      "value": "The bar area were clean wdf3eww and well maintained. The staff member greeted me promptly and recommended a signature cocktail. My drink arrived within 5 minutes and were presented professionally. The overall service was friendly and efficient."
+    },
+    {
+      "reportOverviewId": 1002,
+      "title": "DINING",
+      "value": "The dining area was tidy and frfcsda welcoming. The menu was explained clearly and food arrived within the expected timeframe. The meal was served hot and matched the description on the menu."
+    },
+    {
+      "reportOverviewId": 1003,
+      "title": "GAMING",
+      "value": "The gaming room was moderately busy during the visit. Staff were visible and attentive. Complimentary refreshments were available and gaming machines appeared clean and operational."
+    },
+    {
+      "reportOverviewId": 1004,
+      "title": "RESTROOMS",
+      "value": "The restrooms were clean and adequately stocked with soap, paper towels and toilet paper. No maintenance issues were observed during the visit."
+    },
+    {
+      "reportOverviewId": 1005,
+      "title": "SECURITY & MANAGEMENT",
+      "value": "A manager was visible on the floor and interacted positively with guests. Security staff were present and monitoring the venue professionally."
+    }
+  ],
+  "questions": [
+    {
+      "reportDtlId": 50001,
+      "questionId": 101,
+      "questionLabel": "Did the staff greet you upon arrival?",
+      "qType": "R",
+      "value": "Yes",
+      "comment": "The staff member greeted me with a smile within a few seconds of entering the venue.",
+      "commentAllowed": true,
+      "score": 40,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 50002,
+      "questionId": 102,
+      "questionLabel": "Was the venue clean and well presented?",
+      "qType": "R",
+      "value": "Yes",
+      "comment": "The venue was clean throughout all customer-facing areas with no visible litter.",
+      "commentAllowed": true,
+      "score": 100,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 50003,
+      "questionId": 103,
+      "questionLabel": "Was your food served within an acceptable timeframe?",
+      "qType": "R",
+      "value": "Yes",
+      "comment": "The meal arrived approximately 15 minutes after ordering, which was reasonable.",
+      "commentAllowed": true,
+      "score": 70,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 50004,
+      "questionId": 104,
+      "questionLabel": "Were the restrooms clean during your visit?",
+      "qType": "R",
+      "value": "No",
+      "comment": "Paper towels were scattered on the floor and one sink area was not clean.",
+      "commentAllowed": true,
+      "score": 80,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 50005,
+      "questionId": 105,
+      "questionLabel": "Did staff thank you before departure?",
+      "qType": "R",
+      "value": "No",
+      "comment": "I left the venue without gfegef any acknowledgement or farewell from staff.",
+      "commentAllowed": true,
+      "score": 0,
+      "maxScore": 100
+    }
+  ]
