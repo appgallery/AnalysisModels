@@ -234,3 +234,74 @@
         }
     ]
 }
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "LOW",
+            "reportDtlId": 1001,
+            "questionId": "CocktailServiceQuestionId1",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Was the signature cocktail recommended by staff?",
+            "score": "5",
+            "maxScore": "5",
+            "issue": "Correct score for positive response regarding service recommendation.",
+            "description": "The feedback aligns with a high-quality experience as indicated."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 1002,
+            "questionId": "MenuExplanationQuestionId2",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Was the menu explained clearly?",
+            "score": "4.5",
+            "maxScore": "5",
+            "issue": "Lower score for a positive response about clarity of explanation, potential room for improvement noted.",
+            "description": "The feedback is good but slightly less consistent with highest praise level."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": 1003,
+            "questionId": "StaffAttentivenessQuestionId3",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Were staff attentive?",
+            "score": "4.5",
+            "maxScore": "5",
+            "issue": "Correct score for positive response regarding attentiveness of the staff.",
+            "description": "Feedback aligns with a high-quality experience as indicated."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 1004,
+            "questionId": "RoomStockingQuestionId4",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Were the restrooms stocked with necessary supplies?",
+            "score": "3.5",
+            "maxScore": "5",
+            "issue": "Inconsistency noted between positive feedback and score; potential for minor improvements suggested.",
+            "description": "Feedback indicates a well-stocked environment but lower than maximum praise level."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": 1005,
+            "questionId": "ManagerPresenceQuestionId5",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Was the manager present and interacting positively?",
+            "score": "4.7",
+            "maxScore": "5",
+            "issue": "Correct score for positive response regarding interaction with guests by management personnel.",
+            "description": "Feedback aligns well with a high-quality experience."
+        }
+    ]
+}
