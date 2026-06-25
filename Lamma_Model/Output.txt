@@ -554,3 +554,31 @@
         }
     ]
 }
+
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "llama3.2:3b",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 554445,
+            "questionId": 7138,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Once you finished your drink were you offered another?",
+            "score": "Exact match score",
+            "maxScore": "Exact match maxScore",
+            "issue": "Comment does not align with score (positive comment for high score)",
+            "description": "The question score is 100, but the comment says the staff member offered a beverage during the visit after finishing the first drink, which is a positive action.",
+            "comment": "GAM1 offered me another beverage during my visit after I finished my first drink."
+        }
+    ]
+}
