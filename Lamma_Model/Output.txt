@@ -582,3 +582,83 @@
         }
     ]
 }
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "llama3.2:3b",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 554436,
+            "questionId": 13805,
+            "reportOverviewId": 24132,
+            "reportOverviewTitle": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+            "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes?",
+            "score": "-4",
+            "maxScore": "100",
+            "issue": "Score of -4 does not match positive response.",
+            "description": "The score is negative but the respondent answered yes to being welcomed."
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 554445,
+            "questionId": 7138,
+            "reportOverviewId": 24132,
+            "reportOverviewTitle": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+            "questionLabel": "Once you finished your drink were you offered another?",
+            "qType": "R",
+            "score": "100",
+            "maxScore": "100",
+            "issue": "",
+            "description": ""
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 554448,
+            "questionId": 4476,
+            "reportOverviewId": 24132,
+            "reportOverviewTitle": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+            "questionLabel": "During your visit was there complimentary hot or cold food brought around to your seat?",
+            "qType": "R",
+            "value": "Yes",
+            "score": "2",
+            "maxScore": "100",
+            "issue": "Score of 2 does not match positive response.",
+            "description": "The respondent answered yes but the score is low."
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 554460,
+            "questionId": 6590,
+            "reportOverviewId": 24132,
+            "reportOverviewTitle": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+            "questionLabel": "Is the room free of any unused glasses, coffee cups and other rubbish?",
+            "qType": "R",
+            "value": "Yes",
+            "score": "100",
+            "maxScore": "100",
+            "issue": "",
+            "description": ""
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 554464,
+            "questionId": 8065,
+            "reportOverviewId": 24132,
+            "reportOverviewTitle": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+            "questionLabel": "Did the restrooms smell fresh and clean?",
+            "qType": "R",
+            "value": "Yes",
+            "score": "100",
+            "maxScore": "100",
+            "issue": "",
+            "description": ""
+        }
+    ]
+}
