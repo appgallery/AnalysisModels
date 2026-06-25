@@ -625,3 +625,96 @@
       "maxScore": 100
     }
   ]
+
+
+
+
+
+
+
+
+"sampleData":{
+  "reportOverviewSummary": [
+    {
+      "reportOverviewId": 24132,
+      "title": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+      "value": "Signage wasgtefgersf  visible and the sdasxca venue exterior was well maintained Signage was visible and the venue exterior was well maintained The venue had vesdfeds adequate parking available nearby. The entrance was clean and free of hazards. Signage was visible and the venue exterior was well maintained. Gaming and liquor signage were displayed correctly. The venue felt safe and welcoming."
+    },
+    {
+      "reportOverviewId": 24133,
+      "title": "GAMING",
+      "value": "I was greeted upon egbvdfvntering the gaming room and offered a complimentary beverage. The gaming room was clean, comfortable and well maintained. Staff were attentive throughout the visit and regularly cleaned machines and surrounding areas."
+    },
+    {
+      "reportOverviewId": 24134,
+      "title": "MANAGEMENT",
+      "value": "I did not observe a manager during my visit to the venue."
+    },
+    {
+      "reportOverviewId": 24135,
+      "title": "RESTROOMS",
+      "value": "The female restrooms were clean, odour free and fully stocked with amenities. The hand dryers were operational and the mirrors were clean and streak free."
+    },
+    {
+      "reportOverviewId": 24136,
+      "title": "SECURITY",
+      "value": "A security guard was present during the visit and conducted regular walkthroughs. Their presence contributed to a safe and secure environment."
+    }
+  ],
+  "questions": [
+    {
+      "reportDtlId": 554436,
+      "questionId": 13805,
+      "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes?",
+      "qType": "R",
+      "value": "Yes",
+      "comment": "GAM1 greeted me immediately upon entering the gaming room and offered a complimentary beverage.",
+      "commentAllowed": true,
+      "score": -4,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 554445,
+      "questionId": 7138,
+      "questionLabel": "Once you finished your drink were you offered another?",
+      "qType": "R",
+      "value": "Yes",
+      "comment": "GAM1 offered me another beverage during my visit after I finished my first drink.",
+      "commentAllowed": true,
+      "score": 100,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 554448,
+      "questionId": 4476,
+      "questionLabel": "During your visit was there complimentary hot or cold food brought around to your seat?",
+      "qType": "R",
+      "value": "Yes",
+      "comment": "I werr offereded complimentary chicken bites which were served hot and presented well.",
+      "commentAllowed": true,
+      "score": 2,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 554460,
+      "questionId": 6590,
+      "questionLabel": "Is the room free of any unused glasses, coffee cups and other rubbish?",
+      "qType": "R",
+      "value": "Yes",
+      "comment": "The gaming room remained clean throughout my visit with no visible rubbish or empty glasses.",
+      "commentAllowed": true,
+      "score": 100,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 554464,
+      "questionId": 8065,
+      "questionLabel": "Did the restrooms smell fresh and clean?",
+      "qType": "R",
+      "value": "Yes",
+      "comment": "The female restrooms were clean, fresh smelling and maintained throughout the visit.",
+      "commentAllowed": true,
+      "score": 100,
+      "maxScore": 100
+    }
+  ]
