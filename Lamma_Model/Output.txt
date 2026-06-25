@@ -75,7 +75,7 @@
 
 {
     "success": true,
-    "model": "phi3:mini",
+    "model": "llama3.2:3b",
     "issues": [
         {
             "severity": "CRITICAL",
@@ -142,7 +142,7 @@
 
 {
     "success": true,
-    "model": "phi3:mini",
+    "model": "llama3.2:3b",
     "issues": [
         {
             "severity": "CRITICAL",
@@ -190,7 +190,7 @@
 
 {
     "success": true,
-    "model": "phi3:mini",
+    "model": "llama3.2:3b",
     "issues": [
         {
             "severity": "LOW",
@@ -241,7 +241,7 @@
 
 {
     "success": true,
-    "model": "phi3:mini",
+    "model": "llama3.2:3b",
     "issues": [
         {
             "severity": "LOW",
@@ -313,7 +313,7 @@
 
 {
     "success": true,
-    "model": "phi3:mini",
+    "model": "llama3.2:3b",
     "issues": [
         {
             "severity": "CRITICAL",
@@ -335,7 +335,7 @@
 
 {
     "success": true,
-    "model": "phi3:mini",
+    "model": "llama3.2:3b",
     "issues": [
         {
             "severity": "CRITICAL",
@@ -368,7 +368,7 @@
 
 {
     "success": true,
-    "model": "phi3:mini",
+    "model": "llama3.2:3b",
     "issues": [
         {
             "severity": "CRITICAL",
@@ -411,7 +411,7 @@
 
 {
     "success": true,
-    "model": "phi3:mini",
+    "model": "llama3.2:3b",
     "issues": [
         {
             "severity": "LOW",
@@ -435,7 +435,7 @@
 
 {
     "success": true,
-    "model": "phi3:mini",
+    "model": "llama3.2:3b",
     "issues": [
         {
             "severity": "LOW",
@@ -450,6 +450,31 @@
             "questionId": 6590,
             "issue": "Comment contains spelling errors: 'werr' instead of the staff member or establishment name.",
             "description": "The comment has a typographical error that contradicts its positive scoring label."
+        }
+    ]
+}
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "llama3.2:3b",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 554436,
+            "questionId": 13805,
+            "reportOverviewId": 24132,
+            "reportOverviewTitle": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+            "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes?",
+            "score": "100",
+            "maxScore": "100",
+            "issue": "Score mismatch between question value (Yes) and score (100). Expected a match for high scores.",
+            "description": "Expected a high score based on positive response but received a perfect score instead. This could indicate an auto-generated score rather than a subjective evaluation."
         }
     ]
 }
