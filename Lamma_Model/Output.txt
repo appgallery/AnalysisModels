@@ -662,3 +662,67 @@
         }
     ]
 }
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "llama3.2:3b",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 554436,
+            "questionId": "13805",
+            "reportOverviewId": 24132,
+            "reportOverviewTitle": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+            "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes?",
+            "score": "80",
+            "maxScore": "100",
+            "issue": "Comment does not match score: Scored 80 but response is positive (Yes).",
+            "description": "The comment indicates a negative sentiment."
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 554445,
+            "questionId": "7138",
+            "reportOverviewId": 24132,
+            "reportOverviewTitle": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+            "questionLabel": "Once you finished your drink were you offered another?",
+            "score": "100",
+            "maxScore": "100",
+            "issue": "Comment does not match score: Scored 100 but response is positive (Yes).",
+            "description": "The comment indicates a negative sentiment."
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 554448,
+            "questionLabel": "During your visit was there complimentary hot or cold food brought around to your seat?",
+            "score": "100",
+            "maxScore": "100",
+            "issue": "Comment does not match score: Scored 100 but response is positive (Yes).",
+            "description": "The comment indicates a negative sentiment."
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 554460,
+            "questionLabel": "Is the room free of any unused glasses, coffee cups and other rubbish?",
+            "score": "80",
+            "maxScore": "100",
+            "issue": "Comment does not match score: Scored 80 but response is positive (Yes).",
+            "description": "The comment indicates a negative sentiment."
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 554464,
+            "questionLabel": "Did the restrooms smell fresh and clean?",
+            "score": "80",
+            "maxScore": "100",
+            "issue": "Comment does not match score: Scored 80 but response is positive (Yes).",
+            "description": "The comment indicates a negative sentiment."
+        }
+    ]
+}
