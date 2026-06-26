@@ -726,3 +726,35 @@
         }
     ]
 }
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "llama3.2:3b",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 554464,
+            "questionId": 8065,
+            "questionLabel": "Did the restrooms smell fresh and clean?",
+            "score": "100",
+            "maxScore": "100",
+            "issue": "Response does not match score",
+            "description": "The response states 'yes' but the score is 100, indicating a contradiction."
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 554464,
+            "questionId": 8065,
+            "questionLabel": "Did the restrooms smell fresh and clean?",
+            "score": "100",
+            "maxScore": "100",
+            "issue": "Garbage text",
+            "description": "The response contains 'the female restrooms were not clean, fresh smelling and maintained throughout the visit.' which is a clear contradiction to the score."
+        }
+    ]
+}
