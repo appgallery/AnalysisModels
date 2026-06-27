@@ -758,3 +758,86 @@
         }
     ]
 }
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "llama3.2:3b",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 795722,
+            "questionId": 20165,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "How did the exterior of the store appear when you arrived? Consider lighting, windows, and signage.",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The score is auto-generated for a radio type question without comments. Review if the selected response clearly contradicts the assigned score.",
+            "description": ""
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 795723,
+            "questionId": 30463,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "What was the condition of the front counter area?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The score is auto-generated for a radio type question without comments. Review if the selected response clearly contradicts the assigned score.",
+            "description": ""
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 795724,
+            "questionId": 20646,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "How would you rate the merchandising of displays and promotions throughout the store?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The score is auto-generated for a radio type question without comments. Review if the selected response clearly contradicts the assigned score.",
+            "description": ""
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 795725,
+            "questionId": 20151,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "How clean and organised was the store interior?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The score is auto-generated for a radio type question without comments. Review if the selected response clearly contradicts the assigned score.",
+            "description": ""
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 795726,
+            "questionId": 20520,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "How was the cardboard rubbish from deliveries managed?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The score is auto-generated for a radio type question without comments. Review if the selected response clearly contradicts the assigned score.",
+            "description": ""
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 795727,
+            "questionId": 20219,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "How easy was it to find what you needed in-store?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The score is auto-generated for a radio type question without comments. Review if the selected response clearly contradicts the assigned score.",
+            "description": ""
+        },
