@@ -850,3 +850,62 @@
     "model": "llama3.2:3b",
     "issues": []
 }
+
+
+
+
+
+{
+    "success": true,
+    "model": "llama3.2:3b",
+    "issues": [
+        {
+            "severity": "LOW",
+            "reportDtlId": 795735,
+            "questionId": 29751,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Were you invited to join the Loyalty Program if you weren’t a member?",
+            "score": 0,
+            "maxScore": 100,
+            "issue": "The staff did not offer membership in the loyalty program, even though they asked if the shopper was already a member.",
+            "description": "This is an inconsistency in scoring, as membership was offered when the shopper mentioned it, but not when they didn't have membership."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 795736,
+            "questionId": 20603,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "How were your items bagged at checkout?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The item was carefully packed, but the response could have been more descriptive about how the fragile items were handled.",
+            "description": "This is a minor issue with scoring consistency, as the score is high for this question, but the response could be improved."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 795737,
+            "questionId": 20168,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "How did the staff member at the register farewell you?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The staff member gave a warm and sincere farewell, but the response could have been more specific about the tone and volume of their greeting.",
+            "description": "This is a minor issue with scoring consistency, as the score is high for this question, but the response could be improved."
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 795738,
+            "questionId": 20647,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "How would you rate the overall customer service experience during your visit?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The response is identical to the question's maximum score, which may indicate a lack of effort or understanding of the question.",
+            "description": "This is a critical issue with scoring consistency and factual accuracy, as the response does not provide any insight into the shopper's experience."
+        }
+    ]
+}
