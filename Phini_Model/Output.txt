@@ -412,3 +412,27 @@
         }
     ]
 }
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 795735,
+            "questionId": "29751",
+            "reportOverviewTitle": null,
+            "questionLabel": "Were you invited to join the Loyalty Program if you weren’t a member?",
+            "score": "0",
+            "maxScore": "100",
+            "issue": "Invitation not provided - Discrepancy between score and expected loyalty program protocol.",
+            "description": ""
+        }
+    ]
+}
