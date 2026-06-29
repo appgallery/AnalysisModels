@@ -436,3 +436,27 @@
         }
     ]
 }
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "LOW",
+            "reportDtlId": 795739,
+            "questionId": "20647",
+            "reportOverviewTitle": null,
+            "questionLabel": "How would you rate the overall customer service experience during your visit?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "Response contradicts score: No issues found.",
+            "description": ""
+        }
+    ]
+}
