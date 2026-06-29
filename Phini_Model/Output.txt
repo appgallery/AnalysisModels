@@ -874,3 +874,27 @@
         }
     ]
 }
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 182730,
+            "questionId": null,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": null,
+            "score": 0,
+            "maxScore": 2,
+            "issue": "Customer was not greeted upon arrival.",
+            "description": "The customer had to ask for assistance when entering the store as no team member greeted them."
+        }
+    ]
+}
