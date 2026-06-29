@@ -725,3 +725,64 @@
         }
     ]
 }
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 795722,
+            "questionId": "20165",
+            "issue": "Garbage Text and Copy-Paste detection not present in response.",
+            "description": ""
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 795725,
+            "questionId": "20151",
+            "issue": "Score doesn't match response content.",
+            "description": "The report overview states the store was exceptionally clean and well-organized with bright lighting but scores it as 'Extremely Clean, tidy', which lacks detail. A score of 40 seems low for such positive description."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 795731,
+            "questionId": "31655",
+            "issue": "Score doesn't match response content.",
+            "description": "The report overview mentions the store was inviting and exceptionally clean but rates 'Walked me directly to product with recommendations', which appears as excellent service, yet scored 100 aligns only when a negative or neutral experience is rated."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 795734,
+            "questionId": "29549",
+            "issue": "Comment does not align with score.",
+            "description": ""
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 795735,
+            "questionId": "29751",
+            "issue": "Comment does not align with score.",
+            "description": "The report overview indicates the staff did mention loyalty program benefits but scored it as 'No offer to join'."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 795737,
+            "questionId": "20603",
+            "issue": "",
+            "description": ""
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 795739,
+            "questionId": "20647",
+            "issue": "",
+            "description": ""
+        }
+    ]
+}
