@@ -532,3 +532,37 @@
     "success": false,
     "message": "Ollama returned invalid JSON"
 }
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 795731,
+            "questionId": "20165",
+            "reportOverviewTitle": null,
+            "issue": "Grammar errors detected in the response and overstatement of score.",
+            "description": "The report contains repeated words ('spotless' used twice) that indicate a copy-paste error. Additionally, there is an inconsistency between the narrative summary mentioning 'despite nearby sidewalk construction', yet scoring it as spotless."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 795734,
+            "questionId": "29549",
+            "issue": "Inaccuracy in score with respect to the question's context.",
+            "description": "The user confirms they were asked if they are a member of the Loyalty Program and mentioned being offered information about it during checkout, but scored 100 for not inviting them. The issue lies in mismatch between response value 'Yes.' which implies some interaction with program details and score suggesting no encouragement was given to join."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": 795732,
+            "questionId": null,
+            "issue": "Comment field is missing for a question.",
+            "description": "The 'Comments' section of the response to Question ID: 20168 (not provided in payload) should not be empty as it allows comments."
+        }
+    ]
+}
