@@ -786,3 +786,62 @@
         }
     ]
 }
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 182712,
+            "questionId": "6334",
+            "score": 2,
+            "maxScore": 3,
+            "issue": "Response does not fully explain a point deduction based on 'visible dirt' despite the score reflecting cleanliness.",
+            "description": "While Michael described the storefront as tidy and inviting with one window having visible dirt, there is no clear connection to how this affects overall appealing appearance."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 182725,
+            "questionId": "13462",
+            "score": 0,
+            "maxScore": 4,
+            "issue": "Response indicates a missed opportunity for additional sales with no suggestion of complementary products despite the score suggesting this could have been an area to improve.",
+            "description": "The response did not address the potential benefit that offering companion products might bring."
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 182727,
+            "questionId": "12906",
+            "score": 0,
+            "maxScore": 3,
+            "issue": "Response contradicts score by not mentioning the loyalty program when prompted to inquire about it despite being relevant and available at all times during store operations.",
+            "description": "The response should have aligned with the question's context as a missed opportunity for cross-promotion."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 182730,
+            "questionId": "13127",
+            "score": 0,
+            "maxScore": 2,
+            "issue": "Response indicates a potential issue with customer service as the shopper had to ask for assistance upon arrival despite being allowed comments.",
+            "description": "The response could have better explained why this might not align with expected store behavior."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 182735,
+            "questionId": "11447",
+            "score": 2,
+            "maxScore": 2,
+            "issue": "Response does not fully explain a point deduction based on the score.",
+            "description": "While Michael was described as friendly and polite by the shopper, there's no mention of how team members behaved when they were greeted."
+        }
+    ]
+}
