@@ -460,3 +460,38 @@
         }
     ]
 }
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 795731,
+            "questionId": "31655",
+            "issue": "Inconsistency in response regarding the location of a product.",
+            "description": "The report indicates that 'the Maven responded' with walking and explaining different options. However, this is inconsistent as it was not specified if multiple team members assisted or one individual did."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 795734,
+            "questionId": "29549",
+            "issue": "Insufficient detail on how the loyalty program was mentioned.",
+            "description": "The report states that 'the cashier confirmed my membership status and mentioned member pricing'. However, it lacks details about whether this information was provided during checkout or beforehand."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": 795735,
+            "questionId": "29751",
+            "issue": "Ambiguity about the loyalty program invitation.",
+            "description": "The report mentions that 'I was not invited to join', which contradicts with no specific mention of when or how it could have been discussed. It's also ambiguous if this lack of conversation led directly from asking about their status."
+        }
+    ]
+}
