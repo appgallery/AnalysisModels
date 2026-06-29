@@ -1294,3 +1294,103 @@
       "maxScore": 100
     }
   ]
+
+
+
+
+
+
+
+
+"sampleData":{
+  "reportOverviewSummary": [
+    {
+      "reportOverviewId": 6761,
+      "title": "Exterior",
+      "value": "The exterior apprereared mrrostly clean and inviting. Although there was some dirt on one window, the entrance was well-lit, easily accessible, and the window displays were tidy, well-stocked, and clearly visible."
+    },
+    {
+      "reportOverviewId": 6762,
+      "title": "Interior",
+      "value": "The store intereior was warm, clean, and well-organized. Shelves were fully stocked, aisles were free from clutter, pricing was easy to read, and health check services were promoted. However, there was no visible evidence of the Make-A-Wish/Gidget Foundation campaign."
+    },
+    {
+      "reportOverviewId": 6763,
+      "title": "Payment & Farewell",
+      "value": "Michael completed Michael completed Michael completed Michael completed Michael completed the checkout efficiently while remaining friendly throughout the transaction. A bag and receipt were offered, but the My Health Rewards loyalty program was not mentioned or promoted."
+    },
+    {
+      "reportOverviewId": 6764,
+      "title": "Service & Recommendations",
+      "value": "I was not greeted when entering the store and had to seek assistance myself. Despite the store being busy, Michael was attentive, listened carefully, and recommended suitable products for my partner's cold. He also explained that the allergy spray selected was not appropriate for cold symptoms. Staff were neatly presented in uniform with visible name badges."
+    }
+  ],
+  "questions": [
+    {
+      "reportDtlId": 182712,
+      "questionId": 6334,
+      "questionLabel": "Is the front appearance of the store appealing? Is it clean and well-lit with easy and safe access? Is it inviting? Does it have fully-stocked bins or displays that have clearly visible price tickets?",
+      "qType": "R",
+      "value": "Clean and Clear",
+      "comment": "The storefront is tidy and inviting with well-stocked displays, although one window has some visible dirt.",
+      "commentAllowed": true,
+      "score": 2,
+      "maxScore": 3
+    },
+    {
+      "reportDtlId": 182721,
+      "questionId": 10373,
+      "questionLabel": "Was the store easy to navigate to be able to find the product you were looking for today?",
+      "qType": "R",
+      "value": "Yes",
+      "comment": "Products were clearly labelled, well stocked, and easy to locate throughout the store.",
+      "commentAllowed": true,
+      "score": 1,
+      "maxScore": 1
+    },
+    {
+      "reportDtlId": 182725,
+      "questionId": 13462,
+      "questionLabel": "Were you offered any companion products to complement your choice of product in store?",
+      "qType": "R",
+      "value": "No",
+      "comment": "Medication was recommended for the enquiry, but no complementary or value-added products were suggested.",
+      "commentAllowed": true,
+      "score": 0,
+      "maxScore": 4
+    },
+    {
+      "reportDtlId": 182727,
+      "questionId": 12906,
+      "questionLabel": "Were you asked if you are a My Health Rewards loyalty customer whilst in the store?",
+      "qType": "R",
+      "value": "No",
+      "comment": "Michael did not ask about the loyalty program, explain its benefits, or invite me to join.",
+      "commentAllowed": true,
+      "score": 0,
+      "maxScore": 3
+    },
+    {
+      "reportDtlId": 182730,
+      "questionId": 13127,
+      "questionLabel": "Were you greeted upon arrival into the store?",
+      "qType": "R",
+      "value": "I had to ask for assistance",
+      "comment": "No team member greeted me when I entered the store, and I had to approach the counter for assistance.",
+      "commentAllowed": true,
+      "score": 0,
+      "maxScore": 2
+    },
+    {
+      "reportDtlId": 182735,
+      "questionId": 11447,
+      "questionLabel": "Were all team members polite and friendly whilst you were in the store?",
+      "qType": "R",
+      "value": "Yes",
+      "comment": "Michael remained friendly, polite, and professional throughout the interaction despite the busy environment.",
+      "commentAllowed": true,
+      "score": 2,
+      "maxScore": 2
+    }
+  ]
+}
