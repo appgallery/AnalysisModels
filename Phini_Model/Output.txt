@@ -678,3 +678,50 @@
         }
     ]
 }
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": "29751",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Were you invited to join the Loyalty Program if you weren't a member?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "Comment not aligning with score; customer was informed about benefits but did not explicitly invite them.",
+            "description": null
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": "795734",
+            "questionId": "29549",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Were you asked if you were a member of the Loyalty Program?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The response provided doesn't match with score; customer wasn't confirmed as existing member nor was they informed about membership pricing.",
+            "description": null
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": "795731",
+            "questionId": "31655",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "You asked about the location of a product. How did the Maven respond?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "Inconsistency in score; customer explicitly requested assistance which should have been scored higher.",
+            "description": null
+        }
+    ]
+}
