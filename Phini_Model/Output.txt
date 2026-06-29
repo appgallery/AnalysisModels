@@ -566,3 +566,67 @@
         }
     ]
 }
+
+
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 795735,
+            "questionId": "29751",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Were you invited to join the Loyalty Program if you weren’t a member?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "Comment does not align with score.",
+            "description": "Although mentioned, there was no invitation to join the loyalty program."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 795734,
+            "questionId": "29549",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Were you asked if you were a member of the Loyalty Program?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "Comment does not align with score.",
+            "description": "Confirmed membership status without discussing its benefits."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 795731,
+            "questionId": "31655",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "You asked about the location of a product. How did the Maven respond?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "Comment does not align with score.",
+            "description": "Maven provided more than just direction; recommendations were offered."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": 795737,
+            "questionId": "20603",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "How were your items bagged at checkout?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "Comment contradicts score.",
+            "description": "The response suggests a lack of attention to proper packing for fragile goods."
+        }
+    ]
+}
