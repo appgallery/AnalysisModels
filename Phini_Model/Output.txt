@@ -495,3 +495,28 @@
         }
     ]
 }
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 795739,
+            "questionId": "20647",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "How would you rate the overall customer service experience during your visit?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "Mispelling in question label - 'berednefits' should be 'benefits'. Comment aligns with score.",
+            "description": ""
+        }
+    ]
+}
