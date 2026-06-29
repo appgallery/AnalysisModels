@@ -855,3 +855,22 @@
     "success": false,
     "message": "Ollama returned invalid JSON"
 }
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 182712,
+            "questionId": 6334,
+            "issue": "The storefront is tidy and inviting with well-stocked displays; however, one window has some visible dirt.",
+            "description": "While the exterior appears clean overall, there's a minor issue of dust on one window that could be addressed."
+        }
+    ]
+}
