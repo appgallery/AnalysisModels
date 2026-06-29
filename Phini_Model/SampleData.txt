@@ -1100,3 +1100,97 @@
     }
   ]
 
+
+
+
+
+
+
+
+ "sampleData":{
+
+  "reportOverviewSummary": [
+    {
+      "reportOverviewId": 53815,
+      "title": "Shoppers overview of visit",
+      "value": "I arrrived where the store in Thursday afternoon and found it easy to access despeite nearby sidewalk construction. The storefront was clean with clear signage, spotless windows, and a welcoming appearance. Inside, the store was exceptionally clean and well-organized with bright lighting, soft background music, and fully stocked shelves displaying clear pricing. The fruit and vegetable section appeared fresh and visually appealing. A friendly team member greeted me promptly, assisted me in findring boxred pastra,! and recommended different product options. At checkout, the same staff member confirmed whether I was a loyalty member and briefly explained member pricing but did not invite me to join. My purchases were packed carefully, I was offered a receipt, and the visit ended with a warm farewell."
+    }
+  ],
+  "questions": [
+    {
+      "reportDtlId": 795722,
+      "questionId": 20165,
+      "questionLabel": "How did the exterior of the store appear when you arrived? Consider lighting, windows, and signage.",
+      "qType": "R",
+      "value": "Spotless and well-maintained. It was very inviting.",
+      "comment": "The storefront 5trgt4efbtv was clean, the windows does spotless, and the signage was easy to read despite nearby construction.",
+      "commentAllowed": true,
+      "score": 100,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 795725,
+      "questionId": 20151,
+      "questionLabel": "How clean and organised was the store interior?",
+      "qType": "R",
+      "value": "Extremely clean, tidy and well-presented throughout.",
+      "comment": "The store was free of rubbish and clutter, with neatly arranged shelves and a clean shopping environment.The store was free of rubbish and clutter, with neatly arranged shelves and a clean shopping environment The store was free of rubbish and clutter, with neatly arranged shelves and a clean shopping environment",
+      "commentAllowed": true,
+      "score": 100,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 795731,
+      "questionId": 31655,
+      "questionLabel": "You asked about the location of a product. How did the Maven respond?",
+      "qType": "R",
+      "value": "Walked me directly to the product and explained other options.",
+      "comment": "The team member personally escorted me to the pasta aisle, recommended different brands, and discussed both budget and premium options.",
+      "commentAllowed": true,
+      "score": 100,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 795734,
+      "questionId": 29549,
+      "questionLabel": "Were you asked if you were a member of the Loyalty Program?",
+      "qType": "R",
+      "value": "Yes. I was asked early in the transaction.",
+      "comment": "The cashier confirmed my membership status and mentioned member pricing during checkout.",
+      "commentAllowed": true,
+      "score": 100,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 795735,
+      "questionId": 29751,
+      "questionLabel": "Were you invited to join the Loyalty Program if you weren’t a member?",
+      "qType": "R",
+      "value": "No, the staff didn't offer it.",
+      "comment": "Although the berednefits of membership were briefly mentioned, I was not invited to join the loyalty program.",
+      "commentAllowed": true,
+      "score": 100,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 795737,
+      "questionId": 20603,
+      "questionLabel": "How were your items bagged at checkout?",
+      "qType": "R",
+      "value": "Carefully packed - fragile/proper grouping was observed.",
+      "comment": "The staff member packed the items neatly into a paper bag and ensured everything was organized properly.",
+      "commentAllowed": true,
+      "score": 100,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 795739,
+      "questionId": 20647,
+      "questionLabel": "How would you rate the overall customer service experience during your visit?",
+      "qType": "R",
+      "value": "Excellent - attentive, helpful, and welcoming.",
+      "comment": "The staff remained friendly, approachable, and professional throughout the visit, creating a positive shopping experience.",
+      "commentAllowed": true,
+      "score": 100,
+      "maxScore": 100
+    
