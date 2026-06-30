@@ -973,3 +973,40 @@
         }
     ]
 }
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 182730,
+            "questionId": 13127,
+            "reportOverviewTitle": null,
+            "questionLabel": "Were you greeted upon arrival into the store?",
+            "score": 0,
+            "maxScore": 2,
+            "issue": "Customer was not greeted on entry.",
+            "description": "The customer reports that they were not greeted when entering the Chemist venue. This is a moderate issue as it affects first impressions and initial service quality."
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 182725,
+            "issue": "No companion products were suggested.",
+            "description": "The customer was not offered any complementary or value-added product recommendations. This is a critical issue as it represents an opportunity to enhance the shopping experience and increase sales."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": 182727,
+            "issue": "Customer was not asked about loyalty program.",
+            "description": "The customer reports that they were never invited to join the My Health Rewards loyalty program. This is a low-severity issue as it does not directly impact their immediate shopping experience, but could potentially affect future patronage."
+        }
+    ]
+}
