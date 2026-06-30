@@ -1081,3 +1081,88 @@
         }
     ]
 }
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "llama3.2:3b",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 795731,
+            "questionId": 31655,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "You asked about the location of a product. How did the Maven respond?",
+            "score": "40",
+            "maxScore": "100",
+            "issue": "The response does not clearly match the score.",
+            "description": "The response 'Walked me directly to the product and explained other options.' does not align with the score of 40. The expected response should be more detailed or less detailed depending on the score."
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 795734,
+            "questionId": 29549,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Were you asked if you were a member of the Loyalty Program?",
+            "score": "60",
+            "maxScore": "100",
+            "issue": "The response does not clearly match the score.",
+            "description": "The response 'Yes. I was asked early in the transaction.' does not align with the score of 60. The expected response should be more detailed or less detailed depending on the score."
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 795735,
+            "questionId": 29751,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Were you invited to join the Loyalty Program if you weren’t a member?",
+            "score": "0",
+            "maxScore": "100",
+            "issue": "The response does not clearly match the score.",
+            "description": "The response 'No, the staff didn't offer it.' does not align with the score of 0. The expected response should be more detailed or less detailed depending on the score."
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 795736,
+            "questionId": 20845,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "If asked, were the benefits of the Loyalty Program explained?",
+            "score": "75",
+            "maxScore": "100",
+            "issue": "The response does not clearly match the score.",
+            "description": "The response 'Yes, but only briefly mentioned the benefits.' does not align with the score of 75. The expected response should be more detailed or less detailed depending on the score."
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 795737,
+            "questionId": 20603,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "How were your items bagged at checkout?",
+            "score": "100",
+            "maxScore": "100",
+            "issue": "The response does not clearly match the score.",
+            "description": "The response 'Carefully packed - fragile/proper grouping was observed.' matches the score of 100. No issue found."
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 795738,
+            "questionId": 20168,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "How did the staff member at the register farewell you?",
+            "score": "100",
+            "maxScore": "100",
+            "issue": "The response does not clearly match the score.",
+            "description": "The response 'Warm and sincere farewell, wishing me a good day.' matches the score of 100. No issue found."
+        }
+    ]
+}
