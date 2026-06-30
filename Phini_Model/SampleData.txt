@@ -1870,3 +1870,95 @@
       "maxScore": 2
     }
   ]
+
+
+
+
+
+
+
+ "sampleData":{
+  "reportOverviewSummary": [
+    {
+      "reportOverviewId": 24132,
+      "title": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+      "value": "The venue was not easy to access and not clear signage. The exterior was not clean, not well maintained, and free from hazards. Garden beds were tidy, gaming and liquor signage was visible, an operational ATM was available, and the venue felt safe due to the presence of security. I was greeted by GAM1 upon entering the gaming room."
+    },
+    {
+      "reportOverviewId": 24133,
+      "title": "GAMING",
+      "value": "The gaming room was derty, not comfortable, and welcoming. GAM1 promptly offered complimentary beverages and snacks, delivered them quickly, and continued to provide excellent service throughout my visit. The gaming machines were clean and operational, and the overall atmosphere was safe and enjoyable."
+    },
+    {
+      "reportOverviewId": 24134,
+      "title": "MANAGEMENT",
+      "value": "I did not observe a manager during my visit to the venue."
+    },
+    {
+      "reportOverviewId": 24135,
+      "title": "RESTROOMS",
+      "value": "The female restroom was clean, well stocked, and free from unpleasant odours. Although the door lock was reported as broken, the facilities remained tidy with clean mirrors, working hand dryers, and adequate supplies throughout my visit."
+    },
+    {
+      "reportOverviewId": 24136,
+      "title": "SECURITY",
+      "value": "One security guard was assigned to the venue. Although not visible when I first arrived, the guard conducted regular patrols of the gaming room, contributing to a safe and secure environment."
+    }
+  ],
+  "questions": [
+    {
+      "reportDtlId": 554436,
+      "questionId": 13805,
+      "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes? Describe who welcomed/assisted you.",
+      "qType": "R",
+      "value": "I was greeted upon entry into the gaming room and offered a drink at this time.",
+      "comment": "GAM1 welcomed me in 5 min upon entering the gaming room and offered a complimentary beverage within the first few minutes.",
+      "commentAllowed": true,
+      "score": 100,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 554445,
+      "questionId": 7138,
+      "questionLabel": "Once you finished your drink, were you offered another? Describe who assisted you.",
+      "qType": "R",
+      "value": "I was offered another drink.",
+      "comment": "GAM1 proactively offered me another complimentary beverage during my visit.",
+      "commentAllowed": true,
+      "score": 100,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 554443,
+      "questionId": 13308,
+      "questionLabel": "Were you offered a coffee or beverage? Describe who assisted you.",
+      "qType": "R",
+      "value": "I was offered a beverage within five minutes of entering the gaming room.",
+      "comment": "GAM1 offered me a cappuccino and water shortly after I entered the gaming room.",
+      "commentAllowed": true,
+      "score": 100,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 554453,
+      "questionId": 11314,
+      "questionLabel": "Were all gaming machines operational? If not, was there an out of order sign?",
+      "qType": "R",
+      "value": "One machine was out of order, while all others were operational.",
+      "comment": "I observed one machine marked out of order, while the three machines I played operated without any issues.",
+      "commentAllowed": true,
+      "score": 100,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 554465,
+      "questionId": 6794,
+      "questionLabel": "Is there a hand dryer and/or paper towel dispenser available? Was the hand dryer in working order?",
+      "qType": "R",
+      "value": "The hand dryer was available and working correctly.",
+      "comment": "The restroom hand dryer is not functioned properly, and the restroom facilities were derty and not to well maintained.",
+      "commentAllowed": true,
+      "score": 100,
+      "maxScore": 100
+    }
+  ]
