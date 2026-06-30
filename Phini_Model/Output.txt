@@ -1010,3 +1010,72 @@
         }
     ]
 }
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 554436,
+            "questionId": 13805,
+            "reportOverviewTitle": null,
+            "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes? Describe who welcomed/assisted you.",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The report indicates that GAM1 greeted me upon entry into the gaming room and offered a drink within five minutes. This aligns with my experience as I was indeed welcomed by GAM1 when entering.",
+            "description": "Positive response matches high score."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 554443,
+            "questionId": 13308,
+            "reportOverviewTitle": null,
+            "questionLabel": "Were you offered a coffee or beverage? Describe who assisted you.",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The report states that I was offered a cappuccino and water shortly after entering the gaming room. This aligns with my experience as GAM1 did offer me beverages.",
+            "description": "Positive response matches high score."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 554445,
+            "questionId": 7138,
+            "reportOverviewTitle": null,
+            "questionLabel": "Once you finished your drink, were you offered another? Describe who assisted you.",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The report indicates that GAM1 proactively offered me another complimentary beverage during my visit. This aligns with my experience as I was indeed offered an additional drink by GAM1.",
+            "description": "Positive response matches high score."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 554453,
+            "questionId": 11314,
+            "reportOverviewTitle": null,
+            "questionLabel": "Were all gaming machines operational? If not, was there an out of order sign?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The report states that one machine was marked as being out of order while the rest were functional. This aligns with my experience.",
+            "description": "Positive response matches high score."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 554465,
+            "questionId": 6794,
+            "reportOverviewTitle": null,
+            "questionLabel": "Is there a hand dryer and/or paper towel dispenser available? Was the hand dryer in working order?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The report indicates that I observed one machine marked out of order while all others were functional. However, it also mentions a malfunctioning restroom hand dryer and unclean facilities.",
+            "description": "Positive response matches high score for the operational machines but contradicts with negative comments about cleanliness."
+        }
+    ]
+}
