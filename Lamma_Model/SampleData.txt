@@ -1672,3 +1672,90 @@
     }
   ]
 }
+
+
+
+
+
+
+
+
+
+
+"sampleData":{
+  "reportOverviewSummary": [
+    {
+      "reportOverviewId": 53815,
+      "title": "Shoppers Overview of Visit",
+      "value": "The store is clean, well-maintained, and easy to access despite nearby construction. The interior was tidy, shelves were fully stocked, and sisagnage was clear. A friendly team member greeted me, assisted me in locating boxed pasta, and provided helpful product recommendations. At checkout, I was not asked if I was a loyalty member and informed of member savings, although I was not invited to join the program. My items were carefully packed."
+    }
+  ],
+  "questions": [
+    {
+      "reportDtlId": 795731,
+      "questionId": 31655,
+      "questionLabel": "You asked about the location of a product. How did the Maven respond?",
+      "qType": "R",
+      "value": "Walked me directly to the product and explained other options.",
+      "comment": "TM1 walked 3e123wdsc me to the pasta aisle, pointed out different brands, and explained both budget and premium options.",
+      "commentAllowed": true,
+      "score": 40,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 795734,
+      "questionId": 29549,
+      "questionLabel": "Were you asked if you were a member of the Loyalty Program?",
+      "qType": "R",
+      "value": "Yes. I was asked early in the transaction.",
+      "comment": "TM1 asked if 3edc  I was a loyalty member and mentioneded member discounts but does not explain the program in detail.",
+      "commentAllowed": true,
+      "score": 60,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 795735,
+      "questionId": 29751,
+      "questionLabel": "Were you invited to join the Loyalty Program if you weren’t a member?",
+      "qType": "R",
+      "value": "No, the staff didn't offer it.",
+      "comment": "Although 3rdec I was informed about member pricing, I was not invited to join the loyalty program.",
+      "commentAllowed": true,
+      "score": 0,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 795736,
+      "questionId": 20845,
+      "questionLabel": "If asked, were the benefits of the Loyalty Program explained?",
+      "qType": "R",
+      "value": "Yes, but only briefly mentioned the benefits.",
+      "comment": "TM1 briefly explained that members receive lower prices on selected products but did not provide further details.",
+      "commentAllowed": true,
+      "score": 75,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 795737,
+      "questionId": 20603,
+      "questionLabel": "How were your items bagged at checkout?",
+      "qType": "R",
+      "value": "Carefully packed - fragile/proper grouping was observed.",
+      "comment": "The items were packed neatly into a paper bag with appropriate care and organization.",
+      "commentAllowed": true,
+      "score": 100,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 795738,
+      "questionId": 20168,
+      "questionLabel": "How did the staff member at the register farewell you?",
+      "qType": "R",
+      "value": "Warm and sincere farewell, wishing me a good day.",
+      "comment": "TM1 thanked me for visiting, wished me a great evening, and hoped I enjoyed my Italian dinner.",
+      "commentAllowed": true,
+      "score": 100,
+      "maxScore": 100
+    }
+  ]
+}
