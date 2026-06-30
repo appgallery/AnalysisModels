@@ -1079,3 +1079,50 @@
         }
     ]
 }
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 554436,
+            "questionId": 13805,
+            "reportOverviewTitle": null,
+            "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes? Describe who welcomed/assisted you.",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The report indicates that GAM1 greeted me upon entry into the gaming room and offered a drink within five minutes. However, there is no mention of assistance beyond this point in my experience.",
+            "description": "While I was indeed welcomed by GAM1 as per the review summary when entering the venue, it's unclear whether any further assistance or service from staff members occurred after that initial greeting within the first five minutes. The report lacks details on subsequent interactions with other employees."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 554443,
+            "questionId": 13308,
+            "reportOverviewTitle": null,
+            "questionLabel": "Were you offered a coffee or beverage? Describe who assisted you.",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The report states that I was offered a cappuccino and water shortly after entering the gaming room. However, there is no mention of when exactly this occurred or if it happened within five minutes as specified in the question.",
+            "description": "While GAM1 did offer me beverages upon entry into the venue, I cannot confirm whether these were offered specifically within my first 5-minute window. The report does not provide a timeframe for when this service was provided."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": 554453,
+            "questionId": 11314,
+            "reportOverviewTitle": null,
+            "questionLabel": "Were all gaming machines operational? If not, was there an out of order sign?",
+            "score": 80,
+            "maxScore": 100,
+            "issue": "The report mentions that one machine was marked as 'out of order', which is a discrepancy with the score given. The response indicates all machines were operational except for this single out-of-order unit.",
+            "description": "While most gaming machines appeared to be in working condition, there was at least one that wasn't functioning properly and had an 'out of order' sign displayed."
+        },
+        {}
+    ]
+}
