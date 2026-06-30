@@ -1126,3 +1126,61 @@
         {}
     ]
 }
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "phi3:mini",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 554436,
+            "questionId": 13805,
+            "reportOverviewTitle": null,
+            "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes? Describe who welcomed/assisted you.",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The report states 'GAM1 greeted me upon entry into the gaming room and offered a drink within five minutes.', which is inconsistent with the summary that says 'I was not welcomed on arrival.'",
+            "description": "There's a clear contradiction between the question review where it mentions GAM1 offering assistance, but in the report overview section of Question 24132, there are no details about being greeted or offered any form of welcome upon entry. This inconsistency is critical as welcoming guests and providing immediate service on arrival significantly impacts customer experience."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 554443,
+            "questionId": 13308,
+            "reportOverviewTitle": null,
+            "questionLabel": "Were you offered a coffee or beverage? Describe who assisted you.",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The report mentions 'GAM1 proactively offered me another complimentary beverage during my visit.', but the summary states that GAM1 promptly offered snacks and drinks upon entry.",
+            "description": "While both statements indicate assistance with offering a beverage, there's no mention of coffee in either statement which could suggest an inconsistency or omission."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": 554453,
+            "questionId": 11314,
+            "reportOverviewTitle": null,
+            "questionLabel": "Were all gaming machines operational? If not, was there an out of order sign?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The report indicates 'One machine marked out of order', which contradicts the summary's claim that all gaming machines were operational.",
+            "description": "This is a minor issue as it does not directly impact customer experience but still requires attention to ensure accurate reporting."
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 554465,
+            "questionId": 6794,
+            "reportOverviewTitle": null,
+            "questionLabel": "Is there a hand dryer and/or paper towel dispenser available? Was the hand dryer in working order?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "The report states 'the restroom facilities were dirty', which contradicts with the summary's claim that all gaming machines and venue areas are clean.",
+            "description": "This is a critical issue as it directly impacts customer experience. The discrepancy between these two statements suggests an inconsistency in reporting."
+        }
+    ]
+}
