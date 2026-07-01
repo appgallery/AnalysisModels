@@ -2154,3 +2154,99 @@
       }
     ]
 }
+
+
+
+
+
+ "sampleData":{
+  "reportOverviewSummary": [
+      {
+        "reportOverviewId": 6761,
+        "title": "Exterior",
+        "value": "The exterior appeared mostly clean. There was some dirt on one window, but the entrance was well-lit, tidy, and easy to access."
+      },
+      {
+        "reportOverviewId": 6762,
+        "title": "Interior",
+        "value": "The interior was clean, welcoming, and well organised. Shelves were fully stocked, pricing was easy to read, and health check services were available."
+      },
+      {
+        "reportOverviewId": 6763,
+        "title": "Payment & Farewell",
+        "value": "Michael completed the transaction efficiently while remaining friendly. A bag and receipt were offered, although the loyalty program was not mentioned."
+      },
+      {
+        "reportOverviewId": 6764,
+        "title": "Service & Recommendations",
+        "value": "I was not greeted on arrival and had to seek assistance. Michael listened carefully, recommended suitable products for my partner's cold, and provided helpful advice."
+      }
+    ],
+    "questions": [
+      {
+        "reportDtlId": 182712,
+        "questionId": 6334,
+        "questionLabel": "Is the front appearance of the store appealing?",
+        "qType": "R",
+        "value": "Clean and Clear",
+        "comment": "There was some dirt on the window, but otherwise the storefront was tidy, inviting, and well maintained.",
+        "commentAllowed": true,
+        "score": -1,
+        "maxScore": 3
+      },
+      {
+        "reportDtlId": 182721,
+        "questionId": 10373,
+        "questionLabel": "Was the store easy to navigate?",
+        "qType": "R",
+        "value": "Yes",
+        "comment": "Products were clearly labelled, well stocked, and easy to locate throughout the store.",
+        "commentAllowed": true,
+        "score": 1,
+        "maxScore": 1
+      },
+      {
+        "reportDtlId": 182725,
+        "questionId": 13462,
+        "questionLabel": "Were you offered any companion products?",
+        "qType": "R",
+        "value": "No",
+        "comment": "Nurofen and Panadol were recommended for the enquiry, but no complementary products or upgrades were suggested.",
+        "commentAllowed": true,
+        "score": 0,
+        "maxScore": 4
+      },
+      {
+        "reportDtlId": 182727,
+        "questionId": 12906,
+        "questionLabel": "Were you asked if you were a My Health Rewards loyalty customer?",
+        "qType": "R",
+        "value": "No",
+        "comment": "Michael did not ask about the My Health Rewards program or invite me to join.",
+        "commentAllowed": true,
+        "score": 0,
+        "maxScore": 3
+      },
+      {
+        "reportDtlId": 182730,
+        "questionId": 13127,
+        "questionLabel": "Were you greeted upon arrival into the store?",
+        "qType": "R",
+        "value": "I had to ask for assistance",
+        "comment": "No team member greeted me when wsxSAZ I entered. I approached the counter to request assistance.",
+        "commentAllowed": true,
+        "score": 0,
+        "maxScore": 2
+      },
+      {
+        "reportDtlId": 182735,
+        "questionId": 11447,
+        "questionLabel": "Were all team members polite and friendly?",
+        "qType": "R",
+        "value": "Yes",
+        "comment": "Michael remained friendly, 4rfrd243refrdf43ew polite, and professional despite the store being busy.",
+        "commentAllowed": true,
+        "score": 2,
+        "maxScore": 2
+      }
+    ]
